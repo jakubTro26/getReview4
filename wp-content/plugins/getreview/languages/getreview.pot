@@ -1,0 +1,56 @@
+msgid "Thank you for installing GetReview! For your convenience, the application panel can be managed from here: <a href="%s">%s</a>"
+msgstr ""
+
+msgid "If you don't have an account, you can create one for free and collect up to 50 opinions without costs. In the free version you can:"
+msgstr ""
+
+msgid "set your own message"
+msgstr ""
+
+msgid "set your own form with questions"
+msgstr ""
+
+msgid "collect opinions with photos"
+msgstr ""
+
+msgid "display opinions under products"
+msgstr ""
+
+msgid "and much more :)"
+msgstr ""
+
+msgid "After the account is created, create your first review campaign and save it. From now on you will be collecting opinions with Getreview. You can find more instructions here: <a href="%s">%s</a>"
+msgstr ""
+
+msgid "Installation mode"
+msgstr ""
+
+msgid "automatically"
+msgstr ""
+
+msgid "manually (shortcode)"
+msgstr ""
+
+msgid "Consent to collect opinions at checkout"
+msgstr ""
+
+msgid "Enable (add checkbox)"
+msgstr ""
+
+msgid "Text of consent to collect opinions"
+msgstr ""
+
+msgid "I want to express my opinion on the purchase and agree to send me a survey to the e-mail address."
+msgstr ""
+
+msgid "Terms of Service"
+msgstr ""
+
+msgid "Installation of GetReview widget"
+msgstr ""
+
+msgid "If you have chosen automatic mode, the GetReview widget will be automatically placed on the product page, just before the footer of the page. No additional action will be required."
+msgstr ""
+
+msgid "If you have chosen the shortcode mode, put the shortcode %s in the place of your choice. Make sure that shortcode support is enabled there."
+msgstr ""
