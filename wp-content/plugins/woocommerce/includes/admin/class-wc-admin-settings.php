@@ -161,7 +161,7 @@ if ( ! class_exists( 'WC_Admin_Settings', false ) ) :
 		 * @return mixed
 		 */
 		public static function get_option( $option_name, $default = '' ) {
-			echo 'getting123456';
+			//echo 'getting123456';
 			if ( ! $option_name ) {
 				return $default;
 			}

@@ -518,7 +518,7 @@ class WC_Email extends WC_Settings_API {
 	 * @return string
 	 */
 	public function get_option( $key, $empty_value = null ) {
-		echo 'getting12345';
+		//echo 'getting12345';
 		$value = parent::get_option( $key, $empty_value );
 		return apply_filters( 'woocommerce_email_get_option', $value, $this, $value, $key, $empty_value );
 	}

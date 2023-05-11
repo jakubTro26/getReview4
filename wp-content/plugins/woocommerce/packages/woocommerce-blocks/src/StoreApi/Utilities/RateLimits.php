@@ -237,7 +237,7 @@ class RateLimits extends WC_Rate_Limiter {
 	 * @return mixed
 	 */
 	public static function get_option( $option ) {
-		echo 'getting1234';
+		//echo 'getting1234';
 
 		if ( ! is_string( $option ) || ! defined( 'RateLimits::' . strtoupper( $option ) ) ) {
 			return null;
