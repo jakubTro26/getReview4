@@ -16124,7 +16124,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-accounts.php:161
 #: includes/customizer/class-wc-shop-customizer.php:746
 #: includes/wc-template-functions.php:855
-msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s."
+msgid "Your personal data will be used to processd your order, support your experience throughout this website, and for other purposes described in our %s."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:170
