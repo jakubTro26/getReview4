@@ -902,8 +902,9 @@ function wc_terms_and_conditions_page_content() {
  *
  * @since 3.4.0
  */
+//tutaj odbywa się wyświetlanie tekstu
 function wc_checkout_privacy_policy_text() {
-	echo '<div class="woocommerce-privacy-policy-textc">';
+	echo '<div class="woocommerce-privacy-policy-text">';
 	wc_privacy_policy_text( 'checkout' );
 	echo '</div>';
 }
