@@ -22,7 +22,7 @@ $installTypes = [
 
 	<?php if (!get_option(GETREVIEW_GUID_KEY)): ?>
 		<div class="notice notice-success">
-				<p><?php printf(__('Thank you for installing GetReview!hell For your convenience, the application panel can be managed from here: <a href="%s">%s</a>', GETREVIEW_TEXT_DOMAIN), 'https://app.getreview.pl', 'https://app.getreview.pl'); ?></p>
+				<p><?php printf(__('Thank you for installing GetReview!! For your convenience, the application panel can be managed from here: <a href="%s">%s</a>', GETREVIEW_TEXT_DOMAIN), 'https://app.getreview.pl', 'https://app.getreview.pl'); ?></p>
 				<?php _e('If you don\'t have an account, you can create one for free and collect up to 50 opinions without costs. In the free version you can:', GETREVIEW_TEXT_DOMAIN); ?>
 				<ul>
 					<li><?php _e('set your own message', GETREVIEW_TEXT_DOMAIN); ?>,</li>
