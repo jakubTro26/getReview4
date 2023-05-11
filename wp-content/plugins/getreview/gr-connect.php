@@ -6,7 +6,7 @@ class Connect extends \WC_Auth {
 	public function __construct() {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
-		add_action('woocommerce_checkout_order_review', [$this, 'injectReviewRequestCheckbox']);
+		//add_action('woocommerce_checkout_order_review', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
@@ -101,6 +101,9 @@ class Connect extends \WC_Auth {
 	}
 
 	public function createOrderUpdateWebhook() {
+
+		echo 'kuba';
+
 		$guid = $this->getGuid();
 		if ($guid === null) {
 			return;
