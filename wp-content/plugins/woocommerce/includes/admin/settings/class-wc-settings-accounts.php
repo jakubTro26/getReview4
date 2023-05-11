@@ -158,7 +158,7 @@ class WC_Settings_Accounts extends WC_Settings_Page {
 				'desc_tip' => __( 'Optionally add some text about your store privacy policy to show during checkout.', 'woocommerce' ),
 				'id'       => 'woocommerce_checkout_privacy_policy_text',
 				/* translators: %s privacy policy page name and link */
-				'default'  => sprintf( __( 'Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ),
+				'default'  => sprintf( __( 'Your personal data will be used to processb your order, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ),
 				'type'     => 'textarea',
 				'css'      => 'min-width: 50%; height: 75px;',
 			),
