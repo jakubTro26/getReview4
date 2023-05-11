@@ -839,7 +839,7 @@ class WC_Shop_Customizer {
 			$wp_customize->selective_refresh->add_partial(
 				'woocommerce_checkout_privacy_policy_text',
 				array(
-					'selector'            => '.woocommerce-privacy-policy-text',
+					'selector'            => '.woocommerce-privacy-policy-texta',
 					'container_inclusive' => true,
 					'render_callback'     => 'wc_checkout_privacy_policy_text',
 				)
