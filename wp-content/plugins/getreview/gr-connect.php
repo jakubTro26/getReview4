@@ -6,6 +6,7 @@ class Connect extends \WC_Auth {
 	public function __construct() {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
+		//add_action('woocommerce_checkout_order_review', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
@@ -87,6 +88,7 @@ class Connect extends \WC_Auth {
 
 	public function injectReviewRequestCheckbox() {
 		$guid = $this->getGuid();
+		echo '<p><input type="checkbox" name="'.GETREVIEW_CHECKBOX_KEY.'" id="'.GETREVIEW_CHECKBOX_KEY.'" checked> '.get_option(GETREVIEW_CHECKBOX_TEXT).' <a href="https://app.getreview.pl/pdf/terms/'.$guid.'" rel="nofollow" target="_blank">'.__('Terms of Service', GETREVIEW_TEXT_DOMAIN).'</a></p>';
 		if ($guid !== null && $this->isCheckboxEnabled()) {
 			echo '<p><input type="checkbox" name="'.GETREVIEW_CHECKBOX_KEY.'" id="'.GETREVIEW_CHECKBOX_KEY.'" checked> '.get_option(GETREVIEW_CHECKBOX_TEXT).' <a href="https://app.getreview.pl/pdf/terms/'.$guid.'" rel="nofollow" target="_blank">'.__('Terms of Service', GETREVIEW_TEXT_DOMAIN).'</a></p>';
 		}
@@ -99,6 +101,9 @@ class Connect extends \WC_Auth {
 	}
 
 	public function createOrderUpdateWebhook() {
+
+		echo 'kuba';
+
 		$guid = $this->getGuid();
 		if ($guid === null) {
 			return;

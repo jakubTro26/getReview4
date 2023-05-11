@@ -852,7 +852,7 @@ function wc_get_privacy_policy_text( $type = '' ) {
 	switch ( $type ) {
 		case 'checkout':
 			/* translators: %s privacy policy page name and link */
-			$text = get_option( 'woocommerce_checkout_privacy_policy_text', sprintf( __( 'Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ) );
+			$text = get_option( 'woocommerce_checkout_privacy_policy_text', sprintf( __( 'Your personal data will be used to process your ordera, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ) );
 			break;
 		case 'registration':
 			/* translators: %s privacy policy page name and link */
@@ -902,6 +902,7 @@ function wc_terms_and_conditions_page_content() {
  *
  * @since 3.4.0
  */
+//tutaj odbywa się wyświetlanie tekstu
 function wc_checkout_privacy_policy_text() {
 	echo '<div class="woocommerce-privacy-policy-text">';
 	wc_privacy_policy_text( 'checkout' );
@@ -914,7 +915,7 @@ function wc_checkout_privacy_policy_text() {
  * @since 3.4.0
  */
 function wc_registration_privacy_policy_text() {
-	echo '<div class="woocommerce-privacy-policy-text">';
+	echo '<div class="woocommerce-privacy-policy-textb">';
 	wc_privacy_policy_text( 'registration' );
 	echo '</div>';
 }
