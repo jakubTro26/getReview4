@@ -76,6 +76,7 @@
  *               boolean `false` is returned.
  */
 function get_option( $option, $default = false ) {
+	echo 'getting17';
 	global $wpdb;
 
 	if ( is_scalar( $option ) ) {
