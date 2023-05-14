@@ -453,7 +453,7 @@ class WP_Upgrader {
 	 */
 	public function install_package( $args = array() ) {
 
-		echo 'installin123';
+		//echo 'installin123';
 		global $wp_filesystem, $wp_theme_directories;
 
 		$defaults = array(
