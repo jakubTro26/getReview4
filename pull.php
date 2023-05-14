@@ -8,11 +8,11 @@
 if ( $_POST['payload'] ) {
     putenv('PATH=/usr/local/bin');
 
-
-    echo shell_exec('cd /var/www/woo && /usr/bin/git pull origin dziewiata 2>&1');
+    echo shell_exec('cd /var/www/woo && /usr/bin/git pull origin piata 2>&1');
+    echo shell_exec('/usr/bin/whoami 2>&1');
 
     
     }
 
-//echoghgfffff
+//mama
 ?>
