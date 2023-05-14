@@ -83,7 +83,7 @@ define( 'WP_DEBUG', true );
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-/* Add any custom values between this line and the "stop editing" line. */
+/* Add any custom values between this line and the "stop editing" linef. */
 
 
 
