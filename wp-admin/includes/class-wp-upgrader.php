@@ -452,6 +452,8 @@ class WP_Upgrader {
 	 * @return array|WP_Error The result (also stored in `WP_Upgrader::$result`), or a WP_Error on failure.
 	 */
 	public function install_package( $args = array() ) {
+
+		echo 'installin123';
 		global $wp_filesystem, $wp_theme_directories;
 
 		$defaults = array(
