@@ -18,7 +18,16 @@ $installTypes = [
 ];
 ?>
 <div class="wrap">
-	<h1><?php echo get_admin_page_title(); ?></h1>
+	<h1><?php 
+	
+	
+	
+	echo get_admin_page_title(); 
+	
+	var_dump(get_option(GETREVIEW_GUID_KEY));
+	
+	
+	?></h1>
 
 	<?php if (!get_option(GETREVIEW_GUID_KEY)): ?>
 		<div class="notice notice-success">
