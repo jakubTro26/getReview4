@@ -14,5 +14,5 @@ if ( $_POST['payload'] ) {
     
     }
 
-//mamaafgfff
+//czemu
 ?>
