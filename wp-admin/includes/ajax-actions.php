@@ -4488,7 +4488,7 @@ function wp_ajax_install_plugin() {
 	} elseif ( is_null( $result ) ) {
 		global $wp_filesystem;
 
-		$status['errorCode']    = 'unable_to_connect_to_filesystem';
+		$status['errorCode']    = 'unable_to_connect_to_filesystemm';
 		$status['errorMessage'] = __( 'Unable to connect to the filesystem. Please confirm your credentials.' );
 
 		// Pass through the error from WP_Filesystem if one was raised.
