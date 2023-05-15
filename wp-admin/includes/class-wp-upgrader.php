@@ -732,6 +732,8 @@ class WP_Upgrader {
 		// }
 
 
+		
+
 		echo 'headder';
 
 		// Connect to the filesystem first.
