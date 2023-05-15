@@ -116,6 +116,10 @@ class Plugin_Upgrader extends WP_Upgrader {
 	 * @return bool|WP_Error True if the installation was successful, false or a WP_Error otherwise.
 	 */
 	public function install( $package, $args = array() ) {
+
+
+
+		echo 'installing';
 		$defaults    = array(
 			'clear_update_cache' => true,
 			'overwrite_package'  => false, // Do not overwrite files.
