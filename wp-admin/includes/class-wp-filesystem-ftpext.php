@@ -92,7 +92,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 
 	
 
-
+		$converted_res = $this->link ? 'true' : 'false';
 
 
 
@@ -103,7 +103,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 				'connect',
 				sprintf(
 					/* translators: %s: hostname:port */
-					__( 'Failed to connect to FTP Servercd' .$this->link . ' %s' ),
+					__( 'Failed to connect to FTP Servercd' . $converted_res . ' %s' ),
 					$this->options['hostname'] . ':' . $this->options['port']
 				)
 			);
