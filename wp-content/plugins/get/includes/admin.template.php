@@ -55,7 +55,7 @@ $installTypes = [
 					</td>
 				</tr>
 				<tr>
-					<th class="opinia  " scope="row"><?php _e('Consent to collect opinions at checkout', GETREVIEW_TEXT_DOMAIN); ?></th>
+					<th class="opinia1" scope="row"><?php _e('Consent to collect opinions at checkout', GETREVIEW_TEXT_DOMAIN); ?></th>
 					<td>
 						<fieldset>
 							<legend class="screen-reader-text"><span><?php _e('Enable (add checkbox)', GETREVIEW_TEXT_DOMAIN); ?></span></legend>
