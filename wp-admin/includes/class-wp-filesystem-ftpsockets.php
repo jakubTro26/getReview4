@@ -84,7 +84,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 				'connect',
 				sprintf(
 					/* translators: %s: hostname:port */
-					__( 'Failed to connect to FTP Server %s' ),
+					__( 'Failed to connect to FTP Servera %s' ),
 					$this->options['hostname'] . ':' . $this->options['port']
 				)
 			);
@@ -97,7 +97,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 				'connect',
 				sprintf(
 					/* translators: %s: hostname:port */
-					__( 'Failed to connect to FTP Server %s' ),
+					__( 'Failed to connect to FTP Serverb %s' ),
 					$this->options['hostname'] . ':' . $this->options['port']
 				)
 			);

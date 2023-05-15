@@ -94,7 +94,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 				'connect',
 				sprintf(
 					/* translators: %s: hostname:port */
-					__( 'Failed to connect to FTP Server %s' ),
+					__( 'Failed to connect to FTP Serverc %s' ),
 					$this->options['hostname'] . ':' . $this->options['port']
 				)
 			);
