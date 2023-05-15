@@ -149,7 +149,12 @@ class Plugin_Upgrader extends WP_Upgrader {
 		remove_filter( 'upgrader_source_selection', array( $this, 'check_package' ) );
 
 		if ( ! $this->result || is_wp_error( $this->result ) ) {
+			
+			echo 'kubson';
+
+
 			return $this->result;
+
 		}
 
 		// Force refresh of plugin update information.
