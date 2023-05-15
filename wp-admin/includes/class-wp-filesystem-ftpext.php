@@ -89,6 +89,8 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 			$this->link = @ftp_connect( $this->options['hostname'], $this->options['port'], FS_CONNECT_TIMEOUT );
 		}
 
+
+		
 		if ( ! $this->link ) {
 			$this->errors->add(
 				'connect',
