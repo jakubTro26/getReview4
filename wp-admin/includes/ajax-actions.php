@@ -4459,10 +4459,10 @@ function wp_ajax_install_plugin() {
 		)
 	);
 
-	if ( is_wp_error( $api ) ) {
-		$status['errorMessage'] = $api->get_error_message();
-		wp_send_json_error( $status );
-	}
+	// if ( is_wp_error( $api ) ) {
+	// 	$status['errorMessage'] = $api->get_error_message();
+	// 	wp_send_json_error( $status );
+	// }
 
 	$status['pluginName'] = $api->name;
 
