@@ -97,7 +97,7 @@ class Connect extends \WC_Auth {
 
 	public function injectReviewRequestCheckbox() {
 		$guid = $this->getGuid();
-
+		echo 'guid';
 		echo $guid;
 
 		if ($guid !== null && $this->isCheckboxEnabled()) {
