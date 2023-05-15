@@ -721,6 +721,10 @@ class WP_Upgrader {
 		 *     }
 		 * }
 		 */
+
+
+		 echo 'parsing';
+
 		$options = apply_filters( 'upgrader_package_options', $options );
 
 		if ( ! $options['is_multi'] ) { // Call $this->header separately if running multiple times.
