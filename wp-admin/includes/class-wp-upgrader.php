@@ -731,6 +731,9 @@ class WP_Upgrader {
 			$this->skin->header();
 		}
 
+
+		echo 'headder';
+
 		// Connect to the filesystem first.
 		$res = $this->fs_connect( array( WP_CONTENT_DIR, $options['destination'] ) );
 
