@@ -4424,6 +4424,12 @@ function wp_ajax_delete_theme() {
  * @global WP_Filesystem_Base $wp_filesystem WordPress filesystem subclass.
  */
 function wp_ajax_install_plugin() {
+
+
+
+	echo 'installing';
+
+
 	check_ajax_referer( 'updates' );
 
 	if ( empty( $_POST['slug'] ) ) {
