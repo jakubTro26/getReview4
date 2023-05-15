@@ -732,7 +732,7 @@ class WP_Upgrader {
 
 
 		var_dump($res);
-
+		echo 'res';
 
 		// Mainly for non-connected filesystem.
 		if ( ! $res ) {
