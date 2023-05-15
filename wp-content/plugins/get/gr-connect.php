@@ -6,6 +6,7 @@ class Connect extends \WC_Auth {
 	public function __construct() {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
+		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
@@ -19,6 +20,15 @@ class Connect extends \WC_Auth {
 		if (in_array(get_option(GETREVIEW_CHECKBOX_TEXT), [null, false, ''])) {
 			update_option(GETREVIEW_CHECKBOX_TEXT, __('I want to express my opinion on the purchase and agree to send me a survey to the e-mail address.'));
 		}
+	}
+
+
+
+	public function test(){
+
+		echo 'tescik';
+
+
 	}
 
 	public function getGuid() {
