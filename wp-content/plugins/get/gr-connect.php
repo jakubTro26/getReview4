@@ -61,7 +61,7 @@ class Connect extends \WC_Auth {
 		]);
 
 
-		echo 'route';
+		echo 'route123';
 		var_dump($route);
 	}
 
