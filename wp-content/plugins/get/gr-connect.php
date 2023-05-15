@@ -52,13 +52,17 @@ class Connect extends \WC_Auth {
 	}
 
 	public function registerRestApiEndpoint() {
-		register_rest_route('getreview/v2', '/update/', [
+		$route = register_rest_route('getreview/v2', '/update/', [
 			'methods' => 'GET',
 			'callback' => [$this, 'restApiGuidUpdateCallback'],
 			'args' => [
 				'data' => ['required']
 			]
 		]);
+
+
+		echo 'route';
+		var_dump($route);
 	}
 
 	public function restApiGuidUpdateCallback($request) {
