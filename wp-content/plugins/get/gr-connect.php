@@ -75,6 +75,12 @@ class Connect extends \WC_Auth {
 
 	public function restApiGuidUpdateCallback($request) {
 		$data = $request->get_param('data');
+
+
+
+		echo 'data123';
+
+
 		$data = base64_decode($data);
 		if (!$data) return ['error' => 'INVALID_REQUEST'];
 
