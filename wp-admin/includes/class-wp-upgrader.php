@@ -188,7 +188,7 @@ class WP_Upgrader {
 
 
 
-		echo 'polaczenie';
+		
 
 		$credentials = $this->skin->request_filesystem_credentials( false, $directories[0], $allow_relaxed_file_ownership );
 		if ( false === $credentials ) {
@@ -672,6 +672,12 @@ class WP_Upgrader {
 	 *                              or false if unable to connect to the filesystem.
 	 */
 	public function run( $options ) {
+
+
+
+
+
+		echo 'running';
 
 		$defaults = array(
 			'package'                     => '', // Please always pass this.
