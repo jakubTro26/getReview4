@@ -90,9 +90,10 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 		}
 
 
+		echo 'basic_connection';
+		var_dump($this->link);
 
 
-		
 
 
 
