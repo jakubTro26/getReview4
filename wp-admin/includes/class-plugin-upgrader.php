@@ -150,7 +150,7 @@ class Plugin_Upgrader extends WP_Upgrader {
 
 		if ( ! $this->result || is_wp_error( $this->result ) ) {
 			
-			echo 'kubson';
+		
 
 
 			return $this->result;
