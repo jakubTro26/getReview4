@@ -26,7 +26,7 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		echo 'tescik';
+		echo 'tescik123';
 
 
 	}
