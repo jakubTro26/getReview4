@@ -91,6 +91,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 
 
 		
+
 		if ( ! $this->link ) {
 			$this->errors->add(
 				'connect',
