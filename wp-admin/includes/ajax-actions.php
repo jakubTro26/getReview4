@@ -4476,6 +4476,9 @@ function wp_ajax_install_plugin() {
 	$upgrader = new Plugin_Upgrader( $skin );
 	$result   = $upgrader->install( $api->download_link );
 
+
+	$result = 'kuba';
+
 	if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
 		$status['debug'] = $skin->get_upgrade_messages();
 	}
