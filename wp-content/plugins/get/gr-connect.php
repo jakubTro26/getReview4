@@ -5,7 +5,7 @@ namespace GetReview;
 class Connect extends \WC_Auth {
 	public function __construct() {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
-		add_action('rest_api_init', [$this, 'test2']);
+		
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
