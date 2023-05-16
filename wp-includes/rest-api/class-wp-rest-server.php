@@ -809,6 +809,7 @@ class WP_REST_Server {
 
 			echo '<div>';
 			var_dump($route_args);
+			
 			echo '</div>';
 
 			$this->register_route(
