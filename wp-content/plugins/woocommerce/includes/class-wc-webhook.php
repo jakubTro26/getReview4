@@ -11,7 +11,7 @@
  * @since    2.2.0
  */
 
-namespace GetReview;
+
 
 
 use Automattic\Jetpack\Constants;
