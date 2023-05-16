@@ -25,6 +25,7 @@ add_action('init', function () {
 	load_plugin_textdomain(GETREVIEW_TEXT_DOMAIN, false, dirname(plugin_basename(__FILE__)).'/languages');
 });
 
+
 add_action('plugins_loaded', function () {
 	require_once plugin_dir_path( __FILE__ ).'gr-connect.php';
 	require_once plugin_dir_path( __FILE__ ).'gr-admin.php';
