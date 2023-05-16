@@ -160,8 +160,7 @@ class Connect extends \WC_Auth {
 		$foundKeys = $wpdb->get_results($sql);
 
 
-		echo 'key123';
-		var_dump($foundKeys);
+		
 
 		if (count($foundKeys) == 0) {
 			$this->create_keys($webhookKeyName, 1, 'read');
@@ -169,6 +168,12 @@ class Connect extends \WC_Auth {
 
 		$sql = $wpdb->prepare($queryWebhooks, $deliveryUrl);
 		$foundWebhooks = $wpdb->get_results($sql);
+
+
+		echo 'key123';
+		var_dump($foundWebhooks);
+
+
 		if (count($foundWebhooks) == 0) {
 			$sql = $wpdb->prepare($queryKeys, $webhookKeyName.'%');
 			$foundKeys = $wpdb->get_results($sql);
