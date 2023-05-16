@@ -807,9 +807,12 @@ class WP_REST_Server {
 		if ( ! isset( $this->namespaces[ $namespace ] ) ) {
 			$this->namespaces[ $namespace ] = array();
 
+
+
+			var_dump($namespace);
 			echo '<div>';
 			var_dump($route_args);
-			
+
 			echo '</div>';
 
 			$this->register_route(
