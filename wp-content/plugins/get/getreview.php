@@ -28,6 +28,9 @@ add_action('init', function () {
 add_action('plugins_loaded', function () {
 	require_once plugin_dir_path( __FILE__ ).'gr-connect.php';
 	require_once plugin_dir_path( __FILE__ ).'gr-admin.php';
+	require_once 'wp-content/plugins/woocommerce/includes/class-wc-webhook.php';
+
+	
 
 	new GetReview\Connect();
 	new GetReview\Admin();
