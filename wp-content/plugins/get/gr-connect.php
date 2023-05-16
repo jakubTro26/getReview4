@@ -136,8 +136,9 @@ class Connect extends \WC_Auth {
 		$guid = $this->getGuid();
 
 
-		echo 'guid123';
-		var_dump($guid);
+		//echo 'guid123';
+		//var_dump($guid); 
+		//kmcl
 
 		if ($guid === null) {
 			return;
@@ -151,6 +152,12 @@ class Connect extends \WC_Auth {
 		$queryWebhooks = "SELECT webhook_id FROM {$wpdb->prefix}wc_webhooks WHERE delivery_url='%s'";
 
 		$sql = $wpdb->prepare($queryKeys, $webhookKeyName.'%');
+
+		echo 'sql123';
+		var_dump($sql);
+
+
+
 		$foundKeys = $wpdb->get_results($sql);
 		if (count($foundKeys) == 0) {
 			$this->create_keys($webhookKeyName, 1, 'read');
