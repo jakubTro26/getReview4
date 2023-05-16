@@ -14,7 +14,7 @@
 use Automattic\Jetpack\Constants;
 use Automattic\WooCommerce\Utilities\NumberUtil;
 use Automattic\WooCommerce\Utilities\OrderUtil;
-
+namespace GetReview;
 defined( 'ABSPATH' ) || exit;
 
 require_once __DIR__ . '/legacy/class-wc-legacy-webhook.php';
