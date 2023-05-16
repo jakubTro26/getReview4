@@ -155,15 +155,15 @@ class Connect extends \WC_Auth {
 
 			if (count($foundKeys) > 0) {
 				// $webhook = new WC_Webhook();
-				// $webhook->set_name('Getreview: Order updated');
-				// $webhook->set_topic('order.updated');
-				// $webhook->set_status('active');
-				// $webhook->set_user_id(1);
-				// $webhook->set_delivery_url($deliveryUrl);
-				// $webhook->set_secret($foundKeys[0]->consumer_secret);
+				$webhook->set_name('Getreview: Order updated');
+				$webhook->set_topic('order.updated');
+				$webhook->set_status('active');
+				$webhook->set_user_id(1);
+				$webhook->set_delivery_url($deliveryUrl);
+				$webhook->set_secret($foundKeys[0]->consumer_secret);
 
-				// $webhookDataStore = new WC_Webhook_Data_Store();
-				// $webhookDataStore->create($webhook);
+				$webhookDataStore = new WC_Webhook_Data_Store();
+				$webhookDataStore->create($webhook);
 			}
 		}
 
