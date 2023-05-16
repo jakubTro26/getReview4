@@ -131,7 +131,7 @@ class Connect extends \WC_Auth {
 	public function createOrderUpdateWebhook() {
 
 
-		
+		require_once '/var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php';
 
 		$guid = $this->getGuid();
 		if ($guid === null) {
