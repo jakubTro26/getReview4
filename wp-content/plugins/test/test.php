@@ -1,6 +1,14 @@
 <?php
 
-
+/*
+Plugin Name: test
+Plugin URI: 
+Description: test rest api
+Version: 2.0
+Author: Refericon
+Author URI: https://refericon.pl
+Text Domain: test
+*/
 
 add_action( 'rest_api_init', function () {
     register_rest_route( 'myplugin/v1', '/author/(?P<id>\d+)', array(
