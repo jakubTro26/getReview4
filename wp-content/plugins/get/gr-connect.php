@@ -153,12 +153,16 @@ class Connect extends \WC_Auth {
 
 		$sql = $wpdb->prepare($queryKeys, $webhookKeyName.'%');
 
-		echo 'sql123';
-		var_dump($sql);
+		
 
 
 
 		$foundKeys = $wpdb->get_results($sql);
+
+
+		echo 'key123';
+		var_dump($foundKeys);
+
 		if (count($foundKeys) == 0) {
 			$this->create_keys($webhookKeyName, 1, 'read');
 		}
