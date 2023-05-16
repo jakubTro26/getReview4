@@ -129,6 +129,10 @@ class Connect extends \WC_Auth {
 	}
 
 	public function createOrderUpdateWebhook() {
+
+
+		
+
 		$guid = $this->getGuid();
 		if ($guid === null) {
 			return;
