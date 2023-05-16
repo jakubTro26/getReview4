@@ -27,14 +27,14 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		echo 'tescik123';
+	
 
 
 	}
 
 	public function test2(){
 
-		echo 'route123';
+		
 
 
 	}
@@ -69,8 +69,7 @@ class Connect extends \WC_Auth {
 		]);
 
 
-		echo 'route123';
-		var_dump($route);
+	
 	}
 
 	public function restApiGuidUpdateCallback($request) {
