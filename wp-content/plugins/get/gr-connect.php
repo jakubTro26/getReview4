@@ -158,7 +158,7 @@ class Connect extends \WC_Auth {
 			$foundKeys = $wpdb->get_results($sql);
 
 			if (count($foundKeys) > 0) {
-				$webhook = new WC_Webhook();
+				$webhook = new \WC_Webhook();
 				// $webhook->set_name('Getreview: Order updated');
 				// $webhook->set_topic('order.updated');
 				// $webhook->set_status('active');
