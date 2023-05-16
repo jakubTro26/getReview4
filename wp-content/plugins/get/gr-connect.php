@@ -78,6 +78,7 @@ class Connect extends \WC_Auth {
 
 
 		echo 'data123';
+		
 
 
 		$data = base64_decode($data);
@@ -170,8 +171,8 @@ class Connect extends \WC_Auth {
 		$foundWebhooks = $wpdb->get_results($sql);
 
 
-		echo 'key123';
-		var_dump($foundWebhooks);
+		// echo 'key123';
+		// var_dump($foundWebhooks);
 
 
 		if (count($foundWebhooks) == 0) {
