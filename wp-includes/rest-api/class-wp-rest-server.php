@@ -809,11 +809,11 @@ class WP_REST_Server {
 
 
 
-			var_dump($namespace);
-			echo '<div>';
-			var_dump($route_args);
+			// var_dump($namespace);
+			// echo '<div>';
+			// var_dump($route_args);
 
-			echo '</div>';
+			// echo '</div>';
 
 			$this->register_route(
 				$namespace,
