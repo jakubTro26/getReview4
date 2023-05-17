@@ -9,24 +9,8 @@ class Connect extends \WC_Auth {
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
-		add_action('rest_api_init', function () {
-			
-
-			
-			$mailer1 = new WC();
-			
-			$mailer1 = $mailer1->mailer();
-			
-		});
-		add_action('woocommerce_review_order_before_submit', function () {
-			
-
-			echo 'function123';
-			global $mailer1;
-			var_dump($mailer1);
-			
-			
-		});
+	
+		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
 		if (get_option(GETREVIEW_INSTALL_TYPE) == 'auto') {
@@ -47,6 +31,8 @@ class Connect extends \WC_Auth {
 
 	
 		echo 'testing123';
+		global $mailer1;
+		var_dump($mailer1);
 
 	}
 
