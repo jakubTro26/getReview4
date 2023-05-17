@@ -43,11 +43,10 @@ add_action('rest_api_init', function () {
 	
 	
 	
-	$mailer1 =  new WC();
+	$customer_country = WC()->customer->get_country(); 
 
 
-	echo 'mailer123';
-	var_dump($mailer1);
+	
 	
 });
 
