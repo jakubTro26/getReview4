@@ -9,6 +9,7 @@ class Connect extends \WC_Auth {
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
+		add_action('plugins_loaded','test');
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
 		if (get_option(GETREVIEW_INSTALL_TYPE) == 'auto') {
@@ -28,7 +29,7 @@ class Connect extends \WC_Auth {
 	public function test(){
 
 	
-
+		echo 'testing123';
 
 	}
 
