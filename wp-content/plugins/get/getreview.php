@@ -35,4 +35,6 @@ add_action('plugins_loaded', function () {
 
 	new GetReview\Connect();
 	new GetReview\Admin();
+	$mailer = new \WC_Email();
+	
 });
