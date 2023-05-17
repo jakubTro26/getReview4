@@ -45,6 +45,8 @@ add_action('rest_api_init', function () {
 	
 	$mailer1 =   WC();
 
+
+	echo 'mailer123';
 	var_dump($mailer1);
 	
 });
