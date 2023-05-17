@@ -29,12 +29,12 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		$wc = new \WC();
+		$wc = new \WooCommerce;
 
 
-		$customer_country = $wc->customer->get_country();
+		$c = $wc->version;
 	
-	var_dump($customer_country);
+	var_dump($c);
 
 	}
 
