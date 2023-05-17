@@ -29,7 +29,7 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		$wc = new \WC();
+		$wc = new WC();
 
 
 		$customer_country = $wc->customer->get_country();
