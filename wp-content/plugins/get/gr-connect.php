@@ -13,7 +13,7 @@ class Connect extends \WC_Auth {
 			
 
 			echo 'function123';
-			$mailer = new \WC_Email();
+			$mailer1 = new \WC_Email();
 			var_dump($mailer);
 			
 			
@@ -22,8 +22,8 @@ class Connect extends \WC_Auth {
 			
 
 			echo 'function123';
-			global $mailer;
-			var_dump($mailer);
+			global $mailer1;
+			var_dump($mailer1);
 			
 			
 		});
