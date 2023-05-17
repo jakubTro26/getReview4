@@ -13,9 +13,9 @@ class Connect extends \WC_Auth {
 			
 
 			
-			$mailer1 = new \WC()->mailer();
+			$mailer1 = new \WC();
 			
-			
+			$mailer1 = $mailer1->mailer();
 			
 		});
 		add_action('woocommerce_review_order_before_submit', function () {
