@@ -13,7 +13,7 @@ class Connect extends \WC_Auth {
 			
 
 			
-			$mailer1 = new \WC();
+			$mailer1 = new WC();
 			
 			$mailer1 = $mailer1->mailer();
 			
