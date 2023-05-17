@@ -1,0 +1,21 @@
+#adminmenu .toplevel_page_trustmary-dashboard .wp-menu-image img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    padding-top: 7px;
+}
+
+body[class^="toplevel_page_trustmary-"] #wpbody,
+body[class^="trustmary_page"] #wpbody,
+body[class*=" toplevel_page_trustmary-"] #wpbody,
+body[class*=" trustmary_page"] #wpbody {
+    background-image: url(../images/logo-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    background-size: 30px;
+}
+
+.copy-shortcode {
+    width: 100%;
+    cursor: pointer;
+}
