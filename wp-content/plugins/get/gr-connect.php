@@ -23,7 +23,7 @@ class Connect extends \WC_Auth {
 
 			echo 'function123';
 			global $mailer1;
-			var_dump($mailer1->plugin_id);
+			var_dump($mailer1);
 			
 			
 		});

@@ -232,6 +232,10 @@ class WC_Email extends WC_Settings_API {
 	 * Constructor.
 	 */
 	public function __construct() {
+
+
+
+		echo 'creating';
 		// Find/replace.
 		$this->placeholders = array_merge(
 			array(
