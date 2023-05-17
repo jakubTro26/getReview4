@@ -43,7 +43,7 @@ add_action('rest_api_init', function () {
 	
 	
 	
-	$mailer1 =   WC();
+	$mailer1 =  new WC();
 
 
 	echo 'mailer123';
