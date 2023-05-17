@@ -12,9 +12,9 @@ class Connect extends \WC_Auth {
 		add_action('rest_api_init', function () {
 			
 
-			echo 'function123';
+		
 			$mailer1 = new \WC_Email();
-			var_dump($mailer);
+			
 			
 			
 		});
