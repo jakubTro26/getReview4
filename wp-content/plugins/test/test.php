@@ -21,7 +21,7 @@ add_action( 'rest_api_init', function () {
 
 
   
-  
+
 
 
 
@@ -31,6 +31,9 @@ function my_awesome_func( $data ) {
       'author' => $data['id'],
     ) );
   
+
+      echo 'route';
+
     if ( empty( $posts ) ) {
       return null;
     }
