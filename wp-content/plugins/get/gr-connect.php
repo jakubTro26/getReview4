@@ -32,7 +32,7 @@ class Connect extends \WC_Auth {
 	
 		echo 'testing123';
 		global $mailer1;
-		//var_dump($mailer1);
+		var_dump($mailer1);
 
 	}
 
