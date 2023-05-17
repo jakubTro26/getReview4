@@ -12,7 +12,7 @@ class Connect extends \WC_Auth {
 		add_action('rest_api_init', function () {
 			
 
-		
+			require '/var/www/woo/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php';
 			$mailer1 = new \WC_Email();
 			
 			
