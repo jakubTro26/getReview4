@@ -9,7 +9,7 @@ class Connect extends \WC_Auth {
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
-		add_action('woocommerce_review_order_before_submit', function () {
+		add_action('rest_api_init', function () {
 			
 
 			echo 'function123';
