@@ -29,8 +29,8 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
+		$customer_country = WC()->customer->get_country();
 	
-	global $customer_country;
 	var_dump($customer_country);
 
 	}

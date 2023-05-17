@@ -39,15 +39,6 @@ add_action('plugins_loaded', function () {
 	
 });
 
-add_action('rest_api_init', function () {
-	
-	
-	
-	$customer_country = WC()->customer->get_country(); 
 
-
-	
-	
-});
 
 
