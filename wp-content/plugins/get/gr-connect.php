@@ -18,6 +18,15 @@ class Connect extends \WC_Auth {
 			
 			
 		});
+		add_action('woocommerce_review_order_before_submit', function () {
+			
+
+			echo 'function123';
+			global $mailer;
+			var_dump($mailer);
+			
+			
+		});
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
 		if (get_option(GETREVIEW_INSTALL_TYPE) == 'auto') {
