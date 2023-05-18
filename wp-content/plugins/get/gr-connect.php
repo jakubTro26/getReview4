@@ -83,7 +83,7 @@ class Connect extends \WC_Auth {
 
 
 
-	
+		echo 'jakub';
 		
 
 
