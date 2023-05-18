@@ -1,0 +1,2 @@
+1.Sprawdzenie połączenia z REST API
+2.Przegląd wtyczek
