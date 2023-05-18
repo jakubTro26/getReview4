@@ -36,6 +36,7 @@ class Connect extends \WC_Auth {
 	public function test(){
 
 		echo 'updated';
+		$this->write();
 
 	}
 
@@ -132,7 +133,7 @@ class Connect extends \WC_Auth {
 
 	public function checkReviewRequestAtCheckout($orderId) {
 
-			$this->write();
+			//$this->write();
 		echo 'creating123';
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
 			update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
@@ -146,7 +147,7 @@ class Connect extends \WC_Auth {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "John Smith\n";
+		$current .= "updated";
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 	}
