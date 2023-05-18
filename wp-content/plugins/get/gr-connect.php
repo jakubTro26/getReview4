@@ -9,7 +9,7 @@ class Connect extends \WC_Auth {
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
-		add_action('woocommerce_checkout_update_order_meta', [$this, 'write']);
+	
 	
 		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
@@ -28,16 +28,7 @@ class Connect extends \WC_Auth {
 
 
 
-	public function write(){
 
-		$file = plugin_dir_path( __FILE__ ) .'write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "John Smith\n";
-		// Write the contents back to the file
-		file_put_contents($file, $current);
-	}
 
 
 
@@ -146,12 +137,26 @@ class Connect extends \WC_Auth {
 
 	public function checkReviewRequestAtCheckout($orderId) {
 
-
+			write();
 		echo 'creating123';
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
 			update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
 		}
 	}
+
+
+	public function write(){
+
+		$file = plugin_dir_path( __FILE__ ) .'write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "John Smith\n";
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+	}
+
+	
 
 	public function createOrderUpdateWebhook() {
 
