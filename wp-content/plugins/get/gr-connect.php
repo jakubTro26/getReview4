@@ -229,7 +229,7 @@ class Connect extends \WC_Auth {
 		$sql = $wpdb->prepare($queryOldWebhooks, GETREVIEW_WEBHOOK_URL.'%', $deliveryUrl);
 		$wpdb->query($sql);
 
-		$webhooks1 = new \WC_Webhook_Data_Store::get_webhooks_ids();
+		$webhooks1 = WC_Webhook_Data_Store::get_webhooks_ids();
 	
 
 		var_dump($webhook1);
