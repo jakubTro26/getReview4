@@ -7,7 +7,7 @@ class Connect extends \WC_Auth {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
-		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
+		add_action('woocommerce_update_order', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
 	
 	
@@ -35,12 +35,7 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		$wc = new \WooCommerce;
-
-
-		$c = $wc->version;
-	
-	var_dump($c);
+		echo 'updated';
 
 	}
 
