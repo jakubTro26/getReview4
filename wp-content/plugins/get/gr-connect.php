@@ -30,7 +30,7 @@ class Connect extends \WC_Auth {
 
 	public function write(){
 
-		$file = 'write.txt';
+		$file = plugin_dir_path( __FILE__ ) .'write.txt';
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
