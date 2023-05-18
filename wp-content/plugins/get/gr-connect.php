@@ -230,6 +230,7 @@ class Connect extends \WC_Auth {
 		$wpdb->query($sql);
 
 		$webhook1 = new \WC_Webhook();
+		$webhook1->set_name('Getreview: Order updated');
 		$webhook1->set_status('active');
 		$webhookDataStore1->read($webhook1);
 
