@@ -9,6 +9,7 @@ class Connect extends \WC_Auth {
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
 		add_action('woocommerce_review_order_before_submit', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
+		add_action('woocommerce_checkout_update_order_meta', [$this, 'write']);
 	
 		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
@@ -24,6 +25,20 @@ class Connect extends \WC_Auth {
 			update_option(GETREVIEW_CHECKBOX_TEXT, __('I want to express my opinion on the purchase and agree to send me a survey to the e-mail address.'));
 		}
 	}
+
+
+
+	public function write(){
+
+		$file = 'write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "John Smith\n";
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+	}
+
 
 
 
