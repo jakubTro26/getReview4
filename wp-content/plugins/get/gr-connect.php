@@ -232,24 +232,27 @@ class Connect extends \WC_Auth {
 
 		$data_store = \WC_Data_Store::load( 'webhook' );
 		$webhooks   = $data_store->search_webhooks([ 'status' => 'active' ] );
-		$_items     = array_map( 'wc_get_webhook', $webhooks->webhooks );
-
-		$_array     = [];
-
-		foreach( $_items as $_item ){
-
-			$_array[] = [
-				'id'            => $_item->get_id(),
-				'name'          => $_item->get_name(),
-				'topic'         => $_item->get_topic(),
-				'delivery_url'  => $_item->get_delivery_url(),
-				'secret'        => $_item->get_secret(),
-			];
-
-		}
 
 
-		var_dump($_array);
+		var_dump($webhooks);
+		// $_items     = array_map( 'wc_get_webhook', $webhooks->webhooks );
+
+		// $_array     = [];
+
+		// foreach( $_items as $_item ){
+
+		// 	$_array[] = [
+		// 		'id'            => $_item->get_id(),
+		// 		'name'          => $_item->get_name(),
+		// 		'topic'         => $_item->get_topic(),
+		// 		'delivery_url'  => $_item->get_delivery_url(),
+		// 		'secret'        => $_item->get_secret(),
+		// 	];
+
+		// }
+
+
+		// var_dump($_array);
 
 
 
