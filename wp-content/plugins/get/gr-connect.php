@@ -137,7 +137,7 @@ class Connect extends \WC_Auth {
 
 	public function checkReviewRequestAtCheckout($orderId) {
 
-			write();
+			$this->write();
 		echo 'creating123';
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
 			update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
