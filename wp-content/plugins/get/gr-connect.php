@@ -160,7 +160,7 @@ class Connect extends \WC_Auth {
 
 		$sql = $wpdb->prepare($queryKeys, $webhookKeyName.'%');
 
-		echo $sql;
+		
 
 
 
@@ -176,6 +176,8 @@ class Connect extends \WC_Auth {
 		$sql = $wpdb->prepare($queryWebhooks, $deliveryUrl);
 		$foundWebhooks = $wpdb->get_results($sql);
 
+
+		echo $sql;
 
 		// echo 'key123';
 		// var_dump($foundWebhooks);
