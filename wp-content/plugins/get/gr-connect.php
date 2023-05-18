@@ -232,7 +232,7 @@ class Connect extends \WC_Auth {
 		$data_store = \WC_Data_Store::load( 'webhook' );
 		$webhooks   = $data_store->get_webhooks_ids(  );
 
-		//var_dump($webhooks);
+		var_dump($webhooks);
 
 		// $_array     = [];
 
