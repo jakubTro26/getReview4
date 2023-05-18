@@ -143,7 +143,7 @@ class Connect extends \WC_Auth {
 		$guid = $this->getGuid();
 
 
-		//echo 'guid123';
+		echo 'guid123';
 		//var_dump($guid); 
 		//kmcl
 
