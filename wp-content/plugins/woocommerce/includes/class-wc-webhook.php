@@ -252,7 +252,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		// fire for create and update of products and orders, so check the post
 		// creation date to determine the actual event.
 
-
+		echo 'argument123';
 		echo $arg;
 		$resource = get_post( absint( $arg ) );
 
