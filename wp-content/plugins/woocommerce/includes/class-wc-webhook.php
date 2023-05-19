@@ -119,8 +119,12 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 		// Verify that webhook should be processed for delivery.
 		if ( ! $this->should_deliver( $arg ) ) {
+			echo 'nope';
 			return;
 		}
+
+
+		echo 'yes';
 
 		// Mark this $arg as processed to ensure it doesn't get processed again within the current request.
 		$this->processed[] = $arg;
