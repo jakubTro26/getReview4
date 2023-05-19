@@ -191,6 +191,11 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$current_action = current_action();
 		$return         = true;
 
+
+
+		echo 'action';
+		echo $current_action;
+
 		switch ( $current_action ) {
 			case 'delete_post':
 			case 'wp_trash_post':
