@@ -119,12 +119,12 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 		// Verify that webhook should be processed for delivery.
 		if ( ! $this->should_deliver( $arg ) ) {
-			echo 'nope';
+			
 			return;
 		}
 
 
-		echo 'yes';
+		
 
 		// Mark this $arg as processed to ensure it doesn't get processed again within the current request.
 		$this->processed[] = $arg;
@@ -152,7 +152,8 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$should_deliver = $this->is_active() && $this->is_valid_topic() && $this->is_valid_action( $arg ) && $this->is_valid_resource( $arg ) && ! $this->is_already_processed( $arg );
 
 
-
+		echo 'should';
+		echo $should_deliver;
 		
 		/**
 		 * Let other plugins intercept deliver for some messages queue like rabbit/zeromq.
