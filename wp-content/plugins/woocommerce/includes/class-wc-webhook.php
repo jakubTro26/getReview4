@@ -147,6 +147,9 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	private function should_deliver( $arg ) {
 		$should_deliver = $this->is_active() && $this->is_valid_topic() && $this->is_valid_action( $arg ) && $this->is_valid_resource( $arg ) && ! $this->is_already_processed( $arg );
 
+
+
+		echo 'delivery';
 		/**
 		 * Let other plugins intercept deliver for some messages queue like rabbit/zeromq.
 		 *
