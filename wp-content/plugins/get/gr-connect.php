@@ -81,12 +81,8 @@ class Connect extends \WC_Auth {
 	}
 
 	public function restApiGuidUpdateCallback($request) {
+
 		$data = $request->get_param('data');
-
-
-
-		echo 'jakub';
-		
 
 
 		$data = base64_decode($data);
@@ -157,14 +153,10 @@ class Connect extends \WC_Auth {
 	public function createOrderUpdateWebhook() {
 
 
-		//include '/var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php';
-
 		$guid = $this->getGuid();
 
 
-		echo 'guid123';
-		//var_dump($guid); 
-		//kmcl
+		
 
 		if ($guid === null) {
 			return;
@@ -198,8 +190,7 @@ class Connect extends \WC_Auth {
 
 		echo $sql;
 
-		// echo 'key123';
-		// var_dump($foundWebhooks);
+	
 
 
 		if (count($foundWebhooks) == 0) {
@@ -208,8 +199,8 @@ class Connect extends \WC_Auth {
 
 			if (count($foundKeys) > 0) {
 				$webhook = new \WC_Webhook();
-				$webhook->set_name('Getreview: Order updated');
-				$webhook->set_topic('order.updated');
+				$webhook->set_name('Getreview: Order created');
+				$webhook->set_topic('order.created');
 				$webhook->set_status('active');
 				$webhook->set_user_id(1);
 				$webhook->set_delivery_url($deliveryUrl);
@@ -231,24 +222,11 @@ class Connect extends \WC_Auth {
 
 		$webhook = new \WC_Webhook($webhooks[0]);
 
+		$arg = $webhook->process();
+
 		var_dump($webhook);
 
-		// $_array     = [];
-
-		// foreach( $_items as $_item ){
-
-		// 	$_array[] = [
-		// 		'id'            => $_item->get_id(),
-		// 		'name'          => $_item->get_name(),
-		// 		'topic'         => $_item->get_topic(),
-		// 		'delivery_url'  => $_item->get_delivery_url(),
-		// 		'secret'        => $_item->get_secret(),
-		// 	];
-
-		// }
-
-
-		// var_dump($_array);
+	
 
 
 
