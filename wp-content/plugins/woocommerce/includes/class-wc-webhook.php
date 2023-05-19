@@ -214,6 +214,9 @@ class WC_Webhook extends WC_Legacy_Webhook {
 			$return = $this->is_valid_processing_action( $arg );
 		}
 
+		echo 'return' . $return ;
+
+
 		return $return;
 	}
 
