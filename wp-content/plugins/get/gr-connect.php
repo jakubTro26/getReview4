@@ -222,7 +222,7 @@ class Connect extends \WC_Auth {
 
 		$webhook = new \WC_Webhook($webhooks[0]);
 
-		$arg = $webhook->process('order.created');
+		$arg = $webhook->process('woocommerce_new_order');
 
 		var_dump($arg);
 
