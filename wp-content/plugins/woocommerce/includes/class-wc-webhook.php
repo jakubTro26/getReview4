@@ -115,7 +115,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		echo 'processing';
+		
 
 		// Verify that webhook should be processed for delivery.
 		if ( ! $this->should_deliver( $arg ) ) {
@@ -149,7 +149,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		echo 'delivery';
+		
 		/**
 		 * Let other plugins intercept deliver for some messages queue like rabbit/zeromq.
 		 *
@@ -193,8 +193,8 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		echo 'action';
-		echo $current_action;
+	
+		
 
 		switch ( $current_action ) {
 			case 'delete_post':
@@ -214,7 +214,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 			$return = $this->is_valid_processing_action( $arg );
 		}
 
-		echo 'return' . $return ;
+
 
 
 		return $return;
