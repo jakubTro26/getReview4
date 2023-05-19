@@ -251,6 +251,9 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		// The `woocommerce_process_shop_*` and `woocommerce_process_product_*` hooks
 		// fire for create and update of products and orders, so check the post
 		// creation date to determine the actual event.
+
+
+		echo $arg;
 		$resource = get_post( absint( $arg ) );
 
 		// Drafts don't have post_date_gmt so calculate it here.
