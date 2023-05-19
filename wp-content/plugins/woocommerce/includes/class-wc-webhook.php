@@ -153,8 +153,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 		//null
-		echo 'valid';
-		var_dump($this->is_valid_action( $arg ));
+		
 		/**
 		 * Let other plugins intercept deliver for some messages queue like rabbit/zeromq.
 		 *
