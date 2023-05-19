@@ -208,6 +208,9 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		}
 
 		if ( 0 === strpos( $current_action, 'woocommerce_process_shop' ) || 0 === strpos( $current_action, 'woocommerce_process_product' ) ) {
+			
+			echo '0';
+			
 			$return = $this->is_valid_processing_action( $arg );
 		}
 
