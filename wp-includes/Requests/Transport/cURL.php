@@ -132,6 +132,15 @@ class Requests_Transport_cURL implements Requests_Transport {
 	public function request($url, $headers = array(), $data = array(), $options = array()) {
 
 
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "url123" . $url;  
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 		
 		$this->hooks = $options['hooks'];
 
@@ -174,13 +183,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "curlobject" . serialize($response);  
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 		$options['hooks']->dispatch('curl.after_send', array());
 
