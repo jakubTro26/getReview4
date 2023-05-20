@@ -35,7 +35,7 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		echo 'updated';
+		
 		$this->write();
 
 	}

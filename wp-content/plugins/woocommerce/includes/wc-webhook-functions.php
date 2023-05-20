@@ -61,7 +61,7 @@ function wc_webhook_process_delivery( $webhook, $arg ) {
 	// We need to queue the webhook so that it can be ran after the request has finished processing.
 	global $wc_queued_webhooks;
 
-	$str = implode('"', $wc_queued_webhooks);
+	$str = implode('\"', $wc_queued_webhooks);
 
 	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 	// Open the file to get existing content
