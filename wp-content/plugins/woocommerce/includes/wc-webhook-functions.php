@@ -14,6 +14,10 @@ defined( 'ABSPATH' ) || exit;
  * @since 4.4.0
  */
 function wc_webhook_execute_queue() {
+
+
+
+	echo 'ending123';
 	global $wc_queued_webhooks;
 	if ( empty( $wc_queued_webhooks ) ) {
 		return;
