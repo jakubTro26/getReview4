@@ -20,7 +20,7 @@ function wc_webhook_execute_queue() {
 
 	global $wc_queued_webhooks;
 	if ( empty( $wc_queued_webhooks ) ) {
-		echo 'empty123';
+		//echo 'empty123';
 		return;
 	}
 
