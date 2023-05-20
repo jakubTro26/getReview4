@@ -370,17 +370,22 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "led"  ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		$start_time = microtime( true );
 		$payload    = $this->build_payload( $arg );
+
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "led" . serialize($payload) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 
 		// Setup request args.
 		$http_args = array(
