@@ -151,13 +151,7 @@ class WP_Http {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "args" .$url . serialize($args)  ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		$defaults = array(
@@ -404,7 +398,13 @@ class WP_Http {
 		mbstring_binary_safe_encoding();
 
 
-		
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "try123"   ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 
 		try {
