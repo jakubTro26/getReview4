@@ -102,6 +102,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		if ( is_array( $hooks ) && ! empty( $url ) ) {
 			foreach ( $hooks as $hook ) {
 				echo 'hooks123';
+				echo $hook;
 				add_action( $hook, array( $this, 'process' ) );
 			}
 		}
