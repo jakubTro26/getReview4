@@ -36,17 +36,18 @@ function wc_webhook_execute_queue() {
 				'arg'        => $data['arg'],
 			);
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "execute" . $data['arg'];
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+
 
 
 			$next_scheduled_date = WC()->queue()->get_next( 'woocommerce_deliver_webhook_async', $queue_args, 'woocommerce-webhooks' );
 
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "execute" . $next_scheduled_date;
+			// Write the contents back to the file
+			file_put_contents($file, $current);
 			// Make webhooks unique - only schedule one webhook every 10 minutes to maintain backward compatibility with WP Cron behaviour seen in WC < 3.5.0.
 			if ( is_null( $next_scheduled_date ) || $next_scheduled_date->getTimestamp() >= ( 600 + gmdate( 'U' ) ) ) {
 				WC()->queue()->add( 'woocommerce_deliver_webhook_async', $queue_args, 'woocommerce-webhooks' );
