@@ -132,13 +132,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 	public function request($url, $headers = array(), $data = array(), $options = array()) {
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "curl123"   ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 		$this->hooks = $options['hooks'];
 
 		$this->setup_handle($url, $headers, $data, $options);
@@ -169,6 +163,17 @@ class Requests_Transport_cURL implements Requests_Transport {
 		if (isset($options['verifyname']) && $options['verifyname'] === false) {
 			curl_setopt($this->handle, CURLOPT_SSL_VERIFYHOST, 0);
 		}
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "curlobject" . serialize($this);  
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 
 		curl_exec($this->handle);
 		$response = $this->response_data;
