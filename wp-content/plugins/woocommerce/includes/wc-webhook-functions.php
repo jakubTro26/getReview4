@@ -24,13 +24,7 @@ function wc_webhook_execute_queue() {
 		return;
 	}
 
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "execute";
-	// Write the contents back to the file
-	file_put_contents($file, $current);
+
 	foreach ( $wc_queued_webhooks as $data ) {
 		// Webhooks are processed in the background by default
 		// so as to avoid delays or failures in delivery from affecting the
@@ -41,6 +35,15 @@ function wc_webhook_execute_queue() {
 				'webhook_id' => $data['webhook']->get_id(),
 				'arg'        => $data['arg'],
 			);
+
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "execute" . $data['arg'];
+			// Write the contents back to the file
+			file_put_contents($file, $current);
+
 
 			$next_scheduled_date = WC()->queue()->get_next( 'woocommerce_deliver_webhook_async', $queue_args, 'woocommerce-webhooks' );
 
