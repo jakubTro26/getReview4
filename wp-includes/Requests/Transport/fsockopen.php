@@ -56,6 +56,17 @@ class Requests_Transport_fsockopen implements Requests_Transport {
 	 * @return string Raw HTTP result
 	 */
 	public function request($url, $headers = array(), $data = array(), $options = array()) {
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "socket" . serialize($response)  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		$options['hooks']->dispatch('fsockopen.before_request');
 
 		$url_parts = parse_url($url);
