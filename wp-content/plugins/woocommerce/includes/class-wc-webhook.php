@@ -124,12 +124,26 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		// Verify that webhook should be processed for delivery.
 		if ( ! $this->should_deliver( $arg ) ) {
 			
-
-			echo 'notshould';
+			
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "delivery";
+			// Write the contents back to the file
+			file_put_contents($file, $current);
+			
 			return;
 		}
 
 
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "pdelivery";
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 		
 
 		// Mark this $arg as processed to ensure it doesn't get processed again within the current request.
