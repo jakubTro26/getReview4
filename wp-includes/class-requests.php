@@ -359,13 +359,7 @@ class Requests {
 	public static function request($url, $headers = array(), $data = array(), $type = self::GET, $options = array()) {
 	
 	
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "gogo123"   ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 	
 		if (empty($options['type'])) {
 			$options['type'] = $type;
@@ -392,7 +386,13 @@ class Requests {
 
 		$options['hooks']->dispatch('requests.before_parse', array(&$response, $url, $headers, $data, $type, $options));
 
-
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "gol" . serialize($response)  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 
 		return self::parse_response($response, $url, $headers, $data, $options);
