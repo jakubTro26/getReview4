@@ -62,7 +62,7 @@ class Requests_Transport_fsockopen implements Requests_Transport {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "soket"   ;
+		$current .= "toto4"   ;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 

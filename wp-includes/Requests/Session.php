@@ -202,6 +202,17 @@ class Requests_Session {
 	 * @return Requests_Response
 	 */
 	public function request($url, $headers = array(), $data = array(), $type = Requests::GET, $options = array()) {
+		
+		
+		
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "toto2"   ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+		
 		$request = $this->merge_request(compact('url', 'headers', 'data', 'options'));
 
 		return Requests::request($request['url'], $request['headers'], $request['data'], $type, $request['options']);
