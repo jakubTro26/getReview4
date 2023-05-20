@@ -17,12 +17,14 @@ function wc_webhook_execute_queue() {
 
 
 
-	echo 'ending123';
+
 	global $wc_queued_webhooks;
 	if ( empty( $wc_queued_webhooks ) ) {
+		echo 'empty123';
 		return;
 	}
 
+	echo 'full123';
 	foreach ( $wc_queued_webhooks as $data ) {
 		// Webhooks are processed in the background by default
 		// so as to avoid delays or failures in delivery from affecting the
