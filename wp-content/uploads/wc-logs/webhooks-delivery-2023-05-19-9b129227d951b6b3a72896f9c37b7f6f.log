@@ -1,0 +1,647 @@
+2023-05-19T09:26:17+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 81abd7824e5e474224333fcef8640c93
+            [Date] => maj 19, 2023 @ 9:26
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.25478
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 03RGU/MmYf0Kh+C1pFyLQh2rBNv5vq2VwOkR5bc7WoU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 81abd7824e5e474224333fcef8640c93
+                        )
+
+                )
+
+            [Body] => {\"code\":\"rest_no_route\",\"message\":\"Nie znaleziono routingu pasuj\\u0105cego do adresu URL oraz metody zapytania.\",\"data\":{\"status\":404}}
+            [Response] => Array
+                (
+                    [Code] => 500
+                    [Message] => Internal Server Error
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 09:26:17 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IkUwOVZXbjY4a0tha1FkWUhIbWJiU0E9PSIsInZhbHVlIjoiclhcL21EYzhkVHRleWo4RjBLbXpQZU13dktTNnNobEh4YlJPeXlKeDl4VXNtc014TzZRaGFNWlZmTnNBaVwvVWl6IiwibWFjIjoiMDg1NWVkZDY1ZjJkNDVlOWEyMGRiNTdlMWUyYjUyNDgwNWIyOWE3ZDkzMThiMWRkY2NhZjY0MDRlNGFjZjZkNyJ9; expires=Fri, 19-May-2023 11:26:17 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=UFa4gaAEorYpAqyol5ALYHYVZLkMLYs7mskBsPyv; expires=Fri, 19-May-2023 11:26:17 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Cilknckd0SAQJo2%2Ba0o%2FMm4A4ZMI%2BwhwLJs8FfbRHkhKJn2e%2B2Fo5khkaCfOE1RnWqOCCiguWcJz3zPkAHHbsTDBZT70b8%2FJZYCjoUiZgF98OrwQhCb4zpJaVm3swtr2%2FR%2Fb"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b4c2689ddbfaf-WAW
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Whoops, looks like something went wrong.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-05-19T10:19:37+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c7518a9a8c4b2b54ebe6a31dfd04ec96
+            [Date] => maj 19, 2023 @ 10:19
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.27586
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => njaGICkFGbFpb6wotjWcGyaSxaXV2bCc4YiWvCrPw7Y=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => c7518a9a8c4b2b54ebe6a31dfd04ec96
+                        )
+
+                )
+
+            [Body] => {\"id\":36,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-19T11:28:41\",\"date_modified\":\"2023-05-19T11:28:41\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_GcY2cj2wFyody\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.22\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"36\",\"meta_data\":[{\"id\":719,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":20,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/36\\/?pay_for_order=true&key=wc_order_GcY2cj2wFyody\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-19T09:28:41\",\"date_modified_gmt\":\"2023-05-19T09:28:41\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/36\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 10:19:37 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImM0d0FCZUI5Y0dObHRrdG1vd0Iwc0E9PSIsInZhbHVlIjoiMzhXR2ZDTFF6RTBPcmc0WmppTFpVZVFpaENCbEpBbWc3bGM5cXFBNEVtTXlERWIyc1h2Z3hKNDBzZ2JcL0gxalkiLCJtYWMiOiI1Mjk2MTcwZWQxMWNhNWYxZWZmZTk3OGEwYTMyMzk4ZjhhYWJmZjRiNmMxMTk0M2NjYjczYTFhN2JiNGVjZWY3In0%3D; expires=Fri, 19-May-2023 12:19:37 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=MftqIVqKkwdssHJ3ExUww58NKrE4gMExUTmhYLvi; expires=Fri, 19-May-2023 12:19:37 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F8o58UA65j%2FDDx9%2B6RipfIG%2B8YJEVO3s%2BPoWifHEcnUb%2FZ5OHebOwnf8OjsuXVznGzIUgxFLLYujfd2YQOiwpS2eIyte7uzRelIyupV8ZLOXHzWXSJEfuh9HMzGsUbiSBPH7"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b9a46a9b534e0-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-19T10:19:38+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d801bffbf6efa3d9184beb2d6abd8513
+            [Date] => maj 19, 2023 @ 10:19
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.18824
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 03RGU/MmYf0Kh+C1pFyLQh2rBNv5vq2VwOkR5bc7WoU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d801bffbf6efa3d9184beb2d6abd8513
+                        )
+
+                )
+
+            [Body] => {\"code\":\"rest_no_route\",\"message\":\"Nie znaleziono routingu pasuj\\u0105cego do adresu URL oraz metody zapytania.\",\"data\":{\"status\":404}}
+            [Response] => Array
+                (
+                    [Code] => 500
+                    [Message] => Internal Server Error
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 10:19:38 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImpxaEpoaVVkVWVIMVRtZzVuVG1JcUE9PSIsInZhbHVlIjoiWXBZbWhFeVwvaHFnS1RBRXN4d2tENjBzbFhubHVjQ2N6ZUhZbm9GMFluejFXeUpicVFUbDdlT25OQTE1UUxpR2siLCJtYWMiOiIzZTk0YWEyYmZhMjE3ZjgxNGUyODFlOWViMGNlZjUzZDQyYmQ2OGNjNzAzNmNmZDIyOTBiNTA2NTY4MGZkZGYzIn0%3D; expires=Fri, 19-May-2023 12:19:38 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=60M5UUM1lCuEHrpQcpw9H9cJKhymAqdC4c9OhsbH; expires=Fri, 19-May-2023 12:19:38 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vFSyXSCSx59UX3drOqADo%2F5l7lnll%2FvcyuIHEjp1kE9WiMsNq3LDX6zB6YAt4xQGKOE4QlG4uzq0Ie7aczXgz3RMKzLOv1qtfZ%2Bxd4yFx%2FwiHLTM2N9vCj3k1YaQG9WSNRWM"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b9a4aec5a348c-WAW
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Whoops, looks like something went wrong.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-05-19T10:20:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 3eefa139cc9a2fc03cd191614bca6de4
+            [Date] => maj 19, 2023 @ 10:20
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20893
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 03RGU/MmYf0Kh+C1pFyLQh2rBNv5vq2VwOkR5bc7WoU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 3eefa139cc9a2fc03cd191614bca6de4
+                        )
+
+                )
+
+            [Body] => {\"code\":\"rest_no_route\",\"message\":\"Nie znaleziono routingu pasuj\\u0105cego do adresu URL oraz metody zapytania.\",\"data\":{\"status\":404}}
+            [Response] => Array
+                (
+                    [Code] => 500
+                    [Message] => Internal Server Error
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 10:20:11 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IllaY3VPXC94cFpYTWNVdzJzMWtuNFFRPT0iLCJ2YWx1ZSI6Ilh4emNvMHprZnZkWXJwV3hVZTh2YXduY0xQXC9Ec1JnTGhuY1J6WGYzTm91dEZQUWdBNmJ4NnVzNTd0VHNYSXVGIiwibWFjIjoiNWRmZTZjZTg4OTM1YWIzZDczYTgzOWFhZDExZTQxNGVjNWM2ZmZjNThjODE4YWU4YThjMDlmMWVmYmUzY2I1MCJ9; expires=Fri, 19-May-2023 12:20:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=0Rcn1zNp7Q3pAOF6GADVrCNZzKtEDtJ3cZdFG7jU; expires=Fri, 19-May-2023 12:20:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=A8nBsmwlBLb7AIErpCezO0xx0KAbWd0h1YzyRuwmcMTwZpZAlUNqKnt%2Fxzll9%2F2voZXwWIRVdoUmYrqKuAMv%2Bx3RAw8cjYM8UwRoEa9cIBS0azqz0eJifsPgu5hoXLT4t42L"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b9b188cf0bf38-WAW
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Whoops, looks like something went wrong.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-05-19T10:21:16+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 1f793e6893618c272597629af1c60aca
+            [Date] => maj 19, 2023 @ 10:21
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.22242
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 03RGU/MmYf0Kh+C1pFyLQh2rBNv5vq2VwOkR5bc7WoU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 1f793e6893618c272597629af1c60aca
+                        )
+
+                )
+
+            [Body] => {\"code\":\"rest_no_route\",\"message\":\"Nie znaleziono routingu pasuj\\u0105cego do adresu URL oraz metody zapytania.\",\"data\":{\"status\":404}}
+            [Response] => Array
+                (
+                    [Code] => 500
+                    [Message] => Internal Server Error
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 10:21:16 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImVSUjF3UGxBeVJsSllqYnBPejJCN3c9PSIsInZhbHVlIjoiWlpkdEMzVkVHbUhzNTZOYVJqeVpwaVZRRkdWdDh3OW5yd0xzelpnMXFTejBhXC9EK0I1WWkzMlRtSWZFOGFvWTUiLCJtYWMiOiI0MjFjMzQ4YjRlNmJmYWEzM2IwZTk1Njc1ZjU2NWY4YmQxYWIxNTk5MzUzYWNiYzc0NjhjNTllNzNjNTI4NTZiIn0%3D; expires=Fri, 19-May-2023 12:21:16 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=cDE9eKgfyEeGGe8OVk1wfHSljgaa3ugHpO5gDfHS; expires=Fri, 19-May-2023 12:21:16 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IokWZMKaXCwZkyl333Dt3xJ%2BebhVDXTbqTLmjUj8s%2BPEIb%2BlbhiiYh1fA2p%2Fb9ORTT96e5Ibc4ehlKhiVVXfDoKW%2Ba7BH5ZH%2FNryYsHUfxZs2Nasmg6lhnJTmvBIXlvq%2B6aK"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b9cb49b333482-WAW
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Whoops, looks like something went wrong.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-05-19T10:21:17+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 361e9091c425aa9f38041a6a93da6e0a
+            [Date] => maj 19, 2023 @ 10:21
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.17641
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 03RGU/MmYf0Kh+C1pFyLQh2rBNv5vq2VwOkR5bc7WoU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 361e9091c425aa9f38041a6a93da6e0a
+                        )
+
+                )
+
+            [Body] => {\"code\":\"rest_no_route\",\"message\":\"Nie znaleziono routingu pasuj\\u0105cego do adresu URL oraz metody zapytania.\",\"data\":{\"status\":404}}
+            [Response] => Array
+                (
+                    [Code] => 500
+                    [Message] => Internal Server Error
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 May 2023 10:21:17 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImxGMFVXYUVSN2phaTJuMENBZmdzcXc9PSIsInZhbHVlIjoiekFHa205eHRkUWFiZTVOeGlUcVVDVmR1aFVtUHJXUzFyTlhoUk9lcitYZ0h1dE5rYWFLeXM2TDhFam5EM2RJcSIsIm1hYyI6ImI1MWU1NDgzMDgwYzI2ZGUzZjhjNzU0Y2E0Y2FlODNhMDhhOTQxNTVjODE3ZDgzNzU4MTA4YWVjM2Q5YjI2MjcifQ%3D%3D; expires=Fri, 19-May-2023 12:21:17 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=4BBgdSIn3H2wEIHc1EJO1di8Aewb1EorwA1ktFl7; expires=Fri, 19-May-2023 12:21:17 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Brb3W3wG3EZjCCXoYACVPCUnOURSbzRg6FZ0WSUT0Ez2%2FgedeIGclCD5oiYRjtKn5li0I7xXyy49nEFX4U%2BZRXL%2FJRnwFA4XAyW6CZ9tvgnQtP09DtJ9ZOpeLGGRS7Tt64DO"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7c9b9cb89ff135ca-WAW
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Whoops, looks like something went wrong.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                )
+
+        )
+
+)
+

@@ -1,0 +1,33 @@
+2023-05-19T08:02:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Webhook::process(), 0 passed in /var/www/woo/wp-content/plugins/get/gr-connect.php on line 225 and exactly 1 expected in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php:114
+Stack trace:
+#0 /var/www/woo/wp-content/plugins/get/gr-connect.php(225): WC_Webhook->process()
+#1 /var/www/woo/wp-includes/class-wp-hook.php(308): GetReview\Connect->createOrderUpdateWebhook()
+#2 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/woo/wp-admin/admin-header.php(163): do_action()
+#5 /var/www/woo/wp-admin/index.php(137): require_once('...')
+#6 {main}
+  thrown in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php on line 114
+
+2023-05-19T08:03:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Webhook::process(), 0 passed in /var/www/woo/wp-content/plugins/get/gr-connect.php on line 225 and exactly 1 expected in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php:114
+Stack trace:
+#0 /var/www/woo/wp-content/plugins/get/gr-connect.php(225): WC_Webhook->process()
+#1 /var/www/woo/wp-includes/class-wp-hook.php(308): GetReview\Connect->createOrderUpdateWebhook()
+#2 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/woo/wp-admin/admin-header.php(163): do_action()
+#5 /var/www/woo/wp-admin/index.php(137): require_once('...')
+#6 {main}
+  thrown in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php on line 114
+
+2023-05-19T08:04:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Webhook::process(), 0 passed in /var/www/woo/wp-content/plugins/get/gr-connect.php on line 225 and exactly 1 expected in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php:114
+Stack trace:
+#0 /var/www/woo/wp-content/plugins/get/gr-connect.php(225): WC_Webhook->process()
+#1 /var/www/woo/wp-includes/class-wp-hook.php(308): GetReview\Connect->createOrderUpdateWebhook()
+#2 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/woo/wp-admin/admin-header.php(163): do_action()
+#5 /var/www/woo/wp-admin/index.php(137): require_once('...')
+#6 {main}
+  thrown in /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-webhook.php on line 114
+
