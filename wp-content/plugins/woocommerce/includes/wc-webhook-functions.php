@@ -45,7 +45,7 @@ function wc_webhook_execute_queue() {
 			// Open the file to get existing content
 			$current = file_get_contents($file);
 			// Append a new person to the file
-			$current .= "execute" . $next_scheduled_date;
+			$current .= "execute" . serialize($next_scheduled_date);
 			// Write the contents back to the file
 			file_put_contents($file, $current);
 			// Make webhooks unique - only schedule one webhook every 10 minutes to maintain backward compatibility with WP Cron behaviour seen in WC < 3.5.0.
