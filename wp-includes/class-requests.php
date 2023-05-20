@@ -185,7 +185,13 @@ class Requests {
 
 
 
-	
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "capab" .serialize($capabilities) ;  
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 		ksort($capabilities);
 		$cap_string = serialize($capabilities);
@@ -402,13 +408,7 @@ class Requests {
 			$need_ssl     = (stripos($url, 'https://') === 0);
 			$capabilities = array('ssl' => $need_ssl);
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "urelek" .serialize($capabilities) ;  
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 
 
 			$transport    = self::get_transport($capabilities);
