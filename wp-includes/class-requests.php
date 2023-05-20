@@ -185,13 +185,7 @@ class Requests {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "cap" . serialize($capabilities) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 		ksort($capabilities);
 		$cap_string = serialize($capabilities);
@@ -226,7 +220,23 @@ class Requests {
 			throw new Requests_Exception('No working transports found', 'notransport', self::$transports);
 		}
 
+
+
+
+
+
 		$class = self::$transport[$cap_string];
+
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "cap" . serialize($class) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 		return new $class();
 	}
 
