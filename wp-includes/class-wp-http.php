@@ -405,13 +405,7 @@ class WP_Http {
 			$requests_response = Requests::request( $url, $headers, $data, $type, $options );
 
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "try1234" . serialize($requests_response)  ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+			
 
 
 			// Convert the response into an array.
