@@ -378,13 +378,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "led" . serialize($payload) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		// Setup request args.
@@ -403,6 +397,16 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		);
 
 		$http_args = apply_filters( 'woocommerce_webhook_http_args', $http_args, $arg, $this->get_id() );
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "kuba"  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 
 		// Add custom headers.
 		$delivery_id                                      = $this->get_new_delivery_id();
