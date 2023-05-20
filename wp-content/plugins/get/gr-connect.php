@@ -234,11 +234,9 @@ class Connect extends \WC_Auth {
 		//var_dump($wc_queued_webhooks);
 	
 
-		global $wc_queued_webhooks;
+		
 
-		echo 'queued';
-
-		var_dump( $wc_queued_webhooks );
+	
 
 
 	}
