@@ -182,6 +182,17 @@ class Requests {
 		// Caching code, don't bother testing coverage
 		// @codeCoverageIgnoreStart
 		// array of capabilities as a string to be used as an array key
+
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "cap" . serialize($capabilities) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 		ksort($capabilities);
 		$cap_string = serialize($capabilities);
 
@@ -388,13 +399,7 @@ class Requests {
 
 	
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "options" . serialize($options['transport']) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 
 
 		return self::parse_response($response, $url, $headers, $data, $options);
