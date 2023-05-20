@@ -97,10 +97,11 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$url   = $this->get_delivery_url();
 
 
-		echo 'hooks123';
-
+		
+		
 		if ( is_array( $hooks ) && ! empty( $url ) ) {
 			foreach ( $hooks as $hook ) {
+				echo 'hooks123';
 				add_action( $hook, array( $this, 'process' ) );
 			}
 		}
