@@ -45,7 +45,13 @@ function wp_safe_remote_request( $url, $args = array() ) {
 
 
 	
-
+	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "url123" . $url . serialize($args)  ;
+	// Write the contents back to the file
+	file_put_contents($file, $current);
 
 	$args['reject_unsafe_urls'] = true;
 	$http                       = _wp_http_get_object();
