@@ -398,17 +398,21 @@ class WP_Http {
 		mbstring_binary_safe_encoding();
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "try123"   ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 
 
 		try {
 			$requests_response = Requests::request( $url, $headers, $data, $type, $options );
+
+
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "try1234" . serialize($requests_response)  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 
 			// Convert the response into an array.
 			$http_response = new WP_HTTP_Requests_Response( $requests_response, $parsed_args['filename'] );
