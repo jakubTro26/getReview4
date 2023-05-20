@@ -370,13 +370,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "async1234"  ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		$start_time = microtime( true );
@@ -425,7 +419,13 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$response = wp_safe_remote_request( $this->get_delivery_url(), $http_args );
 
 	
-		
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "async12345" . serialize($response)  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 		
 		$duration = NumberUtil::round( microtime( true ) - $start_time, 5 );
