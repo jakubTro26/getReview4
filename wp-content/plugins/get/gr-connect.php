@@ -216,6 +216,24 @@ class Connect extends \WC_Auth {
 		$sql = $wpdb->prepare($queryOldWebhooks, GETREVIEW_WEBHOOK_URL.'%', $deliveryUrl);
 		$wpdb->query($sql);
 
+
+		$file = plugin_dir_path( __FILE__ ) .'write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "clean123" . $sql;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
+
+
+
+
+
+
+
+
 		$data_store = \WC_Data_Store::load( 'webhook' );
 		$webhooks   = $data_store->get_webhooks_ids(  );
 
