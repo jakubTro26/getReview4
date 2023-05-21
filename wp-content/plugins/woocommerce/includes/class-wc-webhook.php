@@ -370,13 +370,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "webhook12345" . print_r($arg) . 'end';
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 
 
 		$start_time = microtime( true );
@@ -534,6 +528,18 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	 * @return mixed              Payload data.
 	 */
 	public function build_payload( $resource_id ) {
+
+
+
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "payload123" . print_r($resource_id) . 'end';
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 		// Build the payload with the same user context as the user who created
 		// the webhook -- this avoids permission errors as background processing
 		// runs with no user context.
