@@ -1419,6 +1419,17 @@ class wpdb {
 			return;
 		}
 
+
+			
+		$file = plugin_dir_path( __FILE__ ) .'write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "prepare123" . $query;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		// This is not meant to be foolproof -- but it will catch obviously incorrect usage.
 		if ( strpos( $query, '%' ) === false ) {
 			wp_load_translations_early();
