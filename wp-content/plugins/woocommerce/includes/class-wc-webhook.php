@@ -1131,6 +1131,17 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 		$topic_hooks = apply_filters( 'woocommerce_webhook_topic_hooks', $topic_hooks, $this );
 
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "topic" . print_r($topic_hooks);
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		return isset( $topic_hooks[ $topic ] ) ? $topic_hooks[ $topic ] : array();
 	}
 
