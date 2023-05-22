@@ -1157,6 +1157,17 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 		} else {
+
+
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "hookes" . print_r($hooks);
+			// Write the contents back to the file
+			file_put_contents($file, $current);
+
+
 			$hooks = $this->get_topic_hooks( $this->get_topic() );
 		}
 
