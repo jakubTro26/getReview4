@@ -14,6 +14,8 @@ class Connect extends \WC_Auth {
 		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
+		add_action('woocommerce_update_order', [$this, 'updateOrder']);
+
 		if (get_option(GETREVIEW_INSTALL_TYPE) == 'auto') {
 			add_action('get_footer', [$this, 'injectWidgetCode']);
 		}
@@ -148,7 +150,20 @@ class Connect extends \WC_Auth {
 		file_put_contents($file, $current);
 	}
 
-	
+	public function updateOrder(){
+
+
+		$data_store = \WC_Data_Store::load( 'webhook' );
+		$webhooks   = $data_store->get_webhooks_ids(  );
+
+
+		$webhook = new \WC_Webhook($webhooks[0]);
+
+
+
+		$webhook->enqueue();
+
+	}
 
 	public function createOrderUpdateWebhook() {
 
@@ -231,15 +246,6 @@ class Connect extends \WC_Auth {
 
 
 
-		$data_store = \WC_Data_Store::load( 'webhook' );
-		$webhooks   = $data_store->get_webhooks_ids(  );
-
-
-		$webhook = new \WC_Webhook($webhooks[0]);
-
-
-
-		$webhook->enqueue();
 
 		//$arg = $webhook->process('woocommerce_new_order');
 
