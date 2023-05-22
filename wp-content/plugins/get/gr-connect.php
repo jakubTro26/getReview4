@@ -200,7 +200,7 @@ class Connect extends \WC_Auth {
 			if (count($foundKeys) > 0) {
 				$webhook = new \WC_Webhook();
 				$webhook->set_name('Getreview: Order created');
-				$webhook->set_topic('order.created');
+				$webhook->set_topic('order.updated');
 				$webhook->set_status('active');
 				$webhook->set_user_id(1);
 				$webhook->set_delivery_url($deliveryUrl);
