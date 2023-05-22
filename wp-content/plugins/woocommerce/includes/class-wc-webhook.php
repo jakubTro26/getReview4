@@ -96,13 +96,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$hooks = $this->get_hooks();
 		$url   = $this->get_delivery_url();
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "hooks123" . print_r($url) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 		
 		
 		if ( is_array( $hooks ) && ! empty( $url ) ) {
@@ -683,6 +677,16 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	 */
 	private function failed_delivery() {
 		$failures = $this->get_failure_count();
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "failure123" ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 
 		if ( $failures > apply_filters( 'woocommerce_max_webhook_delivery_failures', 5 ) ) {
 			$this->set_status( 'disabled' );
