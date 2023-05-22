@@ -188,7 +188,7 @@ class Connect extends \WC_Auth {
 		$foundWebhooks = $wpdb->get_results($sql);
 
 
-		echo $sql;
+		
 
 	
 
