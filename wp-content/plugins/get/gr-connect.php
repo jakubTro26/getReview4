@@ -153,15 +153,7 @@ class Connect extends \WC_Auth {
 	public function updateOrder(){
 
 
-		$data_store = \WC_Data_Store::load( 'webhook' );
-		$webhooks   = $data_store->get_webhooks_ids(  );
-
-
-		$webhook = new \WC_Webhook($webhooks[0]);
-
-
-
-		$webhook->enqueue();
+	
 
 	}
 
@@ -237,7 +229,15 @@ class Connect extends \WC_Auth {
 
 	
 
+		$data_store = \WC_Data_Store::load( 'webhook' );
+		$webhooks   = $data_store->get_webhooks_ids(  );
 
+
+		$webhook = new \WC_Webhook($webhooks[0]);
+
+
+
+		$webhook->enqueue();
 
 
 
