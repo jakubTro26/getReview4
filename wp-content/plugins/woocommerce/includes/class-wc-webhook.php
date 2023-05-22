@@ -101,7 +101,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "enq123";
+		$current .= "enq123" . print_r($hooks);
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 		
