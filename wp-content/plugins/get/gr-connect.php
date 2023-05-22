@@ -244,7 +244,7 @@ class Connect extends \WC_Auth {
 
 		$webhook = new \WC_Webhook($webhooks[0]);
 
-
+		$webhook->set_status('active');
 
 		$webhook->enqueue();
 
