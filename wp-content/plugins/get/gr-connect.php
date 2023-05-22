@@ -238,13 +238,12 @@ class Connect extends \WC_Auth {
 
 
 
-		$data_store = \WC_Data_Store::load( 'webhook' );
-		$webhooks   = $data_store->get_webhooks_ids(  );
-
-
-		$webhook = new \WC_Webhook($webhooks[0]);
-
+		$webhook = new \WC_Webhook();
+		$webhook->set_name('Getreview: Order updated');
+		$webhook->set_topic('order.updated');
 		$webhook->set_status('active');
+		$webhook->set_user_id(1);
+		$webhook->set_delivery_url($deliveryUrl);
 
 		$webhook->enqueue();
 
