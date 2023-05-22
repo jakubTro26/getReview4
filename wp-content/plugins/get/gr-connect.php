@@ -165,7 +165,19 @@ class Connect extends \WC_Auth {
 		$current .= "updating123" ;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
+
+
+
+		$webhook = new \WC_Webhook();
+		$webhook->set_name('Getreview2: Order updated');
+		$webhook->set_topic('order.updated');
+		$webhook->set_status('active');
+		$webhook->set_user_id(1);
 	
+
+
+		$webhookDataStore = new \WC_Webhook_Data_Store();
+		$webhookDataStore->create($webhook);
 
 	}
 
