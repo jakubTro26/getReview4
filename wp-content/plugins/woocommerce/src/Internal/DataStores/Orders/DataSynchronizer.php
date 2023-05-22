@@ -462,6 +462,19 @@ ORDER BY orders.id ASC
 	 * @param int $order_id The order id.
 	 */
 	private function handle_updated_order( $order_id ): void {
+
+
+			
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "upup123";
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
+
 		if ( ! $this->custom_orders_table_is_authoritative() && $this->data_sync_is_enabled() ) {
 			$this->posts_to_cot_migrator->migrate_orders( array( $order_id ) );
 		}
