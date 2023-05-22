@@ -228,13 +228,7 @@ class Connect extends \WC_Auth {
 
 
 	
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "enqueing123" ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 
