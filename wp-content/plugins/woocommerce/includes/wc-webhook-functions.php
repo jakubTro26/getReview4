@@ -29,6 +29,17 @@ function wc_webhook_execute_queue() {
 		// Webhooks are processed in the background by default
 		// so as to avoid delays or failures in delivery from affecting the
 		// user who triggered it.
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "foreach"  . serialize($data) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		if ( apply_filters( 'woocommerce_webhook_deliver_async', true, $data['webhook'], $data['arg'] ) ) {
 
 			$queue_args = array(
