@@ -166,18 +166,18 @@ class Connect extends \WC_Auth {
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
+		$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
+
+		$webhook = new \WC_Webhook();
+		$webhook->set_name('Getreview2: Order updated');
+		$webhook->set_topic('order.updated');
+		$webhook->set_status('active');
+		$webhook->set_user_id(1);
+		$webhook->set_delivery_url($deliveryUrl);
 
 
-		// $webhook = new \WC_Webhook();
-		// $webhook->set_name('Getreview2: Order updated');
-		// $webhook->set_topic('order.updated');
-		// $webhook->set_status('active');
-		// $webhook->set_user_id(1);
-	
-
-
-		// $webhookDataStore = new \WC_Webhook_Data_Store();
-		// $webhookDataStore->create($webhook);
+		$webhookDataStore = new \WC_Webhook_Data_Store();
+		$webhookDataStore->create($webhook);
 
 	}
 
