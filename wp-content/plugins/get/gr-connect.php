@@ -158,13 +158,10 @@ class Connect extends \WC_Auth {
 
 	public function updateOrder(){
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "o123" ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
+
+
+	
 
 
 		// $guid = $this->getGuid();
@@ -187,12 +184,23 @@ class Connect extends \WC_Auth {
 		// $webhook->enqueue();
 
 
-		// $data_store = \WC_Data_Store::load( 'webhook' );
-		// $webhooks   = $data_store->get_webhooks_ids(  );
+		 $data_store = \WC_Data_Store::load( 'webhook' );
+		 $webhooks   = $data_store->get_webhooks_ids( );
 
 
-		// $webhook = new \WC_Webhook($webhooks[0]);
+		 $webhook = new \WC_Webhook($webhooks[10]);
 
+
+		 $ping = $webhook->deliver_ping();
+
+
+		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		 // Open the file to get existing content
+		 $current = file_get_contents($file);
+		 // Append a new person to the file
+		 $current .= "ping" . $ping ;
+		 // Write the contents back to the file
+		 file_put_contents($file, $current);
 		// $webhook->set_status('active');
 
 		 
