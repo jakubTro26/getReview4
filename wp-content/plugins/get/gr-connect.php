@@ -188,20 +188,20 @@ class Connect extends \WC_Auth {
 		 $webhooks   = $data_store->get_webhooks_ids();
 
 
-		 $webhook = new \WC_Webhook($webhooks[10]);
+		 $webhook = new \WC_Webhook($webhooks[13]);
 		 $webhook->set_delivery_url($deliveryUrl);
 
-		 $ping = $webhook->deliver_ping();
+		 //$ping = $webhook->deliver_ping();
 
 
-		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		 // Open the file to get existing content
-		 $current = file_get_contents($file);
-		 // Append a new person to the file
-		 $current .= "pong1234" . serialize($ping) ;
-		 // Write the contents back to the file
-		 file_put_contents($file, $current);
-		// $webhook->set_status('active');
+		//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		//  // Open the file to get existing content
+		//  $current = file_get_contents($file);
+		//  // Append a new person to the file
+		//  $current .= "pong1234" . serialize($ping) ;
+		//  // Write the contents back to the file
+		//  file_put_contents($file, $current);
+		// // $webhook->set_status('active');
 
 		 
 
