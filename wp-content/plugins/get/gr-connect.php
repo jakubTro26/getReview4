@@ -168,16 +168,16 @@ class Connect extends \WC_Auth {
 
 
 
-		$webhook = new \WC_Webhook();
-		$webhook->set_name('Getreview2: Order updated');
-		$webhook->set_topic('order.updated');
-		$webhook->set_status('active');
-		$webhook->set_user_id(1);
+		// $webhook = new \WC_Webhook();
+		// $webhook->set_name('Getreview2: Order updated');
+		// $webhook->set_topic('order.updated');
+		// $webhook->set_status('active');
+		// $webhook->set_user_id(1);
 	
 
 
-		$webhookDataStore = new \WC_Webhook_Data_Store();
-		$webhookDataStore->create($webhook);
+		// $webhookDataStore = new \WC_Webhook_Data_Store();
+		// $webhookDataStore->create($webhook);
 
 	}
 
