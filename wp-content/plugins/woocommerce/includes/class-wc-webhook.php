@@ -106,13 +106,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 			foreach ( $hooks as $hook ) {
 				
-				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-				// Open the file to get existing content
-				$current = file_get_contents($file);
-				// Append a new person to the file
-				$current .= "hooked12345" . serialize($hook);
-				// Write the contents back to the file
-				file_put_contents($file, $current);
+			
 
 				add_action( $hook, array( $this, 'process' ) );
 			}
@@ -137,25 +131,13 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		if ( ! $this->should_deliver( $arg ) ) {
 			
 			
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "cj123" ;
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+		
 			
 			return;
 		}
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "ej123" . serialize($arg);
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		
 		
 
 		// Mark this $arg as processed to ensure it doesn't get processed again within the current request.
@@ -381,13 +363,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	public function deliver( $arg ) {
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "deliwer";
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 		
 
 
@@ -551,13 +527,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "payload123" . print_r($resource_id) . 'end';
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 		// Build the payload with the same user context as the user who created
 		// the webhook -- this avoids permission errors as background processing
 		// runs with no user context.
@@ -697,13 +667,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$failures = $this->get_failure_count();
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "failure123" ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		if ( $failures > apply_filters( 'woocommerce_max_webhook_delivery_failures', 5 ) ) {
@@ -1133,13 +1097,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "topic123" . print_r($topic);
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		return isset( $topic_hooks[ $topic ] ) ? $topic_hooks[ $topic ] : array();
@@ -1158,13 +1116,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		if ( 'action' === $this->get_resource() ) {
 			$hooks = array( $this->get_event() );
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "hookes" . print_r($hooks);
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+		
 
 
 		} else {
@@ -1177,13 +1129,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "hookes1" . print_r($hooks);
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+		
 		}
 
 		return apply_filters( 'woocommerce_webhook_hooks', $hooks, $this->get_id() );

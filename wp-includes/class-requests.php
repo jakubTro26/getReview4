@@ -185,13 +185,7 @@ class Requests {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "capab" .serialize($capabilities) ;  
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 
 		ksort($capabilities);
 		$cap_string = serialize($capabilities);
@@ -235,13 +229,7 @@ class Requests {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "cap" . serialize($class) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 
 		return new $class();
 	}
@@ -387,13 +375,7 @@ class Requests {
 	
 	
 		
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "toto1"   ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 	
 		if (empty($options['type'])) {
 			$options['type'] = $type;

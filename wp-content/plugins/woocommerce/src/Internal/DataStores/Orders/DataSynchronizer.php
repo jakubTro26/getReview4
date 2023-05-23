@@ -465,13 +465,7 @@ ORDER BY orders.id ASC
 
 
 			
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "update123" . print_r($order_id);
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 

@@ -628,13 +628,7 @@ class WC_API_Orders extends WC_API_Resource {
 			do_action( 'woocommerce_api_edit_order', $order->get_id(), $data, $this );
 
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "updating123" . print_r($order);
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+	
 
 
 			do_action( 'woocommerce_update_order', $order->get_id() );
