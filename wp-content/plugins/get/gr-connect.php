@@ -167,7 +167,7 @@ class Connect extends \WC_Auth {
 		 $guid = $this->getGuid();
 
 
-		// $deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
+		 $deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
 
 		// $webhook = new \WC_Webhook();
 		// $webhook->set_name('Getreview2: Order updated');
@@ -198,7 +198,7 @@ class Connect extends \WC_Auth {
 		 // Open the file to get existing content
 		 $current = file_get_contents($file);
 		 // Append a new person to the file
-		 $current .= "pong123" . serialize($guid) ;
+		 $current .= "pong123" . serialize($deliveryUrl) ;
 		 // Write the contents back to the file
 		 file_put_contents($file, $current);
 		// $webhook->set_status('active');
