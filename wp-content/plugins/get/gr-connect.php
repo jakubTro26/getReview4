@@ -166,6 +166,10 @@ class Connect extends \WC_Auth {
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
+
+		$guid = $this->getGuid();
+
+
 		$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
 
 		$webhook = new \WC_Webhook();
