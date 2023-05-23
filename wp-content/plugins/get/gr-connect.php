@@ -158,33 +158,33 @@ class Connect extends \WC_Auth {
 
 	public function updateOrder(){
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "updating123" ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		// $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// // Open the file to get existing content
+		// $current = file_get_contents($file);
+		// // Append a new person to the file
+		// $current .= "updating123" ;
+		// // Write the contents back to the file
+		// file_put_contents($file, $current);
 
 
-		$guid = $this->getGuid();
+		// $guid = $this->getGuid();
 
 
-		$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
+		// $deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
 
-		$webhook = new \WC_Webhook();
-		$webhook->set_name('Getreview2: Order updated');
-		$webhook->set_topic('order.updated');
-		$webhook->set_status('active');
-		$webhook->set_user_id(1);
-		$webhook->set_delivery_url($deliveryUrl);
-
-
-		$webhookDataStore = new \WC_Webhook_Data_Store();
-		$webhookDataStore->create($webhook);
+		// $webhook = new \WC_Webhook();
+		// $webhook->set_name('Getreview2: Order updated');
+		// $webhook->set_topic('order.updated');
+		// $webhook->set_status('active');
+		// $webhook->set_user_id(1);
+		// $webhook->set_delivery_url($deliveryUrl);
 
 
+		// $webhookDataStore = new \WC_Webhook_Data_Store();
+		// $webhookDataStore->create($webhook);
 
+
+		// $webhook->enqueue();
 
 
 		// $data_store = \WC_Data_Store::load( 'webhook' );
@@ -195,7 +195,7 @@ class Connect extends \WC_Auth {
 
 		// $webhook->set_status('active');
 
-		 $webhook->enqueue();
+		 
 
 	}
 
