@@ -177,19 +177,19 @@ class Connect extends \WC_Auth {
 		 $webhook->set_delivery_url($deliveryUrl);
 
 
-		// $webhookDataStore = new \WC_Webhook_Data_Store();
-		// $webhookDataStore->create($webhook);
+		 $webhookDataStore = new \WC_Webhook_Data_Store();
+		 $webhookDataStore->create($webhook);
 
 
 		// $webhook->enqueue();
 
 
-		 $data_store = \WC_Data_Store::load( 'webhook' );
-		 $webhooks   = $data_store->get_webhooks_ids();
+		//  $data_store = \WC_Data_Store::load( 'webhook' );
+		//  $webhooks   = $data_store->get_webhooks_ids();
 
 
-		 $webhook = new \WC_Webhook($webhooks[13]);
-		 $webhook->set_delivery_url($deliveryUrl);
+		//  $webhook = new \WC_Webhook($webhooks[13]);
+		//  $webhook->set_delivery_url($deliveryUrl);
 
 		 //$ping = $webhook->deliver_ping();
 
