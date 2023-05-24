@@ -215,6 +215,15 @@ class WC_Webhook_Data_Store implements WC_Webhook_Data_Store_Interface {
 
 		$ids = get_transient( $this->get_transient_key( $status ) );
 
+		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		  //Open the file to get existing content
+		 $current = file_get_contents($file);
+		// // Append a new person to the file
+		 $current .= "get_ids" . serialize($ids);
+		// // Write the contents back to the file
+		 file_put_contents($file, $current);
+
+
 		if ( false === $ids ) {
 			$ids = $this->search_webhooks(
 				array(
