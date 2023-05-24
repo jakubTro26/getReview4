@@ -571,6 +571,15 @@ class WC_Webhook extends WC_Legacy_Webhook {
 			);
 		} else {
 			if ( in_array( $this->get_api_version(), wc_get_webhook_rest_api_versions(), true ) ) {
+
+
+				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+				// Open the file to get existing content
+				$current = file_get_contents($file);
+				// Append a new person to the file
+				$current .= "api123" ;
+				// Write the contents back to the file
+				file_put_contents($file, $current);
 				$payload = $this->get_wp_api_payload( $resource, $resource_id, $event );
 			} else {
 				$payload = $this->get_legacy_api_payload( $resource, $resource_id, $event );
