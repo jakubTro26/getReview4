@@ -639,6 +639,18 @@ class WC_Webhook extends WC_Legacy_Webhook {
 			$message['Webhook Delivery']['Response']['Body'] = 'Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.';
 		}
 
+
+
+		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		 // Open the file to get existing content
+		 $current = file_get_contents($file);
+		 // Append a new person to the file
+		 $current .= "logging123" . serialize($message) ;
+		 // Write the contents back to the file
+		 file_put_contents($file, $current);
+		// $webhook->set_status('active');
+
+
 		$logger->info(
 			wc_print_r( $message, true ),
 			array(
