@@ -316,6 +316,17 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	private function is_valid_resource( $arg ) {
 		$resource = $this->get_resource();
 
+
+
+				 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		 // Open the file to get existing content
+		 $current = file_get_contents($file);
+		 // Append a new person to the file
+		 $current .= "superarg" . serialize($arg) ;
+		 // Write the contents back to the file
+		 file_put_contents($file, $current);
+		// $webhook->set_status('active');
+
 		if ( in_array( $resource, array( 'product', 'coupon' ), true ) ) {
 			$status = get_post_status( absint( $arg ) );
 
