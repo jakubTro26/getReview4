@@ -31,13 +31,7 @@ function wc_webhook_execute_queue() {
 		// user who triggered it.
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "foreach123"  . serialize($data) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		if ( apply_filters( 'woocommerce_webhook_deliver_async', true, $data['webhook'], $data['arg'] ) ) {
@@ -48,7 +42,13 @@ function wc_webhook_execute_queue() {
 			);
 
 
-
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "foreach1234"  . serialize($queue_args) ;
+			// Write the contents back to the file
+			file_put_contents($file, $current);
 
 			$next_scheduled_date = WC()->queue()->get_next( 'woocommerce_deliver_webhook_async', $queue_args, 'woocommerce-webhooks' );
 
