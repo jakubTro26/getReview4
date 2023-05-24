@@ -200,19 +200,24 @@ function wc_load_webhooks( $status = '', $limit = null ) {
 	$webhooks   = $data_store->get_webhooks_ids( $status );
 	$loaded     = 0;
 
+
+
+
+	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "wc_load123" . serialize($webhook_id) ;
+	// Write the contents back to the file
+	file_put_contents($file, $current);
+   // $webhook->set_status('active'); 
+
+
 	foreach ( $webhooks as $webhook_id ) {
 		if ( ! is_null( $limit ) && $loaded >= $limit ) {
 			break;
 		}
 
-		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		 // Open the file to get existing content
-		 $current = file_get_contents($file);
-		 // Append a new person to the file
-		 $current .= "wc_load123" . serialize($webhook_id) ;
-		 // Write the contents back to the file
-		 file_put_contents($file, $current);
-		// $webhook->set_status('active');
 
 
 		$webhook = new WC_Webhook( $webhook_id );
