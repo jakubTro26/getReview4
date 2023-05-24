@@ -514,13 +514,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "res123" . serialize($resource) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 		switch ( $resource ) {
 			case 'coupon':
@@ -531,6 +525,16 @@ class WC_Webhook extends WC_Legacy_Webhook {
 				if ( 'product' === $resource && 'updated' === $event && is_a( $resource_id, 'WC_Product' ) ) {
 					$resource_id = $resource_id->get_id();
 				}
+
+				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+				// Open the file to get existing content
+				$current = file_get_contents($file);
+				// Append a new person to the file
+				$current .= "res1234" . serialize($resource) ;
+				// Write the contents back to the file
+				file_put_contents($file, $current);
+
+
 
 				$version = str_replace( 'wp_api_', '', $this->get_api_version() );
 				$payload = wc()->api->get_endpoint_data( "/wc/{$version}/{$resource}s/{$resource_id}" );
