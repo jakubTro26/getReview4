@@ -106,7 +106,13 @@ function wc_deliver_webhook_async( $webhook_id, $arg ) {
 
 
 
-
+	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "async123" . serialize($arg) ;
+	// Write the contents back to the file
+	file_put_contents($file, $current);
 
 
 	$webhook = new WC_Webhook( $webhook_id );
