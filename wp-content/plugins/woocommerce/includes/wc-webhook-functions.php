@@ -211,7 +211,7 @@ function wc_load_webhooks( $status = '', $limit = null ) {
 	// Open the file to get existing content
 	$current = file_get_contents($file);
 	// Append a new person to the file
-	$current .= "limit123" . serialize(! is_null( $limit ))  ;
+	$current .= "limit123" . serialize($webhooks)  ;
 	// Write the contents back to the file
 	file_put_contents($file, $current);
    // $webhook->set_status('active');
