@@ -511,6 +511,17 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	 * @return array
 	 */
 	private function get_wp_api_payload( $resource, $resource_id, $event ) {
+
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "res123" . serialize($resource) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
 		switch ( $resource ) {
 			case 'coupon':
 			case 'customer':
