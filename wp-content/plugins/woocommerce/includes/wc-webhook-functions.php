@@ -198,14 +198,7 @@ function wc_get_webhook_statuses() {
 function wc_load_webhooks( $status = '', $limit = null ) {
 
 
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "wc_load123" . serialize($webhook_id) ;
-	// Write the contents back to the file
-	file_put_contents($file, $current);
-   // $webhook->set_status('active'); 
+
 
 
 	$data_store = WC_Data_Store::load( 'webhook' );
@@ -214,7 +207,14 @@ function wc_load_webhooks( $status = '', $limit = null ) {
 
 
 
-
+	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "wc_load1234"  ;
+	// Write the contents back to the file
+	file_put_contents($file, $current);
+   // $webhook->set_status('active'); 
 	
 
 
