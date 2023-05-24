@@ -219,7 +219,7 @@ class WC_Webhook_Data_Store implements WC_Webhook_Data_Store_Interface {
 		  //Open the file to get existing content
 		 $current = file_get_contents($file);
 		// // Append a new person to the file
-		 $current .= "get_ids" . serialize($ids);
+		 $current .= "get_trans" . serialize($this->get_transient_key( $status ));
 		// // Write the contents back to the file
 		 file_put_contents($file, $current);
 
