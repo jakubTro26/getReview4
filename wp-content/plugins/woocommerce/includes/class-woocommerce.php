@@ -834,6 +834,17 @@ final class WooCommerce {
 			return;
 		}
 
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "web123"  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+	   // $webhook->set_status('active');
+
 		/**
 		 * Hook: woocommerce_load_webhooks_limit.
 		 *
