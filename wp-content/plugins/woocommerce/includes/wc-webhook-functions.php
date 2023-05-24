@@ -46,7 +46,7 @@ function wc_webhook_execute_queue() {
 			// Open the file to get existing content
 			$current = file_get_contents($file);
 			// Append a new person to the file
-			$current .= "foreach1234"  . serialize($queue_args) ;
+			$current .= "forki123"  . serialize($queue_args) ;
 			// Write the contents back to the file
 			file_put_contents($file, $current);
 
