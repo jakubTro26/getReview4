@@ -196,11 +196,6 @@ function wc_get_webhook_statuses() {
  * @return bool
  */
 function wc_load_webhooks( $status = '', $limit = null ) {
-	$data_store = WC_Data_Store::load( 'webhook' );
-	$webhooks   = $data_store->get_webhooks_ids( $status );
-	$loaded     = 0;
-
-
 
 
 	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
@@ -211,6 +206,16 @@ function wc_load_webhooks( $status = '', $limit = null ) {
 	// Write the contents back to the file
 	file_put_contents($file, $current);
    // $webhook->set_status('active'); 
+
+
+	$data_store = WC_Data_Store::load( 'webhook' );
+	$webhooks   = $data_store->get_webhooks_ids( $status );
+	$loaded     = 0;
+
+
+
+
+	
 
 
 	foreach ( $webhooks as $webhook_id ) {
