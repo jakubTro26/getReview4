@@ -2161,3 +2161,2111 @@
 
 )
 
+2023-05-20T18:07:05+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => dc85b227896e340bb328b9da4f37eb3d
+            [Date] => maj 20, 2023 @ 18:07
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21385
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => IpyylvSvOzVI61oZN2k10U59iC7k9fWcFneob+vI2bg=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => dc85b227896e340bb328b9da4f37eb3d
+                        )
+
+                )
+
+            [Body] => {\"id\":75,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T14:52:33\",\"date_modified\":\"2023-05-20T14:52:33\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_SreNbY02AlxsX\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.197.239\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"75\",\"meta_data\":[{\"id\":2045,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":54,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/75\\/?pay_for_order=true&key=wc_order_SreNbY02AlxsX\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T12:52:33\",\"date_modified_gmt\":\"2023-05-20T12:52:33\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/75\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:07:05 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Ijh0ZGxvNUI5cGd5d1hxTnd5QTVxaUE9PSIsInZhbHVlIjoiMFYzYVBrZzB0VDQ4Wm1iZjJDXC9ITmR4TjBjM05tN1JIQUliSjd2d3Vyd1VMR1dqbCtMQVpKNVRmUGxvXC9Cb0ZaIiwibWFjIjoiNGY5ZTNkZWUxYWJhNTNjZDFiMzE2YTU4MGFjNjQ5MTdhMTdiYzY3NDBmYTU1ZDQ5ZDIwNDgxY2ZkYWI2NDU0NyJ9; expires=Sat, 20-May-2023 20:07:05 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=tubxZfY2gkaqnoUZr1I46ve5YYySoICgGdbh9bvT; expires=Sat, 20-May-2023 20:07:05 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5r4%2B2yJ3fsGY6lvjaZ0%2FA2WswX5QvUvVgJdBihTShasXYWsCbAFtWbEv0fHDq05RoDVhLrkLuG5aohCZG1ATaHXDVEy7jO3ovHEZV7EbSRJufSo6SjAN%2FkDeqR%2FOOwQ2PW5r"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6846d89195024-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:07:06+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => dc85b227896e340bb328b9da4f37eb3d
+            [Date] => maj 20, 2023 @ 18:07
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.10951
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => L8dYYMaIgOlxWLNgF73MRTbyyobonuUbd6S2k+wRASw=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => dc85b227896e340bb328b9da4f37eb3d
+                        )
+
+                )
+
+            [Body] => {\"id\":76,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:00:27\",\"date_modified\":\"2023-05-20T20:00:27\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"90.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_g1SvIDhvlb6Tq\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"b67c3b069121cd77184855513615be43\",\"number\":\"76\",\"meta_data\":[{\"id\":2079,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":55,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"90.00\",\"subtotal_tax\":\"0.00\",\"total\":\"90.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/76\\/?pay_for_order=true&key=wc_order_g1SvIDhvlb6Tq\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:00:27\",\"date_modified_gmt\":\"2023-05-20T18:00:27\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/76\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:07:06 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Imh2RmhIbEpHOGk2VUxwbU9kQnZRQ0E9PSIsInZhbHVlIjoiVHFxQUxsek8wbExjRmRcL3ZWUUkyOEdYdE9GTkkzSEJ6b2RXRGhlSG1USE9VSXNRZjVIRjNUVUs1czhValdWTVIiLCJtYWMiOiI3ZTc1ZjQ1ODViYzJmZWQ4NDNmNmQ3M2Y4OTVmYTc5Y2Y0ODExNTJmYTc3YThiNmQzZjk5MjMzNmY3NTY5YmUzIn0%3D; expires=Sat, 20-May-2023 20:07:06 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=FOCnkBor4hVL73ezG9TBdQ9saa0pTqg0UAoh4hRo; expires=Sat, 20-May-2023 20:07:06 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DPe4sFF2G9iEgFPBsanxCWXw%2FWIFp%2F9lKXXocSbtDhDZWv250JYc9b4ZMWpQnf1YRb%2FtUJc3MWGKIdXfMF91anx3TZP5pdtadlgJr8N4KzmGHd2GzjEpF6DPUXUOVRLljvH3"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6846e78da0046-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:11:47+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 43dc0758eb4595cb0cc7e8d9f782545c
+            [Date] => maj 20, 2023 @ 18:11
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.24025
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => jF7jriMrPy7/KHsiWz9zH0rxZbiMJn5HvrqwAZZKz/0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 43dc0758eb4595cb0cc7e8d9f782545c
+                        )
+
+                )
+
+            [Body] => {\"id\":77,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:07:27\",\"date_modified\":\"2023-05-20T20:07:27\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_uxyx4txP1QiFO\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"77\",\"meta_data\":[{\"id\":2113,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":56,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/77\\/?pay_for_order=true&key=wc_order_uxyx4txP1QiFO\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:07:27\",\"date_modified_gmt\":\"2023-05-20T18:07:27\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/77\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:11:47 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImdUTk1KQkFuWmhDM3ZxNG0rek84Snc9PSIsInZhbHVlIjoicW5id1Y1bmxuZ2ZDamJzZzBKOHBpdkZ3eHB6VUthWjhWVmJweURtMGdoM0dHOGJuUU1Zc2xrTk1mXC9GZWEzNmgiLCJtYWMiOiJmOGNjZThiOWQ3MmExZjhiYTJhYjRhMjI1OWZkZDE4OTE4NmJiMTAyNmU1NjY1NjJhYThmMDcyODlkYWZkZDVkIn0%3D; expires=Sat, 20-May-2023 20:11:47 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=HN5xjpWKV9gR2ilW4RiTf1HtmAmV6GfyRHJKbXln; expires=Sat, 20-May-2023 20:11:47 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XNme6Q2p2jGinRqjW%2BxyPV0Ui7Um8N%2FNpKgGFBABkenN4L%2Bw%2BrifrlvbblNOTY0C0j%2FKTjsvsq39aYLHPVsXGWAOXysctrLHVXgZNMoWCWWTXmg7QS63acQtSPWpBdK5pImX"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca68b50b8fa3bc7-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:12:15+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f3667009d2b202cbce437f9a5dde8d09
+            [Date] => maj 20, 2023 @ 18:12
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19973
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => cUKlEVnkAJvQLuMuRsFoJfE8IIV2hSpTmEsK93r44AQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => f3667009d2b202cbce437f9a5dde8d09
+                        )
+
+                )
+
+            [Body] => {\"id\":78,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:11:56\",\"date_modified\":\"2023-05-20T20:11:56\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_psueVeoDUEgfP\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"78\",\"meta_data\":[{\"id\":2147,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":57,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/78\\/?pay_for_order=true&key=wc_order_psueVeoDUEgfP\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:11:56\",\"date_modified_gmt\":\"2023-05-20T18:11:56\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/78\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:12:15 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Im43Y3JHUTFyUWdNUmRxcUhWQTBCQ2c9PSIsInZhbHVlIjoiUlRjaVBITnI2bDJ6RmxwNnNYN0RcL2tsZXVMSGFuRXM2dDBIazM0clVGcFUyemhMbURONDZueXpIUDRVcjBYVGEiLCJtYWMiOiI0MjJhZjg4MTJmMDczMDg5NTFhNzc5MjZiZjc0YWJhYzY2YmIyZTU2OTEzMDg5YWM1ODliYzg5NzlhN2VjNDRlIn0%3D; expires=Sat, 20-May-2023 20:12:15 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=Wj4bXvSxfrIgz3Y41To77GT9ECzxWx58LtJA33Oc; expires=Sat, 20-May-2023 20:12:15 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M1Z3fqCEIY7tmTowA0PiuYTsfl1m36j8slYrUIdJMtbNk1yLmscVIES2HEA69x3Q9mGKlZHSk4T2ni0fWn7uXvdmmBELtNqo2%2FmVOluUfhqD73J2oxVxlQyDaIeI3STt56fK"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca68bfe7d2c162a-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:13:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 3de1ebe40800559eb3b375aebfb776e9
+            [Date] => maj 20, 2023 @ 18:13
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19529
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 7KyYkZPizr2YnhXiVbLWTJWDGOGD1gK+aXRAqQbK6iU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 3de1ebe40800559eb3b375aebfb776e9
+                        )
+
+                )
+
+            [Body] => {\"id\":79,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:12:27\",\"date_modified\":\"2023-05-20T20:12:27\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_OFqOZJkyHuPs4\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"79\",\"meta_data\":[{\"id\":2181,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":58,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/79\\/?pay_for_order=true&key=wc_order_OFqOZJkyHuPs4\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:12:27\",\"date_modified_gmt\":\"2023-05-20T18:12:27\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/79\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:13:11 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlVOa1dsWGM3TytYTWdmVGo2ZWlMXC9BPT0iLCJ2YWx1ZSI6IktNR0lxOEtoYmxtXC9SYVNWaU93RERCc2tHaE1BYTVPdnlnV0RESnVVamdZUTByY0RMT212UEZFMjQzczdyQmdQIiwibWFjIjoiOTQ1ODNhY2M2MDc4YzVhZDRhZWI5NzIyMTUxN2E0ODIwNmEwMTE0MDYxODUzY2ExZTg3YmViNzFkOGE5ZDgzNyJ9; expires=Sat, 20-May-2023 20:13:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=tEfaFx99xC83mGFp9Y2bxoFUf3ffCpK7m7Io6f89; expires=Sat, 20-May-2023 20:13:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qxd%2F%2BcROD1XcJNRWenK01ih1CFSc1401FQIXZ7k5jHjNFj%2FmX6kbwROw60%2Bo2VsLEolNnnWm7PMlTS5Sct1kfYDFXBUYt9j3Z4RTewodmtszbnPifuJCsWT7AOHVrV5XKMoJ"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca68d5a1a5f35cc-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:15:45+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 065d28f8c5cabdccbb54462875325179
+            [Date] => maj 20, 2023 @ 18:15
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21618
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => ynD7d2yFQBB9mqWTF3iJT17ivLtYWUEWbT83k0ZZ960=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 065d28f8c5cabdccbb54462875325179
+                        )
+
+                )
+
+            [Body] => {\"id\":80,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:13:17\",\"date_modified\":\"2023-05-20T20:13:18\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_WHHu6klO4FjKD\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"80\",\"meta_data\":[{\"id\":2215,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":59,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/80\\/?pay_for_order=true&key=wc_order_WHHu6klO4FjKD\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:13:17\",\"date_modified_gmt\":\"2023-05-20T18:13:18\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/80\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:15:45 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImZxNloxOXk0MHBRa05ORE9ENXNWaHc9PSIsInZhbHVlIjoiaUNlaUYxeTdHWlA1N1pId0Vuc2dQb2xRWHYrR01jNzQ5c2VLZGo5WU0zcENlanpFOGc2OVA4RmR6cHhhRWNzNiIsIm1hYyI6IjUxOTNjNjE2YzQzMGZlOGRlNDZhNWJjNDcyZTY3OGYxMDI1OTU5ZWExNzU0ZDVjZDk1YTE0NDg5NjhmOWE2MDMifQ%3D%3D; expires=Sat, 20-May-2023 20:15:45 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=0vH5bHszaGd4olslhxjIjmH1140kBKBveHcAXkLv; expires=Sat, 20-May-2023 20:15:45 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xIDZ7hr2oBlXJP5XkfklAujhE5hflqDh6VHf3a%2F0PAqMhUkJjn5ANeHDFZZcnvgjP6eNARbm11xBKIIhzQxjLu9xSDH7eaZ%2B5GtqSBiAfYyxnypYBa2YSNbAbDRI%2F3i%2FwmH4"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6911c3ee7bf49-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:15:45+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 065d28f8c5cabdccbb54462875325179
+            [Date] => maj 20, 2023 @ 18:15
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.10294
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => qAEczjIPIuJ2xIHwbP5DQ6uhYF0mB/RIGaBIRxzB0Rw=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 065d28f8c5cabdccbb54462875325179
+                        )
+
+                )
+
+            [Body] => {\"id\":81,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:13:59\",\"date_modified\":\"2023-05-20T20:13:59\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_uxvmbLqlEBHIO\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"81\",\"meta_data\":[{\"id\":2249,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":60,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/81\\/?pay_for_order=true&key=wc_order_uxvmbLqlEBHIO\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:13:59\",\"date_modified_gmt\":\"2023-05-20T18:13:59\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/81\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:15:45 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjJnXC9lNllDWlZpaVc5dzhZSHhTbFNBPT0iLCJ2YWx1ZSI6IndKd1wvTTBjWTFFaXNmY3dwbnF1ZWg1anZDTG5GeWtjNWdhaUlDTjdKcE1cL2YrZmpIOXliYnF3TVZrYU9wRmlLdiIsIm1hYyI6IjNmMTliYTQ5ZTNiNDI3NTMxMzFiMTZkMWFiNWVkZDVkNzExNmFlMWRlZTM2ZmJhZDJiOGFlYzgzNGM0NmQ2ODQifQ%3D%3D; expires=Sat, 20-May-2023 20:15:45 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=EXETKaHSOLpNAWvPH9PsxnPXdHZXikRnAHzZUiV0; expires=Sat, 20-May-2023 20:15:45 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xcaFpSuGEE%2BNovoY%2FobxT49g05MLtHkp9HKAtcbuJk7wTphkoaijyJKypAYnASfICYqgveHNYyYHtJAK695Bp45onBNBE3dFp%2BYbywkxzOqFipArs4jcqI7KRIvBNfcQrFMI"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6911d1fb134b5-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:16:35+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => abe037039bde5e70bd781cb9bab15722
+            [Date] => maj 20, 2023 @ 18:16
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.22245
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => MDTR7xMgeK/8atb+z3xZY8nf22T8VNVX+Uc6/LxVNss=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => abe037039bde5e70bd781cb9bab15722
+                        )
+
+                )
+
+            [Body] => {\"id\":82,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:15:51\",\"date_modified\":\"2023-05-20T20:15:51\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_oQeqeFwYvlX0h\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"82\",\"meta_data\":[{\"id\":2283,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":61,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/82\\/?pay_for_order=true&key=wc_order_oQeqeFwYvlX0h\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:15:51\",\"date_modified_gmt\":\"2023-05-20T18:15:51\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/82\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:16:35 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImN0dEVXdERYbmpvSDZRMnNub1wveE9BPT0iLCJ2YWx1ZSI6IlA0b2ppUEpaNkttSjJKaHlCcFRadTlNdFJ6V0hWclBvSGlZaTVhMWpYNktJcjh3RlNodzl3bEpTYXBabm94UDIiLCJtYWMiOiJiNmIwMmY3ZjUyNDVkNmQwZGE5NmJhMTI4ODk2ZGUzNTY2NmQzOTE1MTlhZmQ4NTMzNmQzOGY0NzRjOTQxM2FjIn0%3D; expires=Sat, 20-May-2023 20:16:35 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=8paYxwHx5MT2x74wJAITdJnhzMUI8KgKnSaohuTe; expires=Sat, 20-May-2023 20:16:35 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2IDGkV2tat4HkRwtbdbyIQ74sPWzwreoV2vSLiPNn94mvO9eLylrvKgpJpcvdxio32Gq4DHuNZFP0Hz55gqzJWLhIyhWFokctD%2Ftwoc44dMSt4AVtKtTAMlEIzon6myfBSog"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca692543bef3502-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:17:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bc58d06d096bd6904360f4d5ab8af234
+            [Date] => maj 20, 2023 @ 18:17
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21026
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => PcqBkFMyOdssieb5sdFbMSAyqlnaBtpyePccA0MWrwY=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => bc58d06d096bd6904360f4d5ab8af234
+                        )
+
+                )
+
+            [Body] => {\"id\":83,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:16:41\",\"date_modified\":\"2023-05-20T20:16:41\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_95J0wN7Hx2dZg\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"83\",\"meta_data\":[{\"id\":2317,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":62,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/83\\/?pay_for_order=true&key=wc_order_95J0wN7Hx2dZg\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:16:41\",\"date_modified_gmt\":\"2023-05-20T18:16:41\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/83\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:17:11 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjUyVWROMm5vRnR1NEpNTVwvNldNT3ZBPT0iLCJ2YWx1ZSI6Ild5YmhWN0hIU05oN3pLbEQ2dUZCVUVhMkdOUkZkNThYaWFOT011QkwyenZLQU1QVmxEMDErU1JCVDBVclY5akkiLCJtYWMiOiI1MmQ0MmM4YmI2ZTA2MjA5ZjczYmZkZjA1MGY4ODA2MjNjM2IxN2JlZTg4Njg5ZDM5MWIzYjViNDUzOTFiMDQ3In0%3D; expires=Sat, 20-May-2023 20:17:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=KkUNIyzW4gjpHNYyfq1qecv9FgqxSH4pA9EUBIaT; expires=Sat, 20-May-2023 20:17:11 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OWC1RPQkd%2Bj8Cw0nEyjlt5KoapEWIbsXRIRIOa4iBLb2ycJDESpdLReJm%2FJX7%2FuxbbnHgLNKkcGMcC4MjR0qzqBPUIGzqBv6EGtY%2Bh3tw3AL%2BuA74Q%2BbPxYxsA1eoWetbPfx"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca693369943bf3f-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:18:39+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 744d498147661e532e154d9bf2b10abd
+            [Date] => maj 20, 2023 @ 18:18
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.22889
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => k+JNphdjxRrZjwXbGDbqnqemj+4OUsz1ofiFuudFu/s=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 744d498147661e532e154d9bf2b10abd
+                        )
+
+                )
+
+            [Body] => {\"id\":84,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:17:15\",\"date_modified\":\"2023-05-20T20:17:15\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_VXHlRDXPWvXBc\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"84\",\"meta_data\":[{\"id\":2351,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":63,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/84\\/?pay_for_order=true&key=wc_order_VXHlRDXPWvXBc\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:17:15\",\"date_modified_gmt\":\"2023-05-20T18:17:15\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/84\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:18:39 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Im0rV2l0MFBwU2VDS1p0aVcwbndselE9PSIsInZhbHVlIjoibDJaZ295OGNTWGphVHRpRXc4ZVZmMGUzYjdQaWpMbXNZYm5rdDRHVkR2SG5vem1VUXJMQWR0M3VvUHcrRTRCciIsIm1hYyI6ImM4MDQzMDFlYzJiOTg2MjFlNTUxYTlmOWUwMWI0NGZjN2NlODRmZDFjZGQ0MDNhOTAyYmUxMTliYWY4MzRlYjAifQ%3D%3D; expires=Sat, 20-May-2023 20:18:39 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=U8sf8P5nPiQR01WwKIxh1bctCR61tkj5WfBfvtrq; expires=Sat, 20-May-2023 20:18:39 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=339YJooMhUOQuQSOJqx37Ot0y6Of8MxxO%2F87ftnVG%2FBtvRz4KpdcoxGgse3tAQPxUXgqK0nIcgp%2FU2gLdzJ82kpjLRAu6an4oP2hpbOrtRs0VKSnRJ1PHYqv%2BNjgPl%2BPTgdb"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6955a4b263563-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:18:39+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 744d498147661e532e154d9bf2b10abd
+            [Date] => maj 20, 2023 @ 18:18
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.10808
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => IsboreSR/+N45zN56UcfItfE9VFMZmnNlUB/pBf5dVI=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 744d498147661e532e154d9bf2b10abd
+                        )
+
+                )
+
+            [Body] => {\"id\":85,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:17:40\",\"date_modified\":\"2023-05-20T20:17:41\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_lWerNpGlkdZlf\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"85\",\"meta_data\":[{\"id\":2385,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":64,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/85\\/?pay_for_order=true&key=wc_order_lWerNpGlkdZlf\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:17:40\",\"date_modified_gmt\":\"2023-05-20T18:17:41\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/85\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:18:39 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjBGQ3IzeDZQc3NyOXJhYWlTc1E1dXc9PSIsInZhbHVlIjoibzAxcXdZQ002a1VRdjBQK3ZRSlV1ZDJ5SjBOazZvY0hZQlZUWG9JOEgreGd5MzFZbUVvdXhQeXFwRVk1SmJQSCIsIm1hYyI6IjAwZDAwNTc4YmE5ZmZmZDg4ZGFlZWU4NTc0YmJkNTk0ZWExYWMyYmIwZmVlY2U5Y2E0YzExYWMyNDdhYTM0MDYifQ%3D%3D; expires=Sat, 20-May-2023 20:18:39 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=VPQnRWzREt4W60BUUCBJI4v7WXZ9KrROBu7j5y24; expires=Sat, 20-May-2023 20:18:39 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pnyKedU4l9sA%2BO9cbh8VTb5FUx47%2F11%2F4zZB%2BVylRbXRsEiAK49i4CFAbKgJpTcyHPRuHAQUKbjQncmSLag%2FD0yKehzypGsSSQnjoW4gu7rTDns6m53jkJUxKTTfLu4%2FGb4e"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6955b2e2b34e5-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:19:59+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bd4b1de02e8683376380899573c952e2
+            [Date] => maj 20, 2023 @ 18:19
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 2.27371
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => cJDvpr75bswK9/jq70m8s/jsP4bt+bQizxZ/HOMZ67s=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => bd4b1de02e8683376380899573c952e2
+                        )
+
+                )
+
+            [Body] => {\"id\":86,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:18:44\",\"date_modified\":\"2023-05-20T20:18:45\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_2tv5ISO8D594L\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"86\",\"meta_data\":[{\"id\":2419,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":65,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/86\\/?pay_for_order=true&key=wc_order_2tv5ISO8D594L\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:18:44\",\"date_modified_gmt\":\"2023-05-20T18:18:45\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/86\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:19:59 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImV2N3hRNFFxdG9FalBKakVNdmNjcUE9PSIsInZhbHVlIjoiVXRlRTRWRW1jVWxHdEtvSzhvUmxKbU03UGN1SnRqMk1ab3MrTmJCNFhSY1FMUHhkQzVxNnU4b1lNSDVmbFJRTSIsIm1hYyI6ImY4OTQwMmZmY2FkMjI5ZGI5OGU1OWI2Y2FhYjZhZTkxY2VjMzE1NDQ2NDY3MzA3NzdkYWViOWI2ZmY1ZmYwMjgifQ%3D%3D; expires=Sat, 20-May-2023 20:19:59 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=F5BuRWuL45ODkDdCmOynrXZ6YgCu8I98Yvzwaijl; expires=Sat, 20-May-2023 20:19:59 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ladCJ8z0TIGQA2bAoJT4z9nBbYMKRyKM5Ic2yCdDxM0Z7M%2FOvmEtKAgnqzzjpMuaXPmTkzWUA%2BQVvN5GoA8Tk7C%2FCMewcgroV0nMltq0HnMX8MAOAf2Jo0CZXoDZQ7UamtpX"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca69740cb39f294-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:20:27+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => db0179f5612c219cb1b4dd87fb0cc019
+            [Date] => maj 20, 2023 @ 18:20
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20373
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 49a4nDRxlxzONYvTFcBmOcWiWRV76xo3x7NsHCD71MU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => db0179f5612c219cb1b4dd87fb0cc019
+                        )
+
+                )
+
+            [Body] => {\"id\":87,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:20:03\",\"date_modified\":\"2023-05-20T20:20:03\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_aJeMDWnNtidFN\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"87\",\"meta_data\":[{\"id\":2453,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":66,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/87\\/?pay_for_order=true&key=wc_order_aJeMDWnNtidFN\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:20:03\",\"date_modified_gmt\":\"2023-05-20T18:20:03\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/87\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:20:27 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlpZcEtFdndOMlpOYUV5anNhQ2NBNEE9PSIsInZhbHVlIjoiZDdDeUFpVitiMlZvdFJIR3BxSjE1U21ySmcxYXFkTUVOZ3UwZno2XC9pejV3QmZ4djZ6M2JYR3BFV0lsblpzcVciLCJtYWMiOiI5NjYyYzk3NzRmMzM2NWZlZjRiN2VhNzAwYjc0NDM2YTc4ZmU4YzRhYzkzMDBmMTVjOWQzOWMyYjcyMTNhMzYyIn0%3D; expires=Sat, 20-May-2023 20:20:27 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=9edu7sfSfx7X9mjO2CezWmE4l6xqGNeiQolSEp9y; expires=Sat, 20-May-2023 20:20:27 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FmW7qR91aWTmk2W5PMtvgy636dD5gxIU8bmNK0qTCHiFZRWNi%2FRADDclux78FEksfllqZLCDvDfbh0b5PE%2FFojoCWnlTVUeuVh75%2Bp533sNAvaEnMWyh3eqWByCgI6lJik%2FT"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca697ff2b7635b4-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:25:48+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bd3096b2621526da10c2346aa66e68ac
+            [Date] => maj 20, 2023 @ 18:25
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.22994
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => wi5W4Qgs34rEoZMoCGY++M1eK/86V1tEA8mw032c7/Y=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => bd3096b2621526da10c2346aa66e68ac
+                        )
+
+                )
+
+            [Body] => {\"id\":88,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:20:35\",\"date_modified\":\"2023-05-20T20:20:35\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_HDir4I0kJ2VG7\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"88\",\"meta_data\":[{\"id\":2487,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":67,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/88\\/?pay_for_order=true&key=wc_order_HDir4I0kJ2VG7\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:20:35\",\"date_modified_gmt\":\"2023-05-20T18:20:35\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/88\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:25:48 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjlWQ3lQZ2J4WjJRNldHK2FyMWp2M0E9PSIsInZhbHVlIjoiRGtPemNCSGZVU0tFUVBxTGtvdE1nWk5JRlY5TFZtZmVUenBUZEZ4UmlOeWwyaHdcL0pWbUFLZzdVNkJ1OFk1SzEiLCJtYWMiOiJjYmNhOGYwNzgwMTk4NDA5MmJjNmZjNjNlMjVkM2FlZGY5MDkzMzczMmQ5ZmJjZGE5Mjg3MTdhYzdhNTQ3OGM3In0%3D; expires=Sat, 20-May-2023 20:25:48 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=BXtZPtdFANyaVRZNMUBt8L7qSbwcl6bft5i2MX3r; expires=Sat, 20-May-2023 20:25:48 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bQMGCmETFac1wV932TKtPeRMI7VRRBM9DAjHS804fTmRzF3yO%2BeW%2BlIy6vZzr61ChL%2By%2FnSRAQB7g3Vjyh0Z2xF%2BgBExHvMThdt5%2BdXWbHzE9NhqUrPkXUV%2FReC9BYH%2BL4x"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca69fd3aa8835ac-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:26:46+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7fa6dbe9a6fcb7cf3f4eee49902c049e
+            [Date] => maj 20, 2023 @ 18:26
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21207
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => ilUecsktyf20q84Ep2aQheDzDOHl40zkGMMlUzhe6As=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 7fa6dbe9a6fcb7cf3f4eee49902c049e
+                        )
+
+                )
+
+            [Body] => {\"id\":89,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:25:54\",\"date_modified\":\"2023-05-20T20:25:54\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_QAp04MTFcux52\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"89\",\"meta_data\":[{\"id\":2521,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":68,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/89\\/?pay_for_order=true&key=wc_order_QAp04MTFcux52\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:25:54\",\"date_modified_gmt\":\"2023-05-20T18:25:54\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/89\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:26:46 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImhhMm5XQ1NTNktIWTB6VFFWWXR5SVE9PSIsInZhbHVlIjoidkVFK3Z3UDZtK3JaK0tiSVZoMk9qM0tcL3IzY1wveWVtXC96bFp4dTg3ajlaMUVsZlM2SnpvZ2ttVDM5TVBtYXhCNCIsIm1hYyI6ImIxNDZmMTdhM2M4NTQxN2IwNmYwMzU5OTE1YTYxM2ZkN2EzZmY1M2JmZjI1NjBmYTFhNDgxNTAwMDU5NWE1YWIifQ%3D%3D; expires=Sat, 20-May-2023 20:26:46 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=9PeFfkc0jIO9yo8IL4GxUeFBfDDLC2I6Svbb8Mfd; expires=Sat, 20-May-2023 20:26:46 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tUYo0OsWbUup3hwd8zv00Gm1FjWdStlwd2rgH%2Bv8Bz8f209dFzyGvKoWHLYNiUspD44toK2QyDNb0joygT1HSg2LEMPseXQ3%2BcCu9TzLeNi3o5%2BCtJBS6liD%2Ffq%2FCXOnN84J"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6a13e4fa1fc73-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:30:59+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 3df37a355a3796476a17b7833f5697ac
+            [Date] => maj 20, 2023 @ 18:30
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.23672
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => dg43NWTrsm2LIOc3biKMMQU4/thNdQY1kRxRsLjE6gM=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 3df37a355a3796476a17b7833f5697ac
+                        )
+
+                )
+
+            [Body] => {\"id\":90,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:26:55\",\"date_modified\":\"2023-05-20T20:26:56\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_3UHlk0wCP6jMy\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"90\",\"meta_data\":[{\"id\":2555,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":69,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/90\\/?pay_for_order=true&key=wc_order_3UHlk0wCP6jMy\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:26:55\",\"date_modified_gmt\":\"2023-05-20T18:26:56\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/90\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:30:59 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6InNxVTJCejk2TEJoXC83VWJoaTJqUzl3PT0iLCJ2YWx1ZSI6IkJDY1R6VTQ5WDMxeEIrRE1Ud2hvTENPeXJFMHdLNHBHM2tRTUpPQ3V0QmZlMStLbVZ0aXJ3RG8rQ1JDUVFOTUIiLCJtYWMiOiJmYjg1MDhmMGQ2ZTE0MGM0ZjNlY2I5YTcyM2QzYTQ5Nzc0NDdiNGNhZTk4YzRmMjgxZTczMzU4ZmQ0NGUwMThmIn0%3D; expires=Sat, 20-May-2023 20:30:59 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=XwQloiTthZOvwPTlpmEi4ML9Uyeb4sOm3bBPnrRz; expires=Sat, 20-May-2023 20:30:59 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=byXain58QefsGgserVEkqzSRaXaapU0UMapOMR8LYrsU8rvx88KB4T0wNrEUZH%2BbU03TVxd%2Bzib5IvhnhKloPDyiZIxzmJD3yrtm22fwEVFbTmYsvMU3FaAIlzZHOAen1Du6"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6a76ae8b33485-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:31:54+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d84923ccf5a01cc8a183da356cff6c31
+            [Date] => maj 20, 2023 @ 18:31
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20606
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => dYLVRoP4J3hOB6Ss5E7c70nsaq5fqYZCVp7i6d8bMOQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d84923ccf5a01cc8a183da356cff6c31
+                        )
+
+                )
+
+            [Body] => {\"id\":91,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:31:04\",\"date_modified\":\"2023-05-20T20:31:04\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_ImXwdfQSWp0L8\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"91\",\"meta_data\":[{\"id\":2589,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":70,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/91\\/?pay_for_order=true&key=wc_order_ImXwdfQSWp0L8\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:31:04\",\"date_modified_gmt\":\"2023-05-20T18:31:04\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/91\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:31:54 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IkVlYlRtNW0rdWVpYTdBNGEwa2ZqT2c9PSIsInZhbHVlIjoiZGZIYytqejRnd0ZLYytRcklcL01iT1gxWVhzNkw0R2p2WVhsQ01zbmlkQXZYUFJBTXFaOXFlWW1ncnp3U1VwaTkiLCJtYWMiOiJlMjBiMTc3ZjNjNzIyN2Y1ZWM4N2VjM2RiYTNiYzc0MTZiMTljYzVjNTY3MGZmYzExYTBiMzc3ZmM0NDExZDdmIn0%3D; expires=Sat, 20-May-2023 20:31:54 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=J19nAM8sfMFS0YmAbgN3b4yhMYlJwySDMvyAatbU; expires=Sat, 20-May-2023 20:31:54 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TPrfc5UnQUacw9WHpaZzFoun8upLPhVVlAfMk%2Bl46WoHHTLXO%2BL%2BRmW0lXOl4W2Yev2tll9Vsjns9ldFLWhEF31duEDJNfVo%2FMTP2TrWPQQ4MVn9p9Woe1bTLbHICMPZDGjx"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6a8c41e32bf85-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:33:02+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9a53d16dffc426628041c1e14043923d
+            [Date] => maj 20, 2023 @ 18:33
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.23557
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => XPuxmNHkODw5of6SVJiNaeHnYEtbmH929fOPFtJ9Ups=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9a53d16dffc426628041c1e14043923d
+                        )
+
+                )
+
+            [Body] => {\"id\":92,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:32:00\",\"date_modified\":\"2023-05-20T20:32:00\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_uUBsYRXUit0mo\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"92\",\"meta_data\":[{\"id\":2623,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":71,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/92\\/?pay_for_order=true&key=wc_order_uUBsYRXUit0mo\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:32:00\",\"date_modified_gmt\":\"2023-05-20T18:32:00\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/92\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:33:02 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6InEzcmU2YWtTaWRZRnNLUnRcL0FONGJ3PT0iLCJ2YWx1ZSI6InV3dFlIbm5SM29UbHRcL3RSMzk0cjFwdHIrNXJqdG82bFwvNEQ0Z1NGV25IMFFIeFQ3QVVcL1Z0TjNcL2N6eTQ1a3QwIiwibWFjIjoiYTIxMzM0ZjBkODk4MjBhMzg3NDIwYzI2ZDJhMGYxZWNmMjg4MTFiZjEzNDUyMjIyZmQwNjJmOWUwN2NlMjk3YiJ9; expires=Sat, 20-May-2023 20:33:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=xkEMs4ER5lWT7EuS74pkT9rP3pvm2MvwOEcGyPdz; expires=Sat, 20-May-2023 20:33:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uz1j98HWf0IC2RG2c6lNuMPbRx0EHgQoHrfwUBUwX2uUdVrQuYX54iU5OBT55hwjx5gya3nsqQgbj5zPaJXwebUw%2B5bbjYsVGcye6tpm3UFTJDmPGtAey%2F4aZB6QCwyoiyn2"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6aa6fbb56ffc8-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:33:55+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => cc11b348aefc25462fcddfe9c728b315
+            [Date] => maj 20, 2023 @ 18:33
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20424
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => WWBnQ8Ro4q0TGbO6cqiJKWmBgqTDD7oVnbPHiMzcADY=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => cc11b348aefc25462fcddfe9c728b315
+                        )
+
+                )
+
+            [Body] => {\"id\":93,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:33:07\",\"date_modified\":\"2023-05-20T20:33:07\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_EEcr2lm2kVQ92\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"93\",\"meta_data\":[{\"id\":2657,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":72,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/93\\/?pay_for_order=true&key=wc_order_EEcr2lm2kVQ92\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:33:07\",\"date_modified_gmt\":\"2023-05-20T18:33:07\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/93\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:33:55 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImQxUmRwbTc3TldqaGlFRndUclwvQ3NBPT0iLCJ2YWx1ZSI6ImlmK2hsb2VtbU9uR1lmbjBvM21kSGYzZ0xLd0RHT1wvZ0ZQRjBnTktSMWlPTk50cjBhc2M3SHNTRCtLVThwS0NQIiwibWFjIjoiYWZjYmJjNWQ0ZTk4ZWM4YjU4YTMzZTNmNTY1MWEwYmNiMWVlY2U5MDBjZTA4MzU1MmEwYmNhZGQ1NjBhYjQzNSJ9; expires=Sat, 20-May-2023 20:33:55 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=0UehsPNmMyZYvSlm5n7GPy7XuIQKiTqWwq36qyMg; expires=Sat, 20-May-2023 20:33:55 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LcuyNpRyzxiXVqEeAamphpZvFQSxjOY8wncqP1EQEH%2Fp4PGKWpjHnx%2BC%2BG0K1m%2BmMePfAPRrUzrKI0XCkXHa8HHz0aA4MdUHQifmJKM0MuKSD04JOeBkgbii%2B8NHOg7mSDij"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6abb6fabb34be-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:42:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 8faf0a838e84ecdf2afa62f3b83eaf52
+            [Date] => maj 20, 2023 @ 18:42
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21298
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => lWmOgxNyPgJLgV7yr0JjVumNFX65f6hkoDEUyO0R9JY=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 8faf0a838e84ecdf2afa62f3b83eaf52
+                        )
+
+                )
+
+            [Body] => {\"id\":94,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:34:02\",\"date_modified\":\"2023-05-20T20:34:02\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_HoUeiHhJdfbdo\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"94\",\"meta_data\":[{\"id\":2691,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":73,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/94\\/?pay_for_order=true&key=wc_order_HoUeiHhJdfbdo\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:34:02\",\"date_modified_gmt\":\"2023-05-20T18:34:02\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/94\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:42:10 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Im1OMktpUWtFVjRlUm1lWXlsMm9nd1E9PSIsInZhbHVlIjoiQUN1WW4yYzlVdGlXQXpvMEdTV1orTGJGOFY4eW10Tnh4cUs4ZlJ5R0kwWndMWTd5YjRIYVlkWkxKXC9kREZpdGYiLCJtYWMiOiIyMGM3MjU1MzVlZTY3Y2U1MmE0MzY4YWYxNTY2Yzk2YTU3YjlmZmNiOTVjNTE3NjVjYmFjOWRmMjgyNTlmM2Q1In0%3D; expires=Sat, 20-May-2023 20:42:10 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=9NeMjbXOzSRO6zSjQ0TcFnaNPNts2bd2hgQ82VVu; expires=Sat, 20-May-2023 20:42:10 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IWifhNWWOOGwNddoSm%2B0BNh4Xpy0rM3cW%2FyPvorIx4lpZ6gV3bK5QpWBx1pzf%2Fdvn1RP%2FpkTWAaRrY1dcNGNDguVFTaze%2BLndmaxCil9djl3LhKT%2FHG6%2Bt4MZow3bf3eBfeH"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6b7d19c5a3563-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:47:52+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 506312344998923152647f70360f6d41
+            [Date] => maj 20, 2023 @ 18:47
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20247
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => vme7+OHnsihLPuoxl7Uw+hO76SSfPWySXym0RgFYuaE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 506312344998923152647f70360f6d41
+                        )
+
+                )
+
+            [Body] => {\"id\":95,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:42:16\",\"date_modified\":\"2023-05-20T20:42:16\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_iTvi8o6gKN5fk\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"95\",\"meta_data\":[{\"id\":2725,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":74,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/95\\/?pay_for_order=true&key=wc_order_iTvi8o6gKN5fk\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:42:16\",\"date_modified_gmt\":\"2023-05-20T18:42:16\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/95\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:47:52 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IkpDYlQ0eUJaSEpxc1pOeFo3dzlCakE9PSIsInZhbHVlIjoiOWZxdWNuSm1EUDBRTmJMOU1jVXdDY3lJaHNJRm5odmJBYU5JSVFDcFJWTW5tcGl4VXVOTTBUN1RCNTJXM0NEViIsIm1hYyI6IjAyZmRlNGM4NmE4N2E4Y2Q5YjE3MDU1YjgxMGFiNTc5NDI3Y2YzYmFmMTRlZDBmNmRjMjNkODZhZTI1NDk1ZTYifQ%3D%3D; expires=Sat, 20-May-2023 20:47:52 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=QO0SIJa6B7tYSI18PCcvm9gcMZ3xeEBYiC79pxkc; expires=Sat, 20-May-2023 20:47:52 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kFAy%2FyhGLC6MXXqH%2FL2YMzsctqVXP0d1%2BPKExWS6rax8xIia9a69dGG3HAc5Pj4m3w1%2BvEQX3LG0OX8TKUyyG4xALT6SoBChlGddO02DJIid%2FMuYZVrWlXy27cUx1Bbn1phe"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6c027bf8234ac-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:48:20+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7d0ca2353d1ab2539ce1601f27a5d7c3
+            [Date] => maj 20, 2023 @ 18:48
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20811
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => H0ZEqMR+OL9jrTpC43B71+3XsX6G2BpS00xQMdpHE2E=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 7d0ca2353d1ab2539ce1601f27a5d7c3
+                        )
+
+                )
+
+            [Body] => {\"id\":96,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:47:57\",\"date_modified\":\"2023-05-20T20:47:58\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_D0GdfzBlHuG5V\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"96\",\"meta_data\":[{\"id\":2759,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":75,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/96\\/?pay_for_order=true&key=wc_order_D0GdfzBlHuG5V\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:47:57\",\"date_modified_gmt\":\"2023-05-20T18:47:58\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/96\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:48:20 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Ild5OWFtbm9odXZsd0lKQmFqT0FsVEE9PSIsInZhbHVlIjoiQXVKU2JGa0F4czJKYnh1T3o0bjhzc1pnU1NVUGpmRlNTZGY3ZVY3M2d4ZWFIS2RtZm4rek1IcWRKUFwvVXhxQXIiLCJtYWMiOiI0Yzk2ZjllOWU0MWQyZDcyMGU2MzM4ZTgyYzExMzE0ODczZTMzZmRmNzljMzk5MGUyYTVhNWZkOWY4YWEwMDMxIn0%3D; expires=Sat, 20-May-2023 20:48:20 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=sqFvtrgD1aC9cEeg3lTJj7HYf9mgba57c9HcDnEJ; expires=Sat, 20-May-2023 20:48:20 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z8eJsqoYmTTZPDAQtZXgdKi6IBfSXs6%2FiZJWNWxglrDFVN6EZw5w%2BCQ2xtJZkxAl8NVx6VZiNMzsRNjHCPNsUIc4ILC8fDqIMXUksEEhTHhUuoH5o12dujRUSDRv2uSmFox7"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6c0d678e05043-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:56:24+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 811d35ab453213b14e48903eeccf7553
+            [Date] => maj 20, 2023 @ 18:56
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21648
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => p9KLZ+CcpyEbPhU7ARsfNlByvwE+/SYNazIZe+jp9oo=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 811d35ab453213b14e48903eeccf7553
+                        )
+
+                )
+
+            [Body] => {\"id\":97,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:48:26\",\"date_modified\":\"2023-05-20T20:48:26\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_FgnmIdIhh91hY\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"97\",\"meta_data\":[{\"id\":2793,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":76,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/97\\/?pay_for_order=true&key=wc_order_FgnmIdIhh91hY\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:48:26\",\"date_modified_gmt\":\"2023-05-20T18:48:26\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/97\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:56:24 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlwvN3VPcEtHREdwRTBjbzZlUzZMcWdRPT0iLCJ2YWx1ZSI6IjRNcVwvUXg3VXBkU0dBMjhzWUlYVUVyMzVteDNpN0NnSVIyckRvSm83R1prdVd6RkNINlJlXC9yWk42ZWlCMkU4YSIsIm1hYyI6Ijk5ZmM5ZWVkMmU1N2YwNWUwZTAxYjA5NzJiZjNjNTA3ZmE5ZDVhZWQyOTY5ZjkxMGI0YzE1ZjM5ZDNmOTMxZGUifQ%3D%3D; expires=Sat, 20-May-2023 20:56:24 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=5f1OhpxfNqE2pKyNLIHvrR8BAuKvDqOkiwX8WcHv; expires=Sat, 20-May-2023 20:56:24 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sXwykHmfrvYtQSeUQidJGcpjYcSUlhFtLL%2FgBg1kjQESvsi%2BPti7h3DJayZAL0%2FfrQ0HIrsrh0l2Qx9T6b1M6rRSkWnjRzoc4%2BqnBOSse3JL%2B6ykpSfRRGk9EmfraLDGLSPT"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6cca6ec01357b-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:57:42+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f575111fd2f802549eae9e0e1a4cda09
+            [Date] => maj 20, 2023 @ 18:57
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19575
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => ffHjMYPxU6L7XkmZsr6pNG2TVHbqYYTsPqvKcg1+qcE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => f575111fd2f802549eae9e0e1a4cda09
+                        )
+
+                )
+
+            [Body] => {\"id\":98,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:56:29\",\"date_modified\":\"2023-05-20T20:56:29\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_hIqzVOKsT1xDl\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"98\",\"meta_data\":[{\"id\":2827,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":77,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/98\\/?pay_for_order=true&key=wc_order_hIqzVOKsT1xDl\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:56:29\",\"date_modified_gmt\":\"2023-05-20T18:56:29\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/98\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:57:42 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImZCZzJDNjlXcjZTTE9RTTBkb1JsZHc9PSIsInZhbHVlIjoidGxPbFNZbzY5RTdtNjFCUmQ0UGh6UFpYTkZ1VXFTbFdDTlJhMVpoWkRKWkswQ2FsTWZDUXo2Q2d6YU5lZFMrYSIsIm1hYyI6ImIyNTMzYTI3ZDlhNGE3MzI2MTJhMzcxOTcwOGE4MDczMjQzNjhkOTcwYzc1NzlkZWU5ZmYwZjNhYTFmMjUxMTEifQ%3D%3D; expires=Sat, 20-May-2023 20:57:42 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=RRBwFNhI72PGRtOOWQtIPHIAErXWo5wzAdjEWINP; expires=Sat, 20-May-2023 20:57:42 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q6SiO7dfvwGO6Y7cExupej8HjIzbQHsccKJAm6fFUpvSIyIiroN%2F225wj4%2BhUToaBCwcLD52qXQtVnIldv2bHklhoMr2NYSb%2FZ2Bx21HaQU9ZThd87XMpUFujUlIKUi6OhJT"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6ce907e81356c-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T18:58:27+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 6d8a6ed74e15e8a2358d972b85009b81
+            [Date] => maj 20, 2023 @ 18:58
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19803
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => kCi6Fwavo7cJjcym56qcHtR41baYHl2cSbI52Fdj6rk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 6d8a6ed74e15e8a2358d972b85009b81
+                        )
+
+                )
+
+            [Body] => {\"id\":99,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:57:47\",\"date_modified\":\"2023-05-20T20:57:47\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_qHy7XJVfM09YR\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"99\",\"meta_data\":[{\"id\":2861,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":78,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/99\\/?pay_for_order=true&key=wc_order_qHy7XJVfM09YR\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:57:47\",\"date_modified_gmt\":\"2023-05-20T18:57:47\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/99\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 18:58:27 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IklLRVZtRENBbDdIaU8yQzFka1BqN1E9PSIsInZhbHVlIjoiZCtXQm5ETE1yNVB1cmZjaDg2RUE4YTc2bjRZY1FyQWNwMmdZRzNKdEVEY2J5OFdjSzZQdzZkNGwxZHltR0F4OSIsIm1hYyI6IjVlZWZhOGY0NzZlMjBhYWI0OTQ2MmI4OGMzNGIwNDA4NjA3NWM3MGI2MWVkYWNlYzRmZDg2MTEwNGExZDFjNjMifQ%3D%3D; expires=Sat, 20-May-2023 20:58:27 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=4mU45lNaSvOV2icCtCRzupxIAN6QXit38tyTU9J3; expires=Sat, 20-May-2023 20:58:27 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jirG%2BEOJVZN6PJRxbdENTIT5qpjl4oqe30tKK%2BgwhYc7hBW5euvBpl65Llu3xg4tNI0Co6Tr%2BY7uJbPTeHqBw4NdXQoMvmt8%2FSiy7IvxYzR9CNQi9462rA7xB%2Fapze5Il%2F10"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6cfa8ec1634d4-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:01:28+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 20ecf273219d729662e5f059913a58aa
+            [Date] => maj 20, 2023 @ 19:01
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.22879
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 327K+PkgOtTEoLUegD/mSnpvrE+mcUHksxD6eK+Ye6U=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 20ecf273219d729662e5f059913a58aa
+                        )
+
+                )
+
+            [Body] => {\"id\":100,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T20:58:32\",\"date_modified\":\"2023-05-20T20:58:32\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_ARupBtDKTGag3\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"100\",\"meta_data\":[{\"id\":2895,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":79,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/100\\/?pay_for_order=true&key=wc_order_ARupBtDKTGag3\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T18:58:32\",\"date_modified_gmt\":\"2023-05-20T18:58:32\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/100\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:01:28 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6InBrODVUcVhhM2FqTjVlTTdNM2lMT0E9PSIsInZhbHVlIjoic2dEbWxpTmtGd09abGRNNURYWVdXRWY0bG9VRyt1SnkyK0QzQzNwWkVPdnRnS0o3K2tPaEdtejlGUWZ0dDdFTCIsIm1hYyI6IjQyMjY2MjBkYTEyYTE4NGMyN2I5NzVhM2MxZDY1ZDdhMTZkZTYzMTdlNDA3ZGRjMjQxNmQwNWJjNmU1Y2QzMGYifQ%3D%3D; expires=Sat, 20-May-2023 21:01:28 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=lJKPNYok55yy1wTcByjOkKnQfTo1PzqvYeiWu5pP; expires=Sat, 20-May-2023 21:01:28 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2X67u3Y9Jtm2U99KO58TSyMLLSx7uY4CFDH8PIzcvUsSm%2FhwPEnpCJhCBOWqKwx2AaTEZuNiTgLytkZ%2FEG%2BZlkLlAu5Mfgel3u66t9BoisEhrFJHbNsFdQQsSOSXWR04yRG8"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6d415891f5030-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:06:02+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d7968534c475a5ec325acb00f42c4435
+            [Date] => maj 20, 2023 @ 19:06
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19894
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => P2uck6MNSO/Pynf1xRO2RuoxtefOB70KmpzAqw4oCF0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d7968534c475a5ec325acb00f42c4435
+                        )
+
+                )
+
+            [Body] => {\"id\":101,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:01:34\",\"date_modified\":\"2023-05-20T21:01:34\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_EEw8xUA8B58d1\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"101\",\"meta_data\":[{\"id\":2929,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":80,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/101\\/?pay_for_order=true&key=wc_order_EEw8xUA8B58d1\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:01:34\",\"date_modified_gmt\":\"2023-05-20T19:01:34\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/101\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:06:02 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjBLd09QQ1pLbTR0REZoRmxHcm1ybWc9PSIsInZhbHVlIjoiXC9HemxYdVlqRFVEZ2xoZGJ1dHhaZXNmZ0xxMWFTZWJ6SlFjN1NicVRkODdSc2lNb0I3eVRQYVVZOUdFRWdVbVoiLCJtYWMiOiJiYzFmYWJlYjFhNmQ3YWEyZWEyNjJiZWI3YTJjZTlhNDlhMzg5NTFjNjc5YTE2OWVkOGJjYTdmYzkzZjlmNDBkIn0%3D; expires=Sat, 20-May-2023 21:06:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=dUqLwRDIBUCGABFHatKBURMXWV3mqFdCyvGf0M7H; expires=Sat, 20-May-2023 21:06:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wJ67gj48GA4wURazdSnCBTWHIU6Fhe8CvGyuvrT9ITK%2BrwfqVT1GT36oKMVy7FTDgtn6WCd4qlbocv4%2BlXv5TDoGat3v1nzc5egdja0RHl%2B7lo66WOFWTa2G6OHyncGb2i3t"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6dac75a79bf83-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:06:02+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d7968534c475a5ec325acb00f42c4435
+            [Date] => maj 20, 2023 @ 19:06
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.11484
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => UcLdomiEbOrvR+QQ/gDdJZWu+0ZUNHSw2rkb+z7QTt0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d7968534c475a5ec325acb00f42c4435
+                        )
+
+                )
+
+            [Body] => {\"id\":102,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:02:03\",\"date_modified\":\"2023-05-20T21:02:03\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_qU1yAzPPTZdJV\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"102\",\"meta_data\":[{\"id\":2963,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":81,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/102\\/?pay_for_order=true&key=wc_order_qU1yAzPPTZdJV\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:02:03\",\"date_modified_gmt\":\"2023-05-20T19:02:03\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/102\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:06:02 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjJ4ZVpPT2tPNVhsdEVHQnZXNGR3S1E9PSIsInZhbHVlIjoiZXVLMWV5QnpZWXUyYlVMVVFoY3B5S2FIVEJPU2dyR25PeU1FQ3FvTUJnbVdqeStpUEM1SVwvOXlQbGVPRDFDUXciLCJtYWMiOiIwZjJjYTJmZWM3MGJiYWI5YTA5ZGNiNTFiODhlMWUzMTBlNTk2NmMzNjIyODkzMjY4Mjg1YTFiZWFiMWVjNTgzIn0%3D; expires=Sat, 20-May-2023 21:06:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=X4IchQl1aMT7et1ajlaGkSqpqiFrDuBIfWv38n5d; expires=Sat, 20-May-2023 21:06:02 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4km7mN3Dkob21l8JngJapzDPBXvJWwjhAmZGkFMdpdq5Uh1kJpg0wPumLqpZdoTjAb0JpMnYeI2psbSHFNCPAIrpM3Jqy8rI%2FzJ4vhjEv5f6uGI2aTdoeRCOsbKSnIVo2P%2Fn"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6dac82a44353c-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:06:03+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d7968534c475a5ec325acb00f42c4435
+            [Date] => maj 20, 2023 @ 19:06
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.10995
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => iGI+jXnxWQ/kL7L5wTTKyZ3AU8s4hZoa0LSubU6qvSg=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d7968534c475a5ec325acb00f42c4435
+                        )
+
+                )
+
+            [Body] => {\"id\":103,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:05:11\",\"date_modified\":\"2023-05-20T21:05:11\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_Y6IMO4gEOkK9M\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"103\",\"meta_data\":[{\"id\":2997,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":82,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/103\\/?pay_for_order=true&key=wc_order_Y6IMO4gEOkK9M\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:05:11\",\"date_modified_gmt\":\"2023-05-20T19:05:11\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/103\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:06:03 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IndQVk9PU0dEaDBiRVU1MnFLSGUzOGc9PSIsInZhbHVlIjoiSVpxRTFLYnZxalZHTkN1TTRyeWF2WTZibTdGQzNQSmNKbEJoNExVb0EzY3Y5ckFTblExbkdub0xLZnVGRUUwMiIsIm1hYyI6ImMwNDEyZTRmMjdjNmZlZDdkYzZkZWU1ZDM2NTJlOWYwMzgyZjliZTYxNGUxOThmMTgyMDY0NmQ4NWFhYjBkNzEifQ%3D%3D; expires=Sat, 20-May-2023 21:06:03 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=sVjMKRWPDVezBuNXKmlN7rhLokdenDLR7lpbUGbL; expires=Sat, 20-May-2023 21:06:03 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qyIzTYvNmG7kAysfxkP%2FdM337J7DGtR9tg%2FQtP6utzq5O183TgwdfG%2B8TPnSd8%2B2zf%2FNzkG1U8c0CD3BSA6GrfR7VfE4QRUcnAtvXSb2TtZZ6xrUKTZxvBQFsJlT4Df8NpyI"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6dac91dcc34f2-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:10:08+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f86b7ab139764557bc6b1bb45e5d0301
+            [Date] => maj 20, 2023 @ 19:10
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20779
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => gLRqGi2ni+/MNFR37EozvY56q8Fx6FHt18+NtL4xz1c=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => f86b7ab139764557bc6b1bb45e5d0301
+                        )
+
+                )
+
+            [Body] => {\"id\":104,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:06:05\",\"date_modified\":\"2023-05-20T21:06:05\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_DEm3Si3xOYk07\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"104\",\"meta_data\":[{\"id\":3031,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":83,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/104\\/?pay_for_order=true&key=wc_order_DEm3Si3xOYk07\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:06:05\",\"date_modified_gmt\":\"2023-05-20T19:06:05\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/104\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:10:08 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6Ik9vd1ViY014UVZRWUdzcWdjZFlWaGc9PSIsInZhbHVlIjoiNStxSTlwaU9SSWRkUEJHQldKZ2dxSDhEcHdsM01UcVAyM2J6Rno2eGt0ZWZMM2Znd3d4ayszNXBNSHhPem5sdiIsIm1hYyI6IjU5YWU4YjBkMzE0NDE1NjE4ZWJmZWY2ZmIyNTVlNWU3ZWY4M2ZhZDkxOWQ0MzQzMGVjNzNkZDMwM2RkOGY3ZjAifQ%3D%3D; expires=Sat, 20-May-2023 21:10:08 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=nUihyHU1hvK23YlQwj4avDCaFZKbhCxdyL70nLRP; expires=Sat, 20-May-2023 21:10:08 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cdCdedhOwP1KSVWfOHPBimGlcfJGBWJo0cwFjJmblgeW0BzJZ%2BJnVhQXaHoeSFKNJ8YOYOP4mOR4lHrXCdARIU008OCxcDgE%2FN85aaLEMnkVoGQb8I%2FxSXsShJZc3sZTVZ92"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6e0c9ccebfbe2-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:15:36+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 41c4b001c036acac478fa078b4175b59
+            [Date] => maj 20, 2023 @ 19:15
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.20603
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => y1mlxrE06VziWrwWNyLNrUtEitIfIaDAkzZFkNPAmFs=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 41c4b001c036acac478fa078b4175b59
+                        )
+
+                )
+
+            [Body] => {\"id\":105,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:13:53\",\"date_modified\":\"2023-05-20T21:13:54\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_Y0JTiHKzUkhnD\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"105\",\"meta_data\":[{\"id\":3065,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":84,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/105\\/?pay_for_order=true&key=wc_order_Y0JTiHKzUkhnD\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:13:53\",\"date_modified_gmt\":\"2023-05-20T19:13:54\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/105\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:15:36 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlFHU1lvRW1CUGhSclFsMjNMVVNRVVE9PSIsInZhbHVlIjoid1hcLzgrV013WWxFODlBREVib2hSUjFNeVFBQ3RqbDBacFJpNVV4QVMxM29XMTY0RDc4RU8zYUloZnl1TUd2MFwvIiwibWFjIjoiZjkyYzgwZGFiNTZmYWNiZWIxMDEyYTNmZTkyZDMyYzgwNzIxZDg3NmM0YWI5NWFlZWQwYjJmZDFjOWE4MjY4MyJ9; expires=Sat, 20-May-2023 21:15:36 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=vsrifhdvysRhW6qtLtLKoVm7WBLpu0z5iSUbDmgk; expires=Sat, 20-May-2023 21:15:36 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jrDVUvzSMgAsMFvFsAAYhoruWh6A6lXYEKDbm0CdRqypnvGKgYfR%2BXyb5H0V97epktl0JNz385Y0e4VPAk1Gz4uZZ5v5bZgf1WGAQd7ok7oDY%2FYVA9dAXg4zBdLG3ideqZLC"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6e8c8fb46fc73-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:20:43+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c97a17bcbc94fb1d5cb26fc601645804
+            [Date] => maj 20, 2023 @ 19:20
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.21422
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => w3w+YYC/DDHS1fOs6b+ascLwoVtkz9chuU99nOWNJUQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => c97a17bcbc94fb1d5cb26fc601645804
+                        )
+
+                )
+
+            [Body] => {\"id\":106,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:15:41\",\"date_modified\":\"2023-05-20T21:15:42\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_hHYhSj7qWYFpP\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"106\",\"meta_data\":[{\"id\":3099,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":85,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/106\\/?pay_for_order=true&key=wc_order_hHYhSj7qWYFpP\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:15:41\",\"date_modified_gmt\":\"2023-05-20T19:15:42\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/106\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:20:43 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImtZQWJ0K2lmMWtENldOYUdzejRFS1E9PSIsInZhbHVlIjoiQWFHMWlVeFc4MUZEVHhweTlJZkh1RUhwdW5qbUs4eE5BTkxZRTJjU1V5SlwvNEdHWHVmRG9xYTFVZGUxNms3VWkiLCJtYWMiOiJiNzc4MjA0YmY1YjNmZDllZjc1MWU1OTI5MzBjMmQ1ODQzZjVlMjVkMzAzNDBiYmE4MzU0YmMyOWFmYjdhNmEzIn0%3D; expires=Sat, 20-May-2023 21:20:43 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=YTh5XSOkKg7QHvuJ0jqEp5KHNDn1sxHX6KNLGZrY; expires=Sat, 20-May-2023 21:20:43 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4tE3M%2F9B%2F%2FVNfovI1um%2FjqPn3R8TgX%2BlDUx8Grrn1q1mN9PjXg2q3gzC6%2BFsbNro%2BXPOr0fTerVokX0EpgXHwNPDoTBMpGoze%2BZJ%2B6KSgtPVdfmc5yS8xc3EkZ31cC2HpEsg"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6f044ce2f34ca-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:23:47+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f718870a7f0228857c9d8792ed3f0843
+            [Date] => maj 20, 2023 @ 19:23
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19599
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => uMKFpkh4G6QMBduEOP60AG5XGxtBKsKWZLHXobuFlIo=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => f718870a7f0228857c9d8792ed3f0843
+                        )
+
+                )
+
+            [Body] => {\"id\":107,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:21:15\",\"date_modified\":\"2023-05-20T21:21:15\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"90.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_qKSdu5OzxiNKY\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"b67c3b069121cd77184855513615be43\",\"number\":\"107\",\"meta_data\":[{\"id\":3133,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":86,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"90.00\",\"subtotal_tax\":\"0.00\",\"total\":\"90.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/107\\/?pay_for_order=true&key=wc_order_qKSdu5OzxiNKY\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:21:15\",\"date_modified_gmt\":\"2023-05-20T19:21:15\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/107\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:23:47 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlBUQkZnUFB0cWptZFNFdUdIMWQwUnc9PSIsInZhbHVlIjoiNFVIRlwvQ1hhR2xmODVUQ3BaXC9WVFNIQTJ3WDhvcjNXUHFUa2RPUG1WSnQ3WmVVQ01jWHpCTnhTRW00ampWbXUzIiwibWFjIjoiNjg4YTFhNjZjOTE5YTgzN2FkMmQ1NTcxZTQ0YTYwYjVhYzcwNDZmYWI1ZDE1NDVkMDBjY2Q1NjdkMGEwNDZhMCJ9; expires=Sat, 20-May-2023 21:23:47 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=XP3FJKa3uKlJfIt2CudcRqmccWp9l1FQrJa9oCsu; expires=Sat, 20-May-2023 21:23:47 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I5IZARgsLM1eFb%2FxsddHaFgi7DmRlSjOX3QaVGfu5HYJhqIQEF6kazUUwriBiP6qlPVo%2BtS9Bbr8TkVaXzhRcrprTyRC%2BX4LEA83Nn8smV%2FIhlLyEZVdqarPaaAmIjfzaKjj"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6f4c69ac9350a-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+
+2023-05-20T19:24:15+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 4dff29d7ae244f70033cbdc8ebed710a
+            [Date] => maj 20, 2023 @ 19:24
+            [URL] => https://app.getreview.pl/webhook/woocommerce/klmkc
+            [Duration] => 0.19296
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/7.7.0 Hookshot (WordPress/6.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://woo.dmn.gg/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 3LgGHGq/jECk8RHaWaKr/BciydtHi2kU/MaO5QvrxVM=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 4dff29d7ae244f70033cbdc8ebed710a
+                        )
+
+                )
+
+            [Body] => {\"id\":108,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"7.7.0\",\"prices_include_tax\":false,\"date_created\":\"2023-05-20T21:23:57\",\"date_modified\":\"2023-05-20T21:23:57\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_0s0o0ANiDmEUX\",\"billing\":{\"first_name\":\"Jakub\",\"last_name\":\"Troczy\\u0144ski\",\"company\":\"\",\"address_1\":\"1 MAJA\",\"address_2\":\"66\",\"city\":\"Paj\\u0119czno\",\"state\":\"\",\"postcode\":\"98-330\",\"country\":\"PL\",\"email\":\"ttroczynski5@gmail.com\",\"phone\":\"510720673\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"176.113.198.202\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/111.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"cb7db0d971c862283d593fb07f54282c\",\"number\":\"108\",\"meta_data\":[{\"id\":3167,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":87,\"name\":\"produkt1\",\"product_id\":10,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"45.00\",\"subtotal_tax\":\"0.00\",\"total\":\"45.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"\",\"price\":45,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/woo.dmn.gg\\/checkout\\/order-pay\\/108\\/?pay_for_order=true&key=wc_order_0s0o0ANiDmEUX\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-05-20T19:23:57\",\"date_modified_gmt\":\"2023-05-20T19:23:57\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\\/108\"}],\"collection\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/woo.dmn.gg\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Sat, 20 May 2023 19:24:14 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cache-control] => no-cache, private
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlNhXC9oanplc3FtYmx0ak83VHJTSzB3PT0iLCJ2YWx1ZSI6IlN0UytzVnJISUdNSVFIYTVoVFI1OGZ5QmlsN2xOYjRtMXJuOW1UZTZteE5IT1paOUs0N2hsTEtcL3UxNFpLVzdCIiwibWFjIjoiZDVkMDJlNzBkMzhmMmFiYmQxMGIwYWMwMGU1YjMzNTE2OGJhMzMzY2Y4NjAzZGI1ZTZhYWM4MDlhM2VkZjhjMCJ9; expires=Sat, 20-May-2023 21:24:14 GMT; Max-Age=7200; path=/;samesite=none;secure=true
+                                            [1] => getreview_session=ie15m7uAOP6GN7gUsDgAF62c2aPXFKS1hZoisrpr; expires=Sat, 20-May-2023 21:24:14 GMT; Max-Age=7200; path=/;samesite=none;secure=true; httponly
+                                        )
+
+                                    [cf-cache-status] => DYNAMIC
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UJgWRzoI1XR0J2%2B4ImLt6%2BFcNMsHWvvRt7x4%2FI41PuYasvjTvLdmCUW%2BNvUuymT5M0LZ1ndqYBxbStSuMc2whkdbHtZtaW%2BJgR1kGTie8k%2BqKkYHqswiCYmfgwmgm%2FqkEPVK"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 7ca6f5718ce8c017-WAW
+                                    [content-encoding] => br
+                                    [alt-svc] => h3=":443"; ma=86400, h3-29=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+

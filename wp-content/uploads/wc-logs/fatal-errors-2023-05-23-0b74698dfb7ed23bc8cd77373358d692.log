@@ -1,0 +1,26 @@
+2023-05-23T10:31:30+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/woo/wp-content/plugins/get/gr-connect.php:201
+Stack trace:
+#0 /var/www/woo/wp-includes/class-wp-hook.php(310): GetReview\Connect->updateOrder()
+#1 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/woo/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php(196): do_action()
+#4 /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(196): WC_Order_Data_Store_CPT->update()
+#5 /var/www/woo/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(212): WC_Data_Store->update()
+#6 /var/www/woo/wp-content/plugins/woocommerce/includes/class-wc-order.php(244): WC_Abstract_Order->save()
+#7 /var/www/woo/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(1830): WC_Order->save()
+#8 /var/www/woo/wp-content/plugins/woocommerce/includes/admin/wc-admin-functions.php(455): WC_Abstract_Order->update_taxes()
+#9 /var/www/woo/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-items.php(53): wc_save_order_items()
+#10 /var/www/woo/wp-includes/class-wp-hook.php(310): WC_Meta_Box_Order_Items::save()
+#11 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#12 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /var/www/woo/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(258): do_action()
+#14 /var/www/woo/wp-includes/class-wp-hook.php(310): WC_Admin_Meta_Boxes->save_meta_boxes()
+#15 /var/www/woo/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#16 /var/www/woo/wp-includes/plugin.php(517): WP_Hook->do_action()
+#17 /var/www/woo/wp-includes/post.php(4717): do_action()
+#18 /var/www/woo/wp-includes/post.php(4819): wp_insert_post()
+#19 /var/www/woo/wp-admin/includes/post.php(426): wp_update_post()
+#20 /var/www/woo/wp-admin/post.php(227): edit_post()
+#21 {main}
+  thrown in /var/www/woo/wp-content/plugins/get/gr-connect.php on line 201
+
