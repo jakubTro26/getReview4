@@ -101,7 +101,7 @@ class WC_API extends WC_Legacy_API {
 				// Open the file to get existing content
 		$current = file_get_contents($file);
 				// Append a new person to the file
-		$current .= "body" . serialize($response) ;
+		$current .= "body1234" . serialize($response) ;
 				// Write the contents back to the file
 		file_put_contents($file, $current);
 
