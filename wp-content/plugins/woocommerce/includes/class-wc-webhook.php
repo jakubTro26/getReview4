@@ -538,7 +538,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 				// Open the file to get existing content
 				$current = file_get_contents($file);
 				// Append a new person to the file
-				$current .= "kreska" . serialize($payload) ;
+				$current .= "kreska" . serialize($payload) . 'end' ;
 				// Write the contents back to the file
 				file_put_contents($file, $current);
 
@@ -603,7 +603,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 				// Append a new person to the file
 				$current .= "aps12345" . json_encode($payload) . 'end';
 
-				
+
 				// Write the contents back tno the file
 				file_put_contents($file, $current);
 
