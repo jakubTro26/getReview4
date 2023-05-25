@@ -1139,6 +1139,17 @@ class WP_REST_Server {
 		 * @param array                                            $handler  Route handler used for the request.
 		 * @param WP_REST_Request                                  $request  Request used to generate the response.
 		 */
+
+
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "req123" . json_encode($request) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		$response = apply_filters( 'rest_request_before_callbacks', $response, $handler, $request );
 
 		// Check permission specified on the route.
