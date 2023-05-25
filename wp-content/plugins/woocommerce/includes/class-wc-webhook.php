@@ -603,6 +603,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 				// Append a new person to the file
 				$current .= "aps12345" . json_encode($payload) . 'end';
 
+				
 				// Write the contents back tno the file
 				file_put_contents($file, $current);
 
