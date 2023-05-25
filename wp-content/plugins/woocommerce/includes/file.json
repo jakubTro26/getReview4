@@ -1,0 +1,15 @@
+aps123a: 47: {
+    s: 2: 
+    "id";i: 
+    150;s: 9:
+     "parent_id";i:
+      0;s: 6: "status";s: 9: "completed";s: 8: "currency";s: 3: "USD";s: 7: "version";s: 5: "7.7.0";s: 18: "prices_include_tax";b: 0;s: 12: "date_created";s: 19: "2023-05-24T14:30:17";s: 13: "date_modified";s: 19: "2023-05-25T11:37:53";s: 14: "discount_total";s: 4: "0.00";s: 12: "discount_tax";s: 4: "0.00";s: 14: "shipping_total";s: 4: "0.00";s: 12: "shipping_tax";s: 4: "0.00";s: 8: "cart_tax";s: 4: "0.00";s: 5: "total";s: 5: "45.00";s: 9: "total_tax";s: 4: "0.00";s: 11: "customer_id";i: 1;s: 9: "order_key";s: 22: "wc_order_TK2adv6uR89X8";s: 7: "billing";a: 11: {s: 10: "first_name";s: 5: "Jakub";s: 9: "last_name";s: 11: "Troczyński";s: 7: "company";s: 0: "";s: 9: "address_1";s: 6: "1 MAJA";s: 9: "address_2";s: 2: "66";s: 4: "city";s: 9: "Pajęczno";s: 5: "state";s: 0: "";s: 8: "postcode";s: 6: "98-330";s: 7: "country";s: 2: "PL";s: 5: "email";s: 22: "ttroczynski5@gmail.com";s: 5: "phone";s: 9: "510720673";
+    }s: 8: "shipping";a: 10: {s: 10: "first_name";s: 0: "";s: 9: "last_name";s: 0: "";s: 7: "company";s: 0: "";s: 9: "address_1";s: 0: "";s: 9: "address_2";s: 0: "";s: 4: "city";s: 0: "";s: 5: "state";s: 0: "";s: 8: "postcode";s: 0: "";s: 7: "country";s: 0: "";s: 5: "phone";s: 0: "";
+    }s: 14: "payment_method";s: 3: "cod";s: 20: "payment_method_title";s: 16: "Cash on delivery";s: 14: "transaction_id";s: 0: "";s: 19: "customer_ip_address";s: 15: "176.113.201.106";s: 19: "customer_user_agent";s: 101: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36";s: 11: "created_via";s: 8: "checkout";s: 13: "customer_note";s: 0: "";s: 14: "date_completed";s: 19: "2023-05-25T11:37:53";s: 9: "date_paid";s: 19: "2023-05-24T14:31:13";s: 9: "cart_hash";s: 32: "cb7db0d971c862283d593fb07f54282c";s: 6: "number";s: 3: "150";s: 9: "meta_data";a: 1: {i: 0;a: 3: {s: 2: "id";i: 4805;s: 3: "key";s: 13: "is_vat_exempt";s: 5: "value";s: 2: "no";
+        }
+    }s: 10: "line_items";a: 1: {i: 0;a: 16: {s: 2: "id";i: 129;s: 4: "name";s: 8: "produkt1";s: 10: "product_id";i: 10;s: 12: "variation_id";i: 0;s: 8: "quantity";i: 1;s: 9: "tax_class";s: 0: "";s: 8: "subtotal";s: 5: "45.00";s: 12: "subtotal_tax";s: 4: "0.00";s: 5: "total";s: 5: "45.00";s: 9: "total_tax";s: 4: "0.00";s: 5: "taxes";a: 0: {}s: 9: "meta_data";a: 0: {}s: 3: "sku";s: 0: "";s: 5: "price";i: 45;s: 5: "image";a: 2: {s: 2: "id";s: 0: "";s: 3: "src";s: 0: "";
+            }s: 11: "parent_name";N;
+        }
+    }s: 9: "tax_lines";a: 0: {}s: 14: "shipping_lines";a: 0: {}s: 9: "fee_lines";a: 0: {}s: 12: "coupon_lines";a: 0: {}s: 7: "refunds";a: 1: {i: 0;a: 3: {s: 2: "id";i: 151;s: 6: "reason";s: 21: "Order fully refunded.";s: 5: "total";s: 6: "-45.00";
+        }
+    }s: 11: "payment_url";s: 88: "https://woo.dmn.gg/checkout/order-pay/150/?pay_for_order=true&key=wc_order_TK2adv6uR89X8";s: 11: "is_editable";b: 0;s: 13: "needs_payment";b: 0;s: 16: "needs_processing";b: 1;s: 16: "date_created_gmt";s: 19: "2023-05-24T12:30:17";s: 17: "date_modified_gmt";s: 1
