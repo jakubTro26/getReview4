@@ -1,12 +1,12 @@
 {
     "id": 153,
     "parent_id": 0,
-    "status": "processing",
+    "status": "completed",
     "currency": "USD",
     "version": "7.7.0",
     "prices_include_tax": false,
     "date_created": "2023-05-25T12:22:32",
-    "date_modified": "2023-05-25T12:22:32",
+    "date_modified": "2023-05-25T12:22:47",
     "discount_total": "0.00",
     "discount_tax": "0.00",
     "shipping_total": "0.00",
@@ -48,8 +48,8 @@
     "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
     "created_via": "checkout",
     "customer_note": "",
-    "date_completed": null,
-    "date_paid": null,
+    "date_completed": "2023-05-25T12:22:47",
+    "date_paid": "2023-05-25T12:22:47",
     "cart_hash": "b67c3b069121cd77184855513615be43",
     "number": "153",
     "meta_data": [
@@ -92,9 +92,9 @@
     "needs_payment": false,
     "needs_processing": true,
     "date_created_gmt": "2023-05-25T10:22:32",
-    "date_modified_gmt": "2023-05-25T10:22:32",
-    "date_completed_gmt": null,
-    "date_paid_gmt": null,
+    "date_modified_gmt": "2023-05-25T10:22:47",
+    "date_completed_gmt": "2023-05-25T10:22:47",
+    "date_paid_gmt": "2023-05-25T10:22:47",
     "currency_symbol": "$",
     "_links": {
         "self": [
@@ -113,4 +113,4 @@
             }
         ]
     }
-}
+}";kreska{"id":153,"parent_id":0,"status":"completed","currency":"USD","version":"7.7.0","prices_include_tax":false,"date_created":"2023-05-25T12: 22: 32","date_modified":"2023-05-25T12: 22: 47","discount_total":"0.00","discount_tax":"0.00","shipping_total":"0.00","shipping_tax":"0.00","cart_tax":"0.00","total":"90.00","total_tax":"0.00","customer_id":1,"order_key":"wc_order_MfsWioGJTvQ8U","billing":{"first_name":"Jakub","last_name":"Troczy\u0144ski","company":"","address_1":"1 MAJA","address_2":"66","city":"Paj\u0119czno","state":"","postcode":"98-330","country":"PL","email":"ttroczynski5@gmail.com","phone":"510720673"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","phone":""},"payment_method":"cod","payment_method_title":"Cash on delivery","transaction_id":"","customer_ip_address":"176.113.195.130","customer_user_agent":"Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36","created_via":"checkout","customer_note":"","date_completed":"2023-05-25T12: 22: 47","date_paid":"2023-05-25T12: 22: 47","cart_hash":"b67c3b069121cd77184855513615be43","number":"153","meta_data":[{"id":5054,"key":"is_vat_exempt","value":"no"}],"line_items":[{"id":131,"name":"produkt1","product_id":10,"variation_id":0,"quantity":2,"tax_class":"","subtotal":"90.00","subtotal_tax":"0.00","total":"90.00","total_tax":"0.00","taxes":[],"meta_data":[],"sku":"","price":45,"image":{"id":"","src":""},"parent_name":null}],"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[],"refunds":[],"payment_url":"https:\/\/woo.dmn.gg\/checkout\/order-pay\/153\/?pay_for_order=true&key=wc_order_MfsWioGJTvQ8U","is_editable":false,"needs_payment":false,"needs_processing":true,"date_created_gmt":"2023-05-25T10: 22: 32","date_modified_gmt":"2023-05-25T10: 22: 47","date_completed_gmt":"2023-05-25T10: 22: 47","date_paid_gmt":"2023-05-25T10: 22: 47","currency_symbol":"$","_links":{"self":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/153"}],"collection":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"}],"customer":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"}]}}endaps12345{"id":153,"parent_id":0,"status":"completed","currency":"USD","version":"7.7.0","prices_include_tax":false,"date_created":"2023-05-25T12: 22: 32","date_modified":"2023-05-25T12: 22: 47","discount_total":"0.00","discount_tax":"0.00","shipping_total":"0.00","shipping_tax":"0.00","cart_tax":"0.00","total":"90.00","total_tax":"0.00","customer_id":1,"order_key":"wc_order_MfsWioGJTvQ8U","billing":{"first_name":"Jakub","last_name":"Troczy\u0144ski","company":"","address_1":"1 MAJA","address_2":"66","city":"Paj\u0119czno","state":"","postcode":"98-330","country":"PL","email":"ttroczynski5@gmail.com","phone":"510720673"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","phone":""},"payment_method":"cod","payment_method_title":"Cash on delivery","transaction_id":"","customer_ip_address":"176.113.195.130","customer_user_agent":"Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36","created_via":"checkout","customer_note":"","date_completed":"2023-05-25T12: 22: 47","date_paid":"2023-05-25T12: 22: 47","cart_hash":"b67c3b069121cd77184855513615be43","number":"153","meta_data":[{"id":5054,"key":"is_vat_exempt","value":"no"}],"line_items":[{"id":131,"name":"produkt1","product_id":10,"variation_id":0,"quantity":2,"tax_class":"","subtotal":"90.00","subtotal_tax":"0.00","total":"90.00","total_tax":"0.00","taxes":[],"meta_data":[],"sku":"","price":45,"image":{"id":"","src":""},"parent_name":null}],"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[],"refunds":[],"payment_url":"https:\/\/woo.dmn.gg\/checkout\/order-pay\/153\/?pay_for_order=true&key=wc_order_MfsWioGJTvQ8U","is_editable":false,"needs_payment":false,"needs_processing":true,"date_created_gmt":"2023-05-25T10: 22: 32","date_modified_gmt":"2023-05-25T10: 22: 47","date_completed_gmt":"2023-05-25T10: 22: 47","date_paid_gmt":"2023-05-25T10: 22: 47","currency_symbol":"$","_links":{"self":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/153"}],"collection":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"}],"customer":[{"href":"https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"}]}}
