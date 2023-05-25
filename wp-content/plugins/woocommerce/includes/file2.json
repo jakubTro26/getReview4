@@ -1,18 +1,116 @@
-a: 47: {s: 2: "id";i: 152;s: 9: "parent_id";i: 0;s: 6: "status";s: 9: "completed";s: 8: "currency";s: 3: "USD";s: 7: "version";s: 5: "7.7.0";s: 18: "prices_include_tax";b: 0;s: 12: "date_created";s: 19: "2023-05-25T12:19:41";s: 13: "date_modified";s: 19: "2023-05-25T12:20:36";s: 14: "discount_total";s: 4: "0.00";s: 12: "discount_tax";s: 4: "0.00";s: 14: "shipping_total";s: 4: "0.00";s: 12: "shipping_tax";s: 4: "0.00";s: 8: "cart_tax";s: 4: "0.00";s: 5: "total";s: 5: "45.00";s: 9: "total_tax";s: 4: "0.00";s: 11: "customer_id";i: 1;s: 9: "order_key";s: 22: "wc_order_ay0h2vsKIYjpD";s: 7: "billing";a: 11: {s: 10: "first_name";s: 5: "Jakub";s: 9: "last_name";s: 11: "Troczyński";s: 7: "company";s: 0: "";s: 9: "address_1";s: 6: "1 MAJA";s: 9: "address_2";s: 2: "66";s: 4: "city";s: 9: "Pajęczno";s: 5: "state";s: 0: "";s: 8: "postcode";s: 6: "98-330";s: 7: "country";s: 2: "PL";s: 5: "email";s: 22: "ttroczynski5@gmail.com";s: 5: "phone";s: 9: "510720673";
-    }s: 8: "shipping";a: 10: {s: 10: "first_name";s: 0: "";s: 9: "last_name";s: 0: "";s: 7: "company";s: 0: "";s: 9: "address_1";s: 0: "";s: 9: "address_2";s: 0: "";s: 4: "city";s: 0: "";s: 5: "state";s: 0: "";s: 8: "postcode";s: 0: "";s: 7: "country";s: 0: "";s: 5: "phone";s: 0: "";
-    }s: 14: "payment_method";s: 3: "cod";s: 20: "payment_method_title";s: 16: "Cash on delivery";s: 14: "transaction_id";s: 0: "";s: 19: "customer_ip_address";s: 15: "176.113.195.130";s: 19: "customer_user_agent";s: 101: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36";s: 11: "created_via";s: 8: "checkout";s: 13: "customer_note";s: 0: "";s: 14: "date_completed";s: 19: "2023-05-25T12:20:36";s: 9: "date_paid";s: 19: "2023-05-25T12:20:36";s: 9: "cart_hash";s: 32: "cb7db0d971c862283d593fb07f54282c";s: 6: "number";s: 3: "152";s: 9: "meta_data";a: 1: {i: 0;a: 3: {s: 2: "id";i: 5014;s: 3: "key";s: 13: "is_vat_exempt";s: 5: "value";s: 2: "no";
+{
+    "id": 153,
+    "parent_id": 0,
+    "status": "processing",
+    "currency": "USD",
+    "version": "7.7.0",
+    "prices_include_tax": false,
+    "date_created": "2023-05-25T12:22:32",
+    "date_modified": "2023-05-25T12:22:32",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "90.00",
+    "total_tax": "0.00",
+    "customer_id": 1,
+    "order_key": "wc_order_MfsWioGJTvQ8U",
+    "billing": {
+        "first_name": "Jakub",
+        "last_name": "Troczy\u0144ski",
+        "company": "",
+        "address_1": "1 MAJA",
+        "address_2": "66",
+        "city": "Paj\u0119czno",
+        "state": "",
+        "postcode": "98-330",
+        "country": "PL",
+        "email": "ttroczynski5@gmail.com",
+        "phone": "510720673"
+    },
+    "shipping": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "",
+        "address_2": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": "",
+        "phone": ""
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Cash on delivery",
+    "transaction_id": "",
+    "customer_ip_address": "176.113.195.130",
+    "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": null,
+    "date_paid": null,
+    "cart_hash": "b67c3b069121cd77184855513615be43",
+    "number": "153",
+    "meta_data": [
+        {
+            "id": 5054,
+            "key": "is_vat_exempt",
+            "value": "no"
         }
-    }s: 10: "line_items";a: 1: {i: 0;a: 16: {s: 2: "id";i: 130;s: 4: "name";s: 8: "produkt1";s: 10: "product_id";i: 10;s: 12: "variation_id";i: 0;s: 8: "quantity";i: 1;s: 9: "tax_class";s: 0: "";s: 8: "subtotal";s: 5: "45.00";s: 12: "subtotal_tax";s: 4: "0.00";s: 5: "total";s: 5: "45.00";s: 9: "total_tax";s: 4: "0.00";s: 5: "taxes";a: 0: {}s: 9: "meta_data";a: 0: {}s: 3: "sku";s: 0: "";s: 5: "price";i: 45;s: 5: "image";a: 2: {s: 2: "id";s: 0: "";s: 3: "src";s: 0: "";
-            }s: 11: "parent_name";N;
+    ],
+    "line_items": [
+        {
+            "id": 131,
+            "name": "produkt1",
+            "product_id": 10,
+            "variation_id": 0,
+            "quantity": 2,
+            "tax_class": "",
+            "subtotal": "90.00",
+            "subtotal_tax": "0.00",
+            "total": "90.00",
+            "total_tax": "0.00",
+            "taxes": [],
+            "meta_data": [],
+            "sku": "",
+            "price": 45,
+            "image": {
+                "id": "",
+                "src": ""
+            },
+            "parent_name": null
         }
-    }s: 9: "tax_lines";a: 0: {}s: 14: "shipping_lines";a: 0: {}s: 9: "fee_lines";a: 0: {}s: 12: "coupon_lines";a: 0: {}s: 7: "refunds";a: 0: {}s: 11: "payment_url";s: 88: "https://woo.dmn.gg/checkout/order-pay/152/?pay_for_order=true&key=wc_order_ay0h2vsKIYjpD";s: 11: "is_editable";b: 0;s: 13: "needs_payment";b: 0;s: 16: "needs_processing";b: 1;s: 16: "date_created_gmt";s: 19: "2023-05-25T10:19:41";s: 17: "date_modified_gmt";s: 19: "2023-05-25T10:20:36";s: 18: "date_completed_gmt";s: 19: "2023-05-25T10:20:36";s: 13: "date_paid_gmt";s: 19: "2023-05-25T10:20:36";s: 15: "currency_symbol";s: 1: "$";s: 6: "_links";a: 3: {s: 4: "self";a: 1: {i: 0;a: 1: {s: 4: "href";s: 43: "https://woo.dmn.gg/wp-json/wc/v3/orders/152";
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/153\/?pay_for_order=true&key=wc_order_MfsWioGJTvQ8U",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2023-05-25T10:22:32",
+    "date_modified_gmt": "2023-05-25T10:22:32",
+    "date_completed_gmt": null,
+    "date_paid_gmt": null,
+    "currency_symbol": "$",
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/153"
             }
-        }s: 10: "collection";a: 1: {i: 0;a: 1: {s: 4: "href";s: 39: "https://woo.dmn.gg/wp-json/wc/v3/orders";
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"
             }
-        }s: 8: "customer";a: 1: {i: 0;a: 1: {s: 4: "href";s: 44: "https://woo.dmn.gg/wp-json/wc/v3/customers/1";
+        ],
+        "customer": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"
             }
-        }
+        ]
     }
-}end
-
-
+}
