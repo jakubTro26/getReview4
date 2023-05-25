@@ -138,8 +138,18 @@ class Connect extends \WC_Auth {
 	public function checkReviewRequestAtCheckout($orderId) {
 
 			//$this->write();
-		echo 'creating123';
+		
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
+
+
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "meta123"  ;
+			// Write the contents back to the file
+			file_put_contents($file, $current);
+
 			update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
 		}
 	}
