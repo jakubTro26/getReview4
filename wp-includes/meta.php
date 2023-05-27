@@ -185,7 +185,7 @@ function update_metadata( $meta_type, $object_id, $meta_key, $meta_value, $prev_
 
 
 
-		$file = plugin_dir_path( __FILE__ ) .'write.txt';
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
