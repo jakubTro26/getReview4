@@ -142,15 +142,20 @@ class Connect extends \WC_Auth {
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
 
 
+			
+
+			$return = update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
+		
+		
 			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 			// Open the file to get existing content
 			$current = file_get_contents($file);
 			// Append a new person to the file
-			$current .= "at123"  ;
+			$current .= "return123" . serialize($return);
 			// Write the contents back to the file
 			file_put_contents($file, $current);
-
-			update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
+		
+		
 		}
 	}
 
