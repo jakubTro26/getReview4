@@ -189,7 +189,7 @@ function update_metadata( $meta_type, $object_id, $meta_key, $meta_value, $prev_
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "update_meta";
+		$current .= $meta_key;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
