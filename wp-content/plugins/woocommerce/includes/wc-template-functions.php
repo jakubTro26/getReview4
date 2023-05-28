@@ -3711,6 +3711,7 @@ function wc_page_no_robots( $robots ) {
 }
 add_filter( 'wp_robots', 'wc_page_no_robots' );
 
+
 /**
  * Get a slug identifying the current theme.
  *
