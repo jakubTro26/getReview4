@@ -49,6 +49,7 @@ class Connect extends \WC_Auth {
 
 
 		return $data;
+		
 
 
 
