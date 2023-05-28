@@ -13,9 +13,9 @@ class Connect extends \WC_Auth {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
-		add_action('woocommerce_new_order', [$this, 'test']);
+		add_action('woocommerce_webhook_process_delivery', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
-	
+		add_filter('woocommerce_webhook_payload',[$this, 'filter']);
 	
 		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
@@ -37,14 +37,29 @@ class Connect extends \WC_Auth {
 
 
 
+	public function filter($data){
 
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "data123" . json_encode($data);
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
+		return $data;
+
+
+
+	}
 
 
 
 	public function test(){
 
 		
-		$this->write();
+		
 
 	}
 
