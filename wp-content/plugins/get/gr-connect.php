@@ -46,6 +46,12 @@ class Connect extends \WC_Auth {
 
 		$id = $data['id'];
 
+
+		$product = wc_get_product( $id );
+
+		$image = $product->get_image( 'full' );
+
+
 		$sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
 
 		$opinion = $wpdb->get_results($sql);
@@ -55,11 +61,18 @@ class Connect extends \WC_Auth {
 
 		array_splice( $original, 0, 0, $inserted );
 		
+
+		$image_slot = array( $image );
+
+
+		array_splice( $original, 1, 0, $image_slot );
+
+
 		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "wpis1234" . json_encode($original) ;
+		$current .= "wpis12345" . json_encode($original) ;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
