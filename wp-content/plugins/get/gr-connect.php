@@ -68,7 +68,7 @@ class Connect extends \WC_Auth {
 
 
 
-		return $inserted;
+		return $oryginal;
 		
 
 
