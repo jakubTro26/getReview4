@@ -40,9 +40,18 @@ class Connect extends \WC_Auth {
 	public function filter($data){
 
 
+		global $wpdb;
+
 		$original = $data;
 
-		$inserted = array( 'x' );
+		$id = $data['id'];
+
+		$sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
+
+		$opinion = $wpdb->get_results($sql);
+
+
+		$inserted = array( $opinion );
 
 		array_splice( $original, 0, 0, $inserted );
 		
