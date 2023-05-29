@@ -39,6 +39,12 @@ class Connect extends \WC_Auth {
 
 	public function filter($data){
 
+
+
+
+		$data = $data . 'to jest zgoda';
+
+
 		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 		// Open the file to get existing content
 		$current = file_get_contents($file);
@@ -46,6 +52,10 @@ class Connect extends \WC_Auth {
 		$current .= "data1234" . json_encode($data) . 'end';
 		// Write the contents back to the file
 		file_put_contents($file, $current);
+
+
+
+
 
 
 		return $data;
