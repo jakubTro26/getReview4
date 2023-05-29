@@ -49,7 +49,7 @@ class Connect extends \WC_Auth {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "data1234" . json_encode($data) . 'end';
+		$current .= "data12345" . json_encode($data) . 'end';
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
