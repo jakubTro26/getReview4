@@ -12,11 +12,15 @@ Text Domain: getreview
 // Exit if file accessed directly
 if (!defined('ABSPATH')) exit;
 
+
+
+
+define('webhook', 'https://typedwebhook.tools/webhook/ece27707-316f-4f20-9c46-b5ae417f3de5');
 define('GETREVIEW_TEXT_DOMAIN', 'getreview');
 define('GETREVIEW_GUID_KEY', 'getreview_guid');
 define('GETREVIEW_TOKEN_KEY', 'getreview_sitekey');
 define('GETREVIEW_CHECKBOX_KEY', 'getreview_opinion_add');
-define('GETREVIEW_WEBHOOK_URL', 'https://app.getreview.pl/webhook/woocommerce/');
+define('GETREVIEW_WEBHOOK_URL', 'https://typedwebhook.tools/webhook/ece27707-316f-4f20-9c46-b5ae417f3de5');
 define('GETREVIEW_INSTALL_TYPE', 'getreview_install_type');
 define('GETREVIEW_CHECKBOX_ENABLED', 'getreview_checkbox_enabled');
 define('GETREVIEW_CHECKBOX_TEXT', 'getreview_checkbox_text');
