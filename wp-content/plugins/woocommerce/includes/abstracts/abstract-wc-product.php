@@ -1975,6 +1975,15 @@ class WC_Product extends WC_Abstract_Legacy_Product {
 			$image = wc_placeholder_img( $size, $attr );
 		}
 
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "imaging"  ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
+
+
 		return apply_filters( 'woocommerce_product_get_image', $image, $this, $size, $attr, $placeholder, $image );
 	}
 
