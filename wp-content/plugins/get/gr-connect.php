@@ -51,7 +51,8 @@ class Connect extends \WC_Auth {
 
 		$image = $product->get_image( 'full' );
 
-
+		
+		
 
 		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
 		// Open the file to get existing content
