@@ -1,0 +1,252 @@
+{
+    "id": 207,
+    "parent_id": 0,
+    "status": "completed",
+    "currency": "USD",
+    "version": "7.7.0",
+    "prices_include_tax": false,
+    "date_created": "2023-05-30T13:31:54",
+    "date_modified": "2023-05-30T13:32:05",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "45.00",
+    "total_tax": "0.00",
+    "customer_id": 1,
+    "order_key": "wc_order_PpQjWrN8nT7Za",
+    "billing": {
+        "first_name": "Jakub",
+        "last_name": "Troczy\u0144ski",
+        "company": "",
+        "address_1": "1 MAJA",
+        "address_2": "66",
+        "city": "Paj\u0119czno",
+        "state": "",
+        "postcode": "98-330",
+        "country": "PL",
+        "email": "ttroczynski5@gmail.com",
+        "phone": "510720673"
+    },
+    "shipping": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "",
+        "address_2": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": "",
+        "phone": ""
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Cash on delivery",
+    "transaction_id": "",
+    "customer_ip_address": "176.113.200.116",
+    "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": "2023-05-30T13:32:05",
+    "date_paid": "2023-05-30T13:32:05",
+    "cart_hash": "cb7db0d971c862283d593fb07f54282c",
+    "number": "207",
+    "meta_data": [
+        {
+            "id": 7072,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 7073,
+            "key": "getreview_opinion_add",
+            "value": "on"
+        }
+    ],
+    "line_items": [
+        {
+            "id": 182,
+            "name": "produkt1",
+            "product_id": 10,
+            "variation_id": 0,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "45.00",
+            "subtotal_tax": "0.00",
+            "total": "45.00",
+            "total_tax": "0.00",
+            "taxes": [],
+            "meta_data": [],
+            "sku": "",
+            "price": 45,
+            "image": {
+                "id": "198",
+                "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
+            },
+            "parent_name": null
+        }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/207\/?pay_for_order=true&key=wc_order_PpQjWrN8nT7Za",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2023-05-30T11:31:54",
+    "date_modified_gmt": "2023-05-30T11:32:05",
+    "date_completed_gmt": "2023-05-30T11:32:05",
+    "date_paid_gmt": "2023-05-30T11:32:05",
+    "currency_symbol": "$",
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/207"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"
+            }
+        ],
+        "customer": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"
+            }
+        ]
+    }
+}payload1234{
+    "0": [
+        {
+            "meta_id": "7073",
+            "post_id": "207",
+            "meta_key": "getreview_opinion_add",
+            "meta_value": "on"
+        }
+    ],
+    "id": 207,
+    "parent_id": 0,
+    "status": "completed",
+    "currency": "USD",
+    "version": "7.7.0",
+    "prices_include_tax": false,
+    "date_created": "2023-05-30T13:31:54",
+    "date_modified": "2023-05-30T13:32:05",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "45.00",
+    "total_tax": "0.00",
+    "customer_id": 1,
+    "order_key": "wc_order_PpQjWrN8nT7Za",
+    "billing": {
+        "first_name": "Jakub",
+        "last_name": "Troczy\u0144ski",
+        "company": "",
+        "address_1": "1 MAJA",
+        "address_2": "66",
+        "city": "Paj\u0119czno",
+        "state": "",
+        "postcode": "98-330",
+        "country": "PL",
+        "email": "ttroczynski5@gmail.com",
+        "phone": "510720673"
+    },
+    "shipping": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "",
+        "address_2": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": "",
+        "phone": ""
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Cash on delivery",
+    "transaction_id": "",
+    "customer_ip_address": "176.113.200.116",
+    "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": "2023-05-30T13:32:05",
+    "date_paid": "2023-05-30T13:32:05",
+    "cart_hash": "cb7db0d971c862283d593fb07f54282c",
+    "number": "207",
+    "meta_data": [
+        {
+            "id": 7072,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 7073,
+            "key": "getreview_opinion_add",
+            "value": "on"
+        }
+    ],
+    "line_items": [
+        {
+            "id": 182,
+            "name": "produkt1",
+            "product_id": 10,
+            "variation_id": 0,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "45.00",
+            "subtotal_tax": "0.00",
+            "total": "45.00",
+            "total_tax": "0.00",
+            "taxes": [],
+            "meta_data": [],
+            "sku": "",
+            "price": 45,
+            "image": {
+                "id": "198",
+                "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
+            },
+            "parent_name": null
+        }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/207\/?pay_for_order=true&key=wc_order_PpQjWrN8nT7Za",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2023-05-30T11:31:54",
+    "date_modified_gmt": "2023-05-30T11:32:05",
+    "date_completed_gmt": "2023-05-30T11:32:05",
+    "date_paid_gmt": "2023-05-30T11:32:05",
+    "currency_symbol": "$",
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/207"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"
+            }
+        ],
+        "customer": [
+            {
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"
+            }
+        ]
+    }
+}logging1234a: 4: {s: 4: "Code";i: 404;s: 7: "Message";s: 9: "Not Found";s: 7: "Headers";O: 42: "Requests_Utility_CaseInsensitiveDictionary": 1: {s: 7: "*data";a: 9: {s: 4: "date";s: 29: "Tue, 30 May 2023 11:33:07 GMT";s: 12: "content-type";s: 24: "text/plain;charset=UTF-8";s: 14: "content-length";s: 1: "9";s: 9: "report-to";s: 253: "{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2pAQgx33plHwr1aFa7HabWkA6wbP%2FNu%2BFCEBRdR6T%2By5jBXVPy2bAtGtnskourgmnOPZ2C8Y%2BJ8RIsePq2hFijkLxEngNiVh%2Fker1pB5F1g0hOTTZCaWgat8EQljKFDDGYj43Kw%3D"}],"group":"cf-nel","max_age":604800}";s: 3: "nel";s: 60: "{"success_fraction":0,"report_to":"cf-nel","max_age":604800}";s: 4: "vary";s: 15: "Accept-Encoding";s: 6: "server";s: 10: "cloudflare";s: 6: "cf-ray";s: 20: "7cf6a90f4b35ffd4-WAW";s: 7: "alt-svc";s: 19: "h3=": 443"; ma=86400";
+        }
+    }s: 4: "Body";s: 9: "Not Found";
+}
