@@ -310,8 +310,8 @@ class Connect extends \WC_Auth {
 		$webhookKeyName = 'GetReview Webhook Key';
 
 
-		if(defined(webhook)){
-			
+		if(defined('webhook')){
+
 			$deliveryUrl = webhook;
 		}
 		else{
