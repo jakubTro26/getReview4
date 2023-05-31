@@ -308,7 +308,17 @@ class Connect extends \WC_Auth {
 
 		global $wpdb;
 		$webhookKeyName = 'GetReview Webhook Key';
-		$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
+
+
+		if(defined(webhook)){
+			
+			$deliveryUrl = webhook;
+		}
+		else{
+			$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
+		}
+
+		
 
 		$queryKeys = "SELECT consumer_secret FROM {$wpdb->prefix}woocommerce_api_keys WHERE `description` LIKE %s";
 		$queryWebhooks = "SELECT webhook_id FROM {$wpdb->prefix}wc_webhooks WHERE delivery_url='%s'";
