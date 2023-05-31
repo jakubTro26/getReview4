@@ -83,6 +83,7 @@ define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 @ini_set( 'display_errors', 0 );
+error_reporting( E_ERROR | E_WARNING | E_PARSE );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
