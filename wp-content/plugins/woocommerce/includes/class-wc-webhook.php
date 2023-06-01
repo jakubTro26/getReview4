@@ -124,13 +124,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 	public function process( $arg ) {
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "enq123" . serialize($arg) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 		
 
 		// Verify that webhook should be processed for delivery.
@@ -157,7 +151,13 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		 */
 	
 
-
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "enq1234" . serialize($arg) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 		do_action( 'woocommerce_webhook_process_delivery', $this, $arg );
 
