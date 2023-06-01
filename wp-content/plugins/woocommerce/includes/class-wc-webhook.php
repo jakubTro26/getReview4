@@ -425,7 +425,13 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$response = wp_safe_remote_request( $this->get_delivery_url(), $http_args );
 
 	
-
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "remote123"  . json_encode($response) ;
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 	
 	
 
