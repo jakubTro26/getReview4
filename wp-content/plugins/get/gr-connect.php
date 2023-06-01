@@ -48,7 +48,7 @@ class Connect extends \WC_Auth {
 
 		global $wpdb;
 
-		// $original = $data;
+		 $original = $data;
 
 		// $id = $data['id'];
 
