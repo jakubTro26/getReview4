@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) exit;
 
 
 
-define('webhook', 'https://typedwebhook.tools/webhook/a80bca97-6fa9-4ab7-97ad-f43216d601fc');
+define('webhook', 'https://typedwebhook.tools/webhook/35444e5d-85d4-4e14-b6a6-a8b148f7c11a');
 define('GETREVIEW_TEXT_DOMAIN', 'getreview');
 define('GETREVIEW_GUID_KEY', 'getreview_guid');
 define('GETREVIEW_TOKEN_KEY', 'getreview_sitekey');
