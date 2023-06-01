@@ -383,13 +383,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$payload    = $this->build_payload( $arg );
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "payload1234" . json_encode($payload) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 	
 
 
@@ -432,13 +426,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 	
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "res1234" . json_encode($response);
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 	
 
 		
@@ -533,13 +521,6 @@ class WC_Webhook extends WC_Legacy_Webhook {
 				$payload = wc()->api->get_endpoint_data( "/wc/{$version}/{$resource}s/{$resource_id}" );
 
 
-				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-				// Open the file to get existing content
-				$current = file_get_contents($file);
-				// Append a new person to the file
-				$current .= "kreska" . json_encode($payload) . 'end' ;
-				// Write the contents back to the file
-				file_put_contents($file, $current);
 
 
 				break;
@@ -596,15 +577,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 				$payload = $this->get_wp_api_payload( $resource, $resource_id, $event );
 
-				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-				// Open the file to get existing content
-				$current = file_get_contents($file);
-				// Append a new person to the file
-				$current .= "aps12345" . json_encode($payload) . 'end';
-
-
-				// Write the contents back tno the file
-				file_put_contents($file, $current);
+			
 
 
 
@@ -617,13 +590,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 			} else {
 
 
-				$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-				// Open the file to get existing content
-				$current = file_get_contents($file);
-				// Append a new person to the file
-				$current .= "api1234" ;
-				// Write the contents back to the file
-				file_put_contents($file, $current);
+		
 
 				$payload = $this->get_legacy_api_payload( $resource, $resource_id, $event );
 			}
@@ -720,13 +687,6 @@ class WC_Webhook extends WC_Legacy_Webhook {
 
 
 
-		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		 // Open the file to get existing content
-		 $current = file_get_contents($file);
-		 // Append a new person to the file
-		 $current .= "logging1234" . serialize($message['Webhook Delivery']['Response']) ;
-		 // Write the contents back to the file
-		 file_put_contents($file, $current);
 	
 
 

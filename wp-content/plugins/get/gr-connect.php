@@ -48,36 +48,30 @@ class Connect extends \WC_Auth {
 
 		global $wpdb;
 
-		$original = $data;
+		// $original = $data;
 
-		$id = $data['id'];
-
-
-		//$product = wc_get_product(  );
-
-		//$image = $product->get_image( 'full' );
-
-		$product_id = $data['line_items']['id'];
+		// $id = $data['id'];
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "image0" . json_encode($product_id) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+		// //$product = wc_get_product(  );
+
+		// //$image = $product->get_image( 'full' );
+
+		// $product_id = $data['line_items']['id'];
+
+
+	
 
 
 
-		$sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
+		// $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
 
-		$opinion = $wpdb->get_results($sql);
+		// $opinion = $wpdb->get_results($sql);
 
 
-		$inserted = array( $opinion );
+		// $inserted = array( $opinion );
 
-		array_splice( $original, 0, 0, $inserted );
+		// array_splice( $original, 0, 0, $inserted );
 		
 
 		// $image_slot = array( $image );
@@ -103,13 +97,7 @@ class Connect extends \WC_Auth {
 
 	public function test(){
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "test123" ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 		
 
 	}
@@ -213,13 +201,7 @@ class Connect extends \WC_Auth {
 			$return = update_post_meta($orderId, GETREVIEW_CHECKBOX_KEY, sanitize_text_field($_POST[GETREVIEW_CHECKBOX_KEY]));
 		
 		
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "return123" . serialize($return);
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+		
 		
 		
 		}
