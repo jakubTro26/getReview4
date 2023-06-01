@@ -89,7 +89,22 @@ function wc_webhook_process_delivery( $webhook, $arg ) {
 	$wc_queued_webhooks[] = array(
 		'webhook' => $webhook,
 		'arg'     => $arg,
+
+
+
 	);
+
+
+	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "que123" . json_encode($wc_queued_webhooks);
+	// Write the contents back to the file
+	file_put_contents($file, $current);
+
+
+
 }
 add_action( 'woocommerce_webhook_process_delivery', 'wc_webhook_process_delivery', 10, 2 );
 
