@@ -50,8 +50,17 @@ class Connect extends \WC_Auth {
 
 		 $original = $data;
 
-		// $id = $data['id'];
 
+		 
+
+		 $id = $data['id'];
+
+
+		 if($id===NULL){
+
+			return $original;
+
+		 }
 
 		// //$product = wc_get_product(  );
 
@@ -64,14 +73,14 @@ class Connect extends \WC_Auth {
 
 
 
-		// $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
+		 $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
 
-		// $opinion = $wpdb->get_results($sql);
+		 $opinion = $wpdb->get_results($sql);
 
 
-		// $inserted = array( $opinion );
+		 $inserted = array( $opinion );
 
-		// array_splice( $original, 0, 0, $inserted );
+		 array_splice( $original, 0, 0, $inserted );
 		
 
 		// $image_slot = array( $image );
