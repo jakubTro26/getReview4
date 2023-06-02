@@ -42,13 +42,7 @@ function wc_webhook_execute_queue() {
 			);
 
 
-			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .= "forki123"  . serialize($queue_args) ;
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+			
 
 			$next_scheduled_date = WC()->queue()->get_next( 'woocommerce_deliver_webhook_async', $queue_args, 'woocommerce-webhooks' );
 
@@ -95,13 +89,7 @@ function wc_webhook_process_delivery( $webhook, $arg ) {
 	);
 
 
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "que123" . json_encode($wc_queued_webhooks);
-	// Write the contents back to the file
-	file_put_contents($file, $current);
+
 
 
 
@@ -121,13 +109,6 @@ function wc_deliver_webhook_async( $webhook_id, $arg ) {
 
 
 
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "asyncik123" . serialize($webhook_id) ;
-	// Write the contents back to the file
-	file_put_contents($file, $current);
 
 
 	$webhook = new WC_Webhook( $webhook_id );
@@ -228,13 +209,7 @@ function wc_load_webhooks( $status = '', $limit = null ) {
 
 
 
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "load12345" . serialize($webhooks);
-	// Write the contents back to the file
-	file_put_contents($file, $current);
+
 	
 
 

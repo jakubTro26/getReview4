@@ -67,7 +67,7 @@ class Connect extends \WC_Auth {
 		 $product_id = $data['line_items'];
 
 		 $product_id = $product_id['product_id'];
-		 
+
 		 //$product = wc_get_product( $product_id );
 
 		 //$image = $product->get_image( 'full' );
@@ -274,15 +274,7 @@ class Connect extends \WC_Auth {
 
 		 //$ping = $webhook->deliver_ping();
 
-
-		//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		//  // Open the file to get existing content
-		//  $current = file_get_contents($file);
-		//  // Append a new person to the file
-		//  $current .= "pong1234" . serialize($ping) ;
-		//  // Write the contents back to the file
-		//  file_put_contents($file, $current);
-		// // $webhook->set_status('active');
+;
 
 		 
 

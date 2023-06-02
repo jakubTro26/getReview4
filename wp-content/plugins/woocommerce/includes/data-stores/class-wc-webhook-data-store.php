@@ -116,13 +116,7 @@ class WC_Webhook_Data_Store implements WC_Webhook_Data_Store_Interface {
 	public function update( &$webhook ) {
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "up123"  ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		global $wpdb;
@@ -226,13 +220,7 @@ class WC_Webhook_Data_Store implements WC_Webhook_Data_Store_Interface {
 
 		$ids = get_transient( $this->get_transient_key( $status ) );
 
-		//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		//   //Open the file to get existing content
-		//  $current = file_get_contents($file);
-		// // // Append a new person to the file
-		//  $current .= "get_trans" . serialize($this->get_transient_key( $status ));
-		// // // Write the contents back to the file
-		//  file_put_contents($file, $current);
+
 
 
 		if ( false === $ids ) {

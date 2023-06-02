@@ -425,13 +425,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$response = wp_safe_remote_request( $this->get_delivery_url(), $http_args );
 
 	
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "remote123"  . json_encode($response) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 	
 	
 
@@ -781,13 +775,7 @@ class WC_Webhook extends WC_Legacy_Webhook {
 		$test          = wp_safe_remote_post( $this->get_delivery_url(), $args );
 		$response_code = wp_remote_retrieve_response_code( $test );
 
-		// $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// // Open the file to get existing content
-		// $current = file_get_contents($file);
-		// // Append a new person to the file
-		// $current .= "url4" . serialize($this->get_delivery_url());
-		// // Write the contents back to the file
-		// file_put_contents($file, $current);
+	
 
 
 

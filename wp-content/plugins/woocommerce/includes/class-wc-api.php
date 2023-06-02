@@ -104,13 +104,7 @@ class WC_API extends WC_Legacy_API {
 		$json     = wp_json_encode( $server->response_to_data( $response, false ) );
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "r123" . json_encode($response) . 'end' ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+
 
 
 		return json_decode( $json, true );

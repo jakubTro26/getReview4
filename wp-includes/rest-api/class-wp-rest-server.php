@@ -1141,13 +1141,7 @@ class WP_REST_Server {
 		 */
 
 
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "req123" . json_encode($request) ;
-		// Write the contents back to the file
-		file_put_contents($file, $current);
+	
 
 
 		$response = apply_filters( 'rest_request_before_callbacks', $response, $handler, $request );
