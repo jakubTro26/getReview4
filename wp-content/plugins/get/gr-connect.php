@@ -66,11 +66,18 @@ class Connect extends \WC_Auth {
 
 		 $product_id = $data['line_items']['product_id'];
 
-		 $product = wc_get_product( $product_id );
+		 //$product = wc_get_product( $product_id );
 
-		 $image = $product->get_image( 'full' );
+		 //$image = $product->get_image( 'full' );
 	
 
+		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+		// Open the file to get existing content
+		$current = file_get_contents($file);
+		// Append a new person to the file
+		$current .= "product_id" . json_encode($product_id);
+		// Write the contents back to the file
+		file_put_contents($file, $current);
 
 
 		 $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
@@ -83,10 +90,10 @@ class Connect extends \WC_Auth {
 		 array_splice( $original, 0, 0, $inserted );
 		
 
-		 $image_slot = array( $image );
+		 //$image_slot = array( $image );
 
 
-		 array_splice( $original, 1, 0, $image_slot );
+		 //array_splice( $original, 1, 0, $image_slot );
 
 
 
