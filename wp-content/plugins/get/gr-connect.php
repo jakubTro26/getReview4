@@ -64,7 +64,7 @@ class Connect extends \WC_Auth {
 
 	 
 
-		 $product_id = $data['line_items']['product_id'];
+		 $product_id = $data['line_items']->product_id;
 
 		 //$product = wc_get_product( $product_id );
 
