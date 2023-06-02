@@ -62,13 +62,13 @@ class Connect extends \WC_Auth {
 
 		 }
 
-		// //$product = wc_get_product(  );
+	 
 
-		// //$image = $product->get_image( 'full' );
+		 $product_id = $data['line_items']['id'];
 
-		// $product_id = $data['line_items']['id'];
+		 $product = wc_get_product( $product_id );
 
-
+		 $image = $product->get_image( 'full' );
 	
 
 
@@ -83,10 +83,10 @@ class Connect extends \WC_Auth {
 		 array_splice( $original, 0, 0, $inserted );
 		
 
-		// $image_slot = array( $image );
+		 $image_slot = array( $image );
 
 
-		// array_splice( $original, 1, 0, $image_slot );
+		 array_splice( $original, 1, 0, $image_slot );
 
 
 
