@@ -70,7 +70,7 @@ class Connect extends \WC_Auth {
 
 
 		 $product_id = json_encode($product_id);
-		 $product_id = json_decode($product_id);
+		 $product_id = json_decode($product_id, true);
 		 $product_id = $product_id['id'];
 
 		 //$product = wc_get_product( $product_id );
