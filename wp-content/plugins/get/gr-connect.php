@@ -73,7 +73,11 @@ class Connect extends \WC_Auth {
 		 $product_id = json_decode($product_id,true);
 		 $product_id = $product_id['id'];
 
-		 $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
+		 //$image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
+
+		 $image = get_post_thumbnail_id( $product_id );
+
+
 
 		 //$image = $product->get_image( 'full' );
 	
@@ -82,7 +86,7 @@ class Connect extends \WC_Auth {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "product_id123" . $image[0];
+		$current .= "product_id123" . $image;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
