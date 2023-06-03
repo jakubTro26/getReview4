@@ -69,9 +69,9 @@ class Connect extends \WC_Auth {
 
 		 $product_id = $data['line_items'];
 
-		 //$product_id = json_encode($product_id);
-		 //$product_id = json_decode($product_id,true);
-		 //$product_id = $product_id['id'];
+		 $product_id = json_encode($product_id);
+		 $product_id = json_decode($product_id,true);
+		 $product_id = $product_id['product_id'];
 
 		 //$image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
 
