@@ -2488,16 +2488,7 @@ function delete_post_meta( $post_id, $meta_key, $meta_value = '' ) {
  */
 function get_post_meta( $post_id, $key = '', $single = false ) {
 
-	if($post_id===10){
-	
-	$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "post_id" . $post_id;
-	// Write the contents back to the file
-	file_put_contents($file, $current);
-	}
+
 
 	return get_metadata( 'post', $post_id, $key, $single );
 }

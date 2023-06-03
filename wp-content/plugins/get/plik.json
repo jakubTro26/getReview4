@@ -1,5 +1,85 @@
-[
-    {
+{
+    "0": [
+      {
+        "meta_id": "8303",
+        "post_id": "238",
+        "meta_key": "getreview_opinion_add",
+        "meta_value": "on"
+      }
+    ],
+    "1": [
+      "https://woo.dmn.gg/wp-content/uploads/2023/05/waiting-1-150x150.jpg",
+      150,
+      150,
+      true
+    ],
+    "id": 238,
+    "parent_id": 0,
+    "status": "on-hold",
+    "currency": "USD",
+    "version": "7.7.0",
+    "prices_include_tax": false,
+    "date_created": "2023-06-03T14:20:52",
+    "date_modified": "2023-06-03T14:52:52",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "45.00",
+    "total_tax": "0.00",
+    "customer_id": 1,
+    "order_key": "wc_order_tNfEJWPhaKsWj",
+    "billing": {
+      "first_name": "Jakub",
+      "last_name": "Troczyński",
+      "company": "",
+      "address_1": "1 MAJA",
+      "address_2": "66",
+      "city": "Pajęczno",
+      "state": "",
+      "postcode": "98-330",
+      "country": "PL",
+      "email": "ttroczynski5@gmail.com",
+      "phone": "510720673"
+    },
+    "shipping": {
+      "first_name": "",
+      "last_name": "",
+      "company": "",
+      "address_1": "",
+      "address_2": "",
+      "city": "",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "phone": ""
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Cash on delivery",
+    "transaction_id": "",
+    "customer_ip_address": "176.113.202.252",
+    "customer_user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": "2023-06-03T14:49:08",
+    "date_paid": "2023-06-03T14:21:02",
+    "cart_hash": "cb7db0d971c862283d593fb07f54282c",
+    "number": "238",
+    "meta_data": [
+      {
+        "id": 8302,
+        "key": "is_vat_exempt",
+        "value": "no"
+      },
+      {
+        "id": 8303,
+        "key": "getreview_opinion_add",
+        "value": "on"
+      }
+    ],
+    "line_items": [
+      {
         "id": 212,
         "name": "produkt1",
         "product_id": 10,
@@ -15,9 +95,41 @@
         "sku": "",
         "price": 45,
         "image": {
-            "id": "198",
-            "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
+          "id": "198",
+          "src": "https://woo.dmn.gg/wp-content/uploads/2023/05/waiting-1.jpg"
         },
         "parent_name": null
+      }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://woo.dmn.gg/checkout/order-pay/238/?pay_for_order=true&key=wc_order_tNfEJWPhaKsWj",
+    "is_editable": true,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2023-06-03T12:20:52",
+    "date_modified_gmt": "2023-06-03T12:52:52",
+    "date_completed_gmt": "2023-06-03T12:49:08",
+    "date_paid_gmt": "2023-06-03T12:21:02",
+    "currency_symbol": "$",
+    "_links": {
+      "self": [
+        {
+          "href": "https://woo.dmn.gg/wp-json/wc/v3/orders/238"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://woo.dmn.gg/wp-json/wc/v3/orders"
+        }
+      ],
+      "customer": [
+        {
+          "href": "https://woo.dmn.gg/wp-json/wc/v3/customers/1"
+        }
+      ]
     }
-]
+  }
