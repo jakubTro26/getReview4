@@ -45,24 +45,15 @@ class Connect extends \WC_Auth {
 
 	public function filter($data){
 
-
 		global $wpdb;
 
 		 $original = $data;
 
-
-		 
-
 		 $id = $data['id'];
 
-
 		 if($id===NULL){
-
 			return $original;
-
 		 }
-
-	 
 
 		 //$product_id = $data['line_items'][2];
 
@@ -76,22 +67,6 @@ class Connect extends \WC_Auth {
 
 		 $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
 
-		 //$image = get_post_meta( $product_id, '_thumbnail_id', true );
-
-
-
-		 //$image = $product->get_image( 'full' );
-	
-
-		$file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "product_id" . json_encode($image);
-		// Write the contents back to the file
-		file_put_contents($file, $current);
-
-
 		 $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
 
 		 $opinion = $wpdb->get_results($sql);
@@ -102,22 +77,12 @@ class Connect extends \WC_Auth {
 		 array_splice( $original, 0, 0, $inserted );
 		
 
-		 //$image_slot = array( $image );
+		 $image_slot = array( $image );
 
 
-		 //array_splice( $original, 1, 0, $image_slot );
-
-
-
-
-
-
-
+		 array_splice( $original, 1, 0, $image_slot );
 
 		return $original;
-		
-
-
 
 	}
 
