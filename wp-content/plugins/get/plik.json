@@ -1,12 +1,12 @@
 {
-    "id": 182,
+    "id": 235,
     "parent_id": 0,
-    "status": "completed",
+    "status": "pending",
     "currency": "USD",
     "version": "7.7.0",
     "prices_include_tax": false,
-    "date_created": "2023-05-29T08:47:33",
-    "date_modified": "2023-05-29T08:48:06",
+    "date_created": "2023-05-31T17:45:32",
+    "date_modified": "2023-06-03T14:22:46",
     "discount_total": "0.00",
     "discount_tax": "0.00",
     "shipping_total": "0.00",
@@ -15,7 +15,7 @@
     "total": "45.00",
     "total_tax": "0.00",
     "customer_id": 1,
-    "order_key": "wc_order_mbPiBxCYTWHRq",
+    "order_key": "wc_order_i1bnvyNSdkspy",
     "billing": {
         "first_name": "Jakub",
         "last_name": "Troczy\u0144ski",
@@ -44,29 +44,29 @@
     "payment_method": "cod",
     "payment_method_title": "Cash on delivery",
     "transaction_id": "",
-    "customer_ip_address": "176.113.198.98",
+    "customer_ip_address": "176.113.195.160",
     "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
     "created_via": "checkout",
     "customer_note": "",
-    "date_completed": "2023-05-29T08:47:54",
-    "date_paid": "2023-05-29T08:47:54",
+    "date_completed": "2023-06-03T12:43:20",
+    "date_paid": "2023-05-31T17:49:12",
     "cart_hash": "cb7db0d971c862283d593fb07f54282c",
-    "number": "182",
+    "number": "235",
     "meta_data": [
         {
-            "id": 6126,
+            "id": 8220,
             "key": "is_vat_exempt",
             "value": "no"
         },
         {
-            "id": 6127,
+            "id": 8221,
             "key": "getreview_opinion_add",
             "value": "on"
         }
     ],
     "line_items": [
         {
-            "id": 159,
+            "id": 210,
             "name": "produkt1",
             "product_id": 10,
             "variation_id": 0,
@@ -81,8 +81,8 @@
             "sku": "",
             "price": 45,
             "image": {
-                "id": "",
-                "src": ""
+                "id": "198",
+                "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
             },
             "parent_name": null
         }
@@ -92,19 +92,19 @@
     "fee_lines": [],
     "coupon_lines": [],
     "refunds": [],
-    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/182\/?pay_for_order=true&key=wc_order_mbPiBxCYTWHRq",
-    "is_editable": false,
-    "needs_payment": false,
+    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/235\/?pay_for_order=true&key=wc_order_i1bnvyNSdkspy",
+    "is_editable": true,
+    "needs_payment": true,
     "needs_processing": true,
-    "date_created_gmt": "2023-05-29T06:47:33",
-    "date_modified_gmt": "2023-05-29T06:48:06",
-    "date_completed_gmt": "2023-05-29T06:47:54",
-    "date_paid_gmt": "2023-05-29T06:47:54",
+    "date_created_gmt": "2023-05-31T15:45:32",
+    "date_modified_gmt": "2023-06-03T12:22:46",
+    "date_completed_gmt": "2023-06-03T10:43:20",
+    "date_paid_gmt": "2023-05-31T15:49:12",
     "currency_symbol": "$",
     "_links": {
         "self": [
             {
-                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/182"
+                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/235"
             }
         ],
         "collection": [
