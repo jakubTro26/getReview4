@@ -87,7 +87,7 @@ class Connect extends \WC_Auth {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "product_id" . $image;
+		$current .= "product_id" . json_encode($image);
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
