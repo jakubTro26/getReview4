@@ -73,7 +73,7 @@ class Connect extends \WC_Auth {
 		 $product_id = json_decode($product_id,true);
 		 $product_id = $product_id['id'];
 
-		 //$product = wc_get_product( $product_id );
+		 $product = wc_get_product( $product_id );
 
 		 //$image = $product->get_image( 'full' );
 	
@@ -82,7 +82,7 @@ class Connect extends \WC_Auth {
 		// Open the file to get existing content
 		$current = file_get_contents($file);
 		// Append a new person to the file
-		$current .= "product_id123" . $product_id;
+		$current .= "product_id123" . $product;
 		// Write the contents back to the file
 		file_put_contents($file, $current);
 
