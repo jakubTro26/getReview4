@@ -67,29 +67,29 @@ class Connect extends \WC_Auth {
 		 file_put_contents($file, $current);
 
 
-		 $product_id = $data['line_items'];
+		 //$product_id = $data['line_items'];
 
-		 $product_id = json_encode($product_id);
-		 $product_id = json_decode($product_id,true);
-		 $product_id = $product_id[0];
-		 $product_id = $product_id['product_id'];
+		 //$product_id = json_encode($product_id);
+		 //$product_id = json_decode($product_id,true);
+		 //$product_id = $product_id[0];
+		 //$product_id = $product_id['product_id'];
 
-		 $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
+		// $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
 
-		 $product_description = get_post($item['product_id'])->post_content;
+		 //$product_description = get_post($item['product_id'])->post_content;
 
-		 $sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
+		 //$sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
 
-		 $opinion = $wpdb->get_results($sql);
+		 //$opinion = $wpdb->get_results($sql);
 
 
-		 $inserted = array( $opinion );
+		 //$inserted = array( $opinion );
 
-		 array_splice( $original, 0, 0, $inserted );
+		 //array_splice( $original, 0, 0, $inserted );
 
-		 $image_slot = array( $image );
+		// $image_slot = array( $image );
 
-		 array_splice( $original, 1, 0, $image_slot );
+		 //array_splice( $original, 1, 0, $image_slot );
 
 		return $original;
 
