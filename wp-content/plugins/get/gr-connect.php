@@ -60,17 +60,17 @@ class Connect extends \WC_Auth {
 
 		 foreach ($order->get_items() as $item) {
 
-			//  $product_id = $item['product_id'];
-			//  $product_instance = wc_get_product($product_id);
+			 $product_id = $item['product_id'];
+			 $product_instance = wc_get_product($product_id);
 		 
-			//  $product_full_description = $product_instance->get_description();
-			//  $product_short_description = $product_instance->get_short_description();
+			 $product_full_description = $product_instance->get_description();
+			 $product_short_description = $product_instance->get_short_description();
 
-			//  $inserted_full_desc = array( 'product1_full' =>  $product_full_description );
- 		    //  $original[]=$inserted_full_desc;
+			 $inserted_full_desc = array( 'product1_full' =>  $product_full_description );
+ 		     $original[]=$inserted_full_desc;
 
-			//  $inserted_short_desc = array( 'product1_short' => $product_short_description );
-			//  $original[]=$inserted_short_desc;
+			 $inserted_short_desc = array( 'product1_short' => $product_short_description );
+			 $original[]=$inserted_short_desc;
 
 			//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
 			//  // Open the file to get existing content
