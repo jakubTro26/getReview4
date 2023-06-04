@@ -67,10 +67,10 @@ class Connect extends \WC_Auth {
 			 $product_short_description = $product_instance->get_short_description();
 
 			 $inserted_full_desc = array( 'product1_full' =>  $product_full_description );
- 		     array_splice( $original, 0, 0, $inserted_full_desc );
+ 		     $original[]=$inserted_full_desc;
 
 			 $inserted_short_desc = array( 'product1_short' => $product_short_description );
-			 array_splice( $original, 1, 0, $inserted_short_desc );
+			 $original[]=$inserted_short_desc;
 
 			//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
 			//  // Open the file to get existing content
