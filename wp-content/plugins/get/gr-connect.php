@@ -66,20 +66,20 @@ class Connect extends \WC_Auth {
 			 $product_full_description = $product_instance->get_description();
 			 $product_short_description = $product_instance->get_short_description();
 
-			 $inserted_full_desc = array( $product_full_description );
+			 $inserted_full_desc = array( 'product1_full' =>  $product_full_description );
  		     array_splice( $original, 0, 0, $inserted_full_desc );
 
-			 $inserted_short_desc = array( $product_short_description );
+			 $inserted_short_desc = array( 'product1_short' => $product_short_description );
 			 array_splice( $original, 1, 0, $inserted_short_desc );
 
-			 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			 // Open the file to get existing content
-			 $current = file_get_contents($file);
-			 // Append a new person to the file
-			 $current .= "full_desc" . json_encode($product_full_description );
+			//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			//  // Open the file to get existing content
+			//  $current = file_get_contents($file);
+			//  // Append a new person to the file
+			//  $current .= "full_desc" . json_encode($product_full_description );
 			 
-			 // Write the contents back to the file
-			 file_put_contents($file, $current);
+			//  // Write the contents back to the file
+			//  file_put_contents($file, $current);
 		 }
 
 
