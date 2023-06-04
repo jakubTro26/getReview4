@@ -55,16 +55,31 @@ class Connect extends \WC_Auth {
 			return $original;
 		 }
 
+
+		 $order = new WC_Order($id);
+
+		foreach ($order->get_items() as $item)
+		{
+    		$product_description = get_post($item['product_id'])->post_content; 
+
+
+
+			$file = '/var/www/woo/wp-content/plugins/get/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "product_desc" . json_encode($product_description);
+			// Write the contents back to the file
+			file_put_contents($file, $current);
+
+
+		}
+
+
 		 //$product_id = $data['line_items'][2];
 
 
-		 $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-		 // Open the file to get existing content
-		 $current = file_get_contents($file);
-		 // Append a new person to the file
-		 $current .= "data" . json_encode($data);
-		 // Write the contents back to the file
-		 file_put_contents($file, $current);
+		
 
 
 		 //$product_id = $data['line_items'];
