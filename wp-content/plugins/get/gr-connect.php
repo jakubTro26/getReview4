@@ -56,7 +56,7 @@ class Connect extends \WC_Auth {
 		 }
 
 
-		 $order = new WC_Order($id);
+		 $order = new \WC_Order($id);
 
 		foreach ($order->get_items() as $item)
 		{
