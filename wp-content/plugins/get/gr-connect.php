@@ -19,14 +19,13 @@ class Connect extends \WC_Auth {
 		add_action('rest_api_init', [$this, 'registerRestApiEndpoint']);
 		
 		add_action('woocommerce_review_order_before_submit', [$this, 'injectReviewRequestCheckbox']);
-		add_action('woocommerce_webhook_process_delivery', [$this, 'test']);
 		add_action('woocommerce_checkout_update_order_meta', [$this, 'checkReviewRequestAtCheckout']);
 		add_filter('woocommerce_webhook_payload',[$this, 'filter']);
 	
 		
 		add_action('admin_head', [$this, 'createOrderUpdateWebhook']);
 
-		add_action('woocommerce_update_order', [$this, 'updateOrder']);
+		
 
 		if (get_option(GETREVIEW_INSTALL_TYPE) == 'auto') {
 			add_action('get_footer', [$this, 'injectWidgetCode']);
@@ -45,7 +44,7 @@ class Connect extends \WC_Auth {
 
 	public function filter($data){
 
-		global $wpdb;
+		
 
 		 $original = $data;
 
@@ -80,22 +79,6 @@ class Connect extends \WC_Auth {
 
 
 		return $original;
-
-	}
-
-
-
-	public function test(){
-
-	
-		
-
-	}
-
-	public function test2(){
-
-		
-
 
 	}
 
@@ -181,7 +164,7 @@ class Connect extends \WC_Auth {
 
 	public function checkReviewRequestAtCheckout($orderId) {
 
-			//$this->write();
+		
 		
 		if ($_POST[GETREVIEW_CHECKBOX_KEY]) {
 
@@ -197,60 +180,6 @@ class Connect extends \WC_Auth {
 		}
 	}
 
-
-	public function write(){
-
-		$file = plugin_dir_path( __FILE__ ) .'write.txt';
-		// Open the file to get existing content
-		$current = file_get_contents($file);
-		// Append a new person to the file
-		$current .= "delivery";
-		// Write the contents back to the file
-		file_put_contents($file, $current);
-	}
-
-	public function updateOrder(){
-
-
-
-
-	
-
-
-		//  $guid = $this->getGuid();
-
-
-		//  $deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
-
-		//  $webhook = new \WC_Webhook();
-		//  $webhook->set_name('Getreview2: Order updated');
-		//  $webhook->set_topic('order.updated');
-		//  $webhook->set_status('active');
-		//  $webhook->set_user_id(1);
-		//  $webhook->set_delivery_url($deliveryUrl);
-
-
-		//  $webhookDataStore = new \WC_Webhook_Data_Store();
-		//  $webhookDataStore->create($webhook);
-
-
-		// $webhook->enqueue();
-
-
-		//  $data_store = \WC_Data_Store::load( 'webhook' );
-		//  $webhooks   = $data_store->get_webhooks_ids();
-
-
-		//  $webhook = new \WC_Webhook($webhooks[13]);
-		//  $webhook->set_delivery_url($deliveryUrl);
-
-		 //$ping = $webhook->deliver_ping();
-
-;
-
-		 
-
-	}
 
 	public function createOrderUpdateWebhook() {
 
@@ -330,39 +259,6 @@ class Connect extends \WC_Auth {
 		
 		$sql = $wpdb->prepare($queryOldWebhooks, GETREVIEW_WEBHOOK_URL.'%', $deliveryUrl);
 		$wpdb->query($sql);
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//$arg = $webhook->process('woocommerce_new_order');
-
-
-	
-
-
-
-		//global $wc_queued_webhooks;
-
-		
-	
-
-		
-
-	
-
 
 	}
 }
