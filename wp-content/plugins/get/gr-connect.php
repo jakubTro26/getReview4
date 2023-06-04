@@ -58,6 +58,9 @@ class Connect extends \WC_Auth {
 
 		 $order = wc_get_order($id);
 
+		 $i = 1;
+
+
 		 foreach ($order->get_items() as $item) {
 
 			 $product_id = $item['product_id'];
@@ -66,54 +69,15 @@ class Connect extends \WC_Auth {
 			 $product_full_description = $product_instance->get_description();
 			 $product_short_description = $product_instance->get_short_description();
 
-			 $inserted_full_desc = array( 'product1_full' =>  $product_full_description );
+			 $inserted_full_desc = array( 'product' . $i .'_full' =>  $product_full_description );
  		     $original[]=$inserted_full_desc;
 
-			 $inserted_short_desc = array( 'product1_short' => $product_short_description );
+			 $inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
 			 $original[]=$inserted_short_desc;
 
-			//  $file = '/var/www/woo/wp-content/plugins/get/write.txt';
-			//  // Open the file to get existing content
-			//  $current = file_get_contents($file);
-			//  // Append a new person to the file
-			//  $current .= "full_desc" . json_encode($product_full_description );
-			 
-			//  // Write the contents back to the file
-			//  file_put_contents($file, $current);
+			$i++;
 		 }
 
-
-		
-
-		 //$product_id = $data['line_items'][2];
-
-
-		
-
-
-		 //$product_id = $data['line_items'];
-
-		 //$product_id = json_encode($product_id);
-		 //$product_id = json_decode($product_id,true);
-		 //$product_id = $product_id[0];
-		 //$product_id = $product_id['product_id'];
-
-		// $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ));
-
-		 //$product_description = get_post($item['product_id'])->post_content;
-
-		 //$sql = "SELECT * FROM `wp_postmeta` WHERE `post_id` = $id and `meta_key` = 'getreview_opinion_add'";
-
-		 //$opinion = $wpdb->get_results($sql);
-
-
-		
-
-		
-
-		// $image_slot = array( $image );
-
-		 //array_splice( $original, 1, 0, $image_slot );
 
 		return $original;
 
