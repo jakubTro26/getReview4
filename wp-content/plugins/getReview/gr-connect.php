@@ -194,6 +194,8 @@ class Connect extends \WC_Auth {
 
 
 	
+
+		
 		$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
 		
 
