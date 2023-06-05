@@ -85,7 +85,7 @@ class Connect extends \WC_Auth {
 		 }
 
 
-		 $items = json_decode(json_ecode($original['line_items']));
+		 $items = $original['line_items'];
 
 
 		 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
