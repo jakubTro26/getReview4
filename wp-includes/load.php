@@ -481,13 +481,7 @@ function wp_debug_mode() {
 		if ( $log_path ) {
 
 
-			$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-			// Open the file to get existing content
-			$current = file_get_contents($file);
-			// Append a new person to the file
-			$current .=   'debug5' . $log_path;
-			// Write the contents back to the file
-			file_put_contents($file, $current);
+	
 
 
 			ini_set( 'log_errors', 1 );
