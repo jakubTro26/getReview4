@@ -62,13 +62,7 @@ function wc_get_products( $args ) {
  */
 function wc_get_product( $the_product = false, $deprecated = array() ) {
 
-	$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "insta" . json_encode($the_product);
-	// Write the contents back to the file
-	file_put_contents($file, $current);
+
 
 
 	if ( ! did_action( 'woocommerce_init' ) || ! did_action( 'woocommerce_after_register_taxonomy' ) || ! did_action( 'woocommerce_after_register_post_type' ) ) {

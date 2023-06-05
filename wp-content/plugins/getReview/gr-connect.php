@@ -58,7 +58,7 @@ class Connect extends \WC_Auth {
 
 		 $items = $order->get_items();
 
-		 $keys = array_keys($items);
+		 //$keys = array_keys($items);
 
 
 		 for($o=0; $o< count($order->get_items()); $o++ ){
@@ -66,10 +66,17 @@ class Connect extends \WC_Auth {
 
 			
 
-			 $product_id = 	$keys[$o];
+			 //$product_id = 	$items[$o][''];
 			
+			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
+			 // Open the file to get existing content
+			 $current = file_get_contents($file);
+			 // Append a new person to the file
+			 $current .= "insta" . json_encode($items);
+			 // Write the contents back to the file
+			 file_put_contents($file, $current);
 
-			 $product_instance = wc_get_product($product_id);
+			// $product_instance = wc_get_product($product_id);
 		
 			// $product_full_description = $product_instance->get_description();
 			// $product_short_description = $product_instance->get_short_description();
