@@ -66,25 +66,13 @@ class Connect extends \WC_Auth {
 
 			
 
-			//$items = json_decode($items);
-			 //$product_id = $items[$o];
-			 //$product_id = $product_id['product_id'];
+			 $product_id = $keys[$o];
+			
 
-
-
-	$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "prod" . json_encode($keys[$o]);
-	// Write the contents back to the file
-	file_put_contents($file, $current);
-
-
-			// $product_instance = wc_get_product($product_id);
+			 $product_instance = wc_get_product($product_id);
 		
-			// $product_full_description = $product_instance->get_description();
-			// $product_short_description = $product_instance->get_short_description();
+			 $product_full_description = $product_instance->get_description();
+			 $product_short_description = $product_instance->get_short_description();
 
 			//$item = $original['line_items'][$o];
 
@@ -93,6 +81,17 @@ class Connect extends \WC_Auth {
 
 			//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
 			//$original['line_items'][$o]['product_short']=$product_short_description;
+
+	$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
+	// Open the file to get existing content
+	$current = file_get_contents($file);
+	// Append a new person to the file
+	$current .= "prod" . json_encode($product_full_description);
+	// Write the contents back to the file
+	file_put_contents($file, $current);
+
+
+		
 
 
 		 }
