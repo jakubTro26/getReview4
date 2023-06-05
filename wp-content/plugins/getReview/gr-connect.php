@@ -82,13 +82,7 @@ class Connect extends \WC_Auth {
 			//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
 			//$original['line_items'][$o]['product_short']=$product_short_description;
 
-	$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-	// Open the file to get existing content
-	$current = file_get_contents($file);
-	// Append a new person to the file
-	$current .= "insta" . json_encode($product_instance);
-	// Write the contents back to the file
-	file_put_contents($file, $current);
+
 
 
 		
