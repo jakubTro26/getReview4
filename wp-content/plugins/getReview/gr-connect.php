@@ -58,6 +58,9 @@ class Connect extends \WC_Auth {
 
 		 $items = $order->get_items();
 
+		 $keys = array_keys($items);
+
+
 		 for($o=0; $o< count($order->get_items()); $o++ ){
 
 
@@ -73,7 +76,7 @@ class Connect extends \WC_Auth {
 	// Open the file to get existing content
 	$current = file_get_contents($file);
 	// Append a new person to the file
-	$current .= "prod" . json_encode(array_keys($items));
+	$current .= "prod" . json_encode($keys[$o]);
 	// Write the contents back to the file
 	file_put_contents($file, $current);
 
