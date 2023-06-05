@@ -54,14 +54,17 @@ class Connect extends \WC_Auth {
 		 }
 
 
-			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-			 // Open the file to get existing content
-			 $current = file_get_contents($file);
-			 // Append a new person to the file
-			 $current .= "insta" . json_encode($original);
-			 // Write the contents back to the file
-			 file_put_contents($file, $current);
+			//  $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
+			//  // Open the file to get existing content
+			//  $current = file_get_contents($file);
+			//  // Append a new person to the file
+			//  $current .= "insta" . json_encode($original);
+			//  // Write the contents back to the file
+			//  file_put_contents($file, $current);
 
+
+
+		 
 
 
 		 //$order = wc_get_order($id);
@@ -71,41 +74,44 @@ class Connect extends \WC_Auth {
 		// $keys = array_keys($items);
 
 
-		//  for($o=0; $o< count($order->get_items()); $o++ ){
-
-
-		// 	$key = $keys[$o];
-
-		// 	 //$product_id = 	$items[$o][''];
-			
-		// 	 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-		// 	 // Open the file to get existing content
-		// 	 $current = file_get_contents($file);
-		// 	 // Append a new person to the file
-		// 	 $current .= "insta" . json_encode($order);
-		// 	 // Write the contents back to the file
-		// 	 file_put_contents($file, $current);
-
-		// 	 $product_instance = wc_get_product($product_id);
-		
-		// 	// $product_full_description = $product_instance->get_description();
-		// 	// $product_short_description = $product_instance->get_short_description();
-
-		// 	//$item = $original['line_items'][$o];
-
-		// 	//$inserted_full_desc = array( 'product' . $i .'_full' =>  $product_full_description );
-		// 	//$original['line_items'][$o]['product_full']=$product_full_description;
-
-		// 	//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
-		// 	//$original['line_items'][$o]['product_short']=$product_short_description;
-
-
+		 for($o=0; $o< count($order->get_items()); $o++ ){
 
 
 		
+		
+			$product_id = $original['line_items'][$o];
 
 
-		//  }
+
+
+			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
+			 // Open the file to get existing content
+			 $current = file_get_contents($file);
+			 // Append a new person to the file
+			 $current .= "line" . json_encode($product_id);
+			 // Write the contents back to the file
+			 file_put_contents($file, $current);
+
+			// $product_instance = wc_get_product($product_id);
+		
+			// $product_full_description = $product_instance->get_description();
+			// $product_short_description = $product_instance->get_short_description();
+
+			//$item = $original['line_items'][$o];
+
+			//$inserted_full_desc = array( 'product' . $i .'_full' =>  $product_full_description );
+			//$original['line_items'][$o]['product_full']=$product_full_description;
+
+			//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
+			//$original['line_items'][$o]['product_short']=$product_short_description;
+
+
+
+
+		
+
+
+		 }
 
 
 		return $original;
