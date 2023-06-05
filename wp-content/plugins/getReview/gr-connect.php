@@ -62,6 +62,7 @@ class Connect extends \WC_Auth {
 
 			$items = $order->get_items();
 
+			$items = json_decode($items);
 			 //$product_id = $items[$o];
 			 //$product_id = $product_id['product_id'];
 
