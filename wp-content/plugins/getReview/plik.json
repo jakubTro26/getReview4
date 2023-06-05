@@ -1,142 +1,41 @@
 {
-    "id": 242,
-    "parent_id": 0,
-    "status": "processing",
-    "currency": "USD",
-    "version": "7.7.0",
-    "prices_include_tax": false,
-    "date_created": "2023-06-04T16:08:48",
-    "date_modified": "2023-06-05T20:19:22",
-    "discount_total": "0.00",
-    "discount_tax": "0.00",
-    "shipping_total": "0.00",
-    "shipping_tax": "0.00",
-    "cart_tax": "0.00",
-    "total": "130.00",
+    "id": 217,
+    "name": "produkt1",
+    "product_id": 10,
+    "variation_id": 0,
+    "quantity": 2,
+    "tax_class": "",
+    "subtotal": "90.00",
+    "subtotal_tax": "0.00",
+    "total": "90.00",
     "total_tax": "0.00",
-    "customer_id": 1,
-    "order_key": "wc_order_LwxhEZ4keYZnv",
-    "billing": {
-        "first_name": "Jakub",
-        "last_name": "Troczy\u0144ski",
-        "company": "",
-        "address_1": "1 MAJA",
-        "address_2": "66",
-        "city": "Paj\u0119czno",
-        "state": "",
-        "postcode": "98-330",
-        "country": "PL",
-        "email": "ttroczynski5@gmail.com",
-        "phone": "510720673"
+    "taxes": [],
+    "meta_data": [],
+    "sku": "",
+    "price": 45,
+    "image": {
+        "id": "198",
+        "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
     },
-    "shipping": {
-        "first_name": "",
-        "last_name": "",
-        "company": "",
-        "address_1": "",
-        "address_2": "",
-        "city": "",
-        "state": "",
-        "postcode": "",
-        "country": "",
-        "phone": ""
+    "parent_name": null
+}line{
+    "id": 218,
+    "name": "produkt2",
+    "product_id": 239,
+    "variation_id": 0,
+    "quantity": 1,
+    "tax_class": "",
+    "subtotal": "40.00",
+    "subtotal_tax": "0.00",
+    "total": "40.00",
+    "total_tax": "0.00",
+    "taxes": [],
+    "meta_data": [],
+    "sku": "",
+    "price": 40,
+    "image": {
+        "id": "198",
+        "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
     },
-    "payment_method": "cod",
-    "payment_method_title": "Cash on delivery",
-    "transaction_id": "",
-    "customer_ip_address": "176.113.192.226",
-    "customer_user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36",
-    "created_via": "checkout",
-    "customer_note": "",
-    "date_completed": "2023-06-05T20:16:21",
-    "date_paid": "2023-06-04T16:09:02",
-    "cart_hash": "9cf0fa29030f743362fd5ecf002d3ef1",
-    "number": "242",
-    "meta_data": [
-        {
-            "id": 8446,
-            "key": "is_vat_exempt",
-            "value": "no"
-        },
-        {
-            "id": 8447,
-            "key": "getreview_opinion_add",
-            "value": "on"
-        }
-    ],
-    "line_items": [
-        {
-            "id": 217,
-            "name": "produkt1",
-            "product_id": 10,
-            "variation_id": 0,
-            "quantity": 2,
-            "tax_class": "",
-            "subtotal": "90.00",
-            "subtotal_tax": "0.00",
-            "total": "90.00",
-            "total_tax": "0.00",
-            "taxes": [],
-            "meta_data": [],
-            "sku": "",
-            "price": 45,
-            "image": {
-                "id": "198",
-                "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
-            },
-            "parent_name": null
-        },
-        {
-            "id": 218,
-            "name": "produkt2",
-            "product_id": 239,
-            "variation_id": 0,
-            "quantity": 1,
-            "tax_class": "",
-            "subtotal": "40.00",
-            "subtotal_tax": "0.00",
-            "total": "40.00",
-            "total_tax": "0.00",
-            "taxes": [],
-            "meta_data": [],
-            "sku": "",
-            "price": 40,
-            "image": {
-                "id": "198",
-                "src": "https:\/\/woo.dmn.gg\/wp-content\/uploads\/2023\/05\/waiting-1.jpg"
-            },
-            "parent_name": null
-        }
-    ],
-    "tax_lines": [],
-    "shipping_lines": [],
-    "fee_lines": [],
-    "coupon_lines": [],
-    "refunds": [],
-    "payment_url": "https:\/\/woo.dmn.gg\/checkout\/order-pay\/242\/?pay_for_order=true&key=wc_order_LwxhEZ4keYZnv",
-    "is_editable": false,
-    "needs_payment": false,
-    "needs_processing": true,
-    "date_created_gmt": "2023-06-04T14:08:48",
-    "date_modified_gmt": "2023-06-05T18:19:22",
-    "date_completed_gmt": "2023-06-05T18:16:21",
-    "date_paid_gmt": "2023-06-04T14:09:02",
-    "currency_symbol": "$",
-    "_links": {
-        "self": [
-            {
-                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders\/242"
-            }
-        ],
-        "collection": [
-            {
-                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/orders"
-            }
-        ],
-        "customer": [
-            {
-                "href": "https:\/\/woo.dmn.gg\/wp-json\/wc\/v3\/customers\/1"
-            }
-        ]
-    }
+    "parent_name": null
 }
