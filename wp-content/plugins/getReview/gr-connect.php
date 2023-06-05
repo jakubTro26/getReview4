@@ -56,11 +56,12 @@ class Connect extends \WC_Auth {
 
 		 $order = wc_get_order($id);
 
+		 $items = $order->get_items();
 
 		 for($o=0; $o< count($order->get_items()); $o++ ){
 
 
-			$items = $order->get_items();
+			
 
 			//$items = json_decode($items);
 			 //$product_id = $items[$o];
