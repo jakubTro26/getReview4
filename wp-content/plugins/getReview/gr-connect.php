@@ -83,7 +83,7 @@ class Connect extends \WC_Auth {
 		 }
 
 
-		 foreach($original['line_items'] as $produkt){
+		 foreach($original['line_items'] as $product){
 
 			$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
 			// Open the file to get existing content
