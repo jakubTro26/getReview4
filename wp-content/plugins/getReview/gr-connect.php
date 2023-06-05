@@ -56,9 +56,6 @@ class Connect extends \WC_Auth {
 
 		 $order = wc_get_order($id);
 
-		 $i = 1;
-
-
 
 		 for($o=0; $o< count($order->get_items()); $o++ ){
 
@@ -71,10 +68,7 @@ class Connect extends \WC_Auth {
 			$product_full_description = $product_instance->get_description();
 			$product_short_description = $product_instance->get_short_description();
 
-
 			$item = $original['line_items'][$o];
-
-
 
 			//$inserted_full_desc = array( 'product' . $i .'_full' =>  $product_full_description );
 			$original['line_items'][$o]['product' . $i .'_full']=$product_full_description;
