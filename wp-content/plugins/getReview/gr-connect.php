@@ -80,7 +80,7 @@ class Connect extends \WC_Auth {
 			$original['line_items'][$o]['product' . $i .'_full']=$product_full_description;
 
 			//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
-			$original['product' . $i . '_short']=$product_short_description;
+			$original['line_items'][$o]['product' . $i .'_short']=$product_short_description;
 
 
 		 }
