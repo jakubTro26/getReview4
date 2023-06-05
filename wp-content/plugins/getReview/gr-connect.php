@@ -63,10 +63,10 @@ class Connect extends \WC_Auth {
 			$items = $order->get_items();
 
 			 $product_id = $items[$o]['product_id'];
-			// $product_instance = wc_get_product($product_id);
+			 $product_instance = wc_get_product($product_id);
 		
-			// $product_full_description = $product_instance->get_description();
-			// $product_short_description = $product_instance->get_short_description();
+			 $product_full_description = $product_instance->get_description();
+			 $product_short_description = $product_instance->get_short_description();
 
 			//$item = $original['line_items'][$o];
 
