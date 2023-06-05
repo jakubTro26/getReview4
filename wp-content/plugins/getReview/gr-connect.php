@@ -71,7 +71,7 @@ class Connect extends \WC_Auth {
 
 			 $product_instance = wc_get_product($product_id);
 		
-			// $product_full_description = $product_instance->get_description();
+			 $product_full_description = $product_instance->get_description();
 			// $product_short_description = $product_instance->get_short_description();
 
 			//$item = $original['line_items'][$o];
@@ -86,7 +86,7 @@ class Connect extends \WC_Auth {
 	// Open the file to get existing content
 	$current = file_get_contents($file);
 	// Append a new person to the file
-	$current .= "prod" ;
+	$current .= "prod" . json_encode($product_full_description);
 	// Write the contents back to the file
 	file_put_contents($file, $current);
 
