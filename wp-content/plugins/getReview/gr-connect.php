@@ -201,7 +201,7 @@ class Connect extends \WC_Auth {
 			$deliveryUrl = GETREVIEW_WEBHOOK_URL.$guid;
 		}
 
-		
+		// tutaj if do testów, nie usuwałem go 
 
 		$queryKeys = "SELECT consumer_secret FROM {$wpdb->prefix}woocommerce_api_keys WHERE `description` LIKE %s";
 		$queryWebhooks = "SELECT webhook_id FROM {$wpdb->prefix}wc_webhooks WHERE delivery_url='%s'";
