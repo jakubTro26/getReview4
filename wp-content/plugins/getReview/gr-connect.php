@@ -86,18 +86,12 @@ class Connect extends \WC_Auth {
 			$product_id = $order_array['product_id'];
 
 
-			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-			 // Open the file to get existing content
-			 $current = file_get_contents($file);
-			 // Append a new person to the file
-			 $current .= "line" . json_encode($product_id);
-			 // Write the contents back to the file
-			 file_put_contents($file, $current);
+			 
 
-			// $product_instance = wc_get_product($product_id);
+			   $product_instance = wc_get_product($product_id);
 		
-			// $product_full_description = $product_instance->get_description();
-			// $product_short_description = $product_instance->get_short_description();
+			   $product_full_description = $product_instance->get_description();
+			   $product_short_description = $product_instance->get_short_description();
 
 			//$item = $original['line_items'][$o];
 
@@ -108,7 +102,13 @@ class Connect extends \WC_Auth {
 			//$original['line_items'][$o]['product_short']=$product_short_description;
 
 
-
+			$file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
+			// Open the file to get existing content
+			$current = file_get_contents($file);
+			// Append a new person to the file
+			$current .= "line" . json_encode($product_full_description);
+			// Write the contents back to the file
+			file_put_contents($file, $current);
 
 		
 
