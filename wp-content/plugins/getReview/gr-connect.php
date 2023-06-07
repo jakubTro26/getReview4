@@ -79,11 +79,11 @@ class Connect extends \WC_Auth {
 
 		
 		
-			$product_id = $original['line_items'][$o];
+			$order = $original['line_items'][$o];
 
 			//$product_id = gettype($product_id);
 
-			
+			$product_id = $order['product_id'];
 
 
 			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
