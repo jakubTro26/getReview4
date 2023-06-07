@@ -81,9 +81,9 @@ class Connect extends \WC_Auth {
 		
 			$product_id = $original['line_items'][$o];
 
-			$product_id = json_decode($product_id);
+			$product_id = gettype($product_id);
 
-			$product_id = $product_id['id'];
+			
 
 
 			 $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
