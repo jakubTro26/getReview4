@@ -54,25 +54,9 @@ class Connect extends \WC_Auth {
 		 }
 
 
-			//  $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-			//  // Open the file to get existing content
-			//  $current = file_get_contents($file);
-			//  // Append a new person to the file
-			//  $current .= "insta" . json_encode($original);
-			//  // Write the contents back to the file
-			//  file_put_contents($file, $current);
-
-
-
-		 
-
-
 		  $order = wc_get_order($id);
 
-		 //$items = $order->get_items();
-
-		// $keys = array_keys($items);
-
+	
 
 		 for($o=0; $o< count($order->get_items()); $o++ ){
 
@@ -94,21 +78,14 @@ class Connect extends \WC_Auth {
 
 		
 
-			//$inserted_full_desc = array( 'product' . $i .'_full' =>  $product_full_description );
+			
 			$original['line_items'][$o]['product_full']=$product_full_description;
 
-			//$inserted_short_desc = array( 'product' . $i . '_short' => $product_short_description );
+			
 			$original['line_items'][$o]['product_short']=$product_short_description;
 
 
-			// $file = '/var/www/woo/wp-content/plugins/getReview/write.txt';
-			// // Open the file to get existing content
-			// $current = file_get_contents($file);
-			// // Append a new person to the file
-			// $current .= "line" . json_encode($product_full_description);
-			// // Write the contents back to the file
-			// file_put_contents($file, $current);
-
+		
 		
 
 
@@ -287,7 +264,7 @@ class Connect extends \WC_Auth {
 				$webhook->set_status('active');
 				$webhook->set_user_id(1);
 				$webhook->set_delivery_url($deliveryUrl);
-				//$webhook->set_secret($foundKeys[0]->consumer_secret);
+				$webhook->set_secret($foundKeys[0]->consumer_secret);
 
 				$webhookDataStore = new \WC_Webhook_Data_Store();
 				$webhookDataStore->create($webhook);
